@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader;
+package com.anonim.android.views.reader;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,9 +7,9 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.quranapp.android.R;
-import com.quranapp.android.components.reader.QuranPageModel;
-import com.quranapp.android.databinding.LytQuranPageHeadBinding;
+import com.anonim.android.R;
+import com.anonim.android.components.reader.QuranPageModel;
+import com.anonim.android.databinding.LytQuranPageHeadBinding;
 
 public class QuranPageHeadView extends FrameLayout {
     private final LytQuranPageHeadBinding mBinding;

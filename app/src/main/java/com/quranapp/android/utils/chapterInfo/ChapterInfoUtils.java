@@ -1,9 +1,9 @@
-package com.quranapp.android.utils.chapterInfo;
+package com.anonim.android.utils.chapterInfo;
 
 import android.annotation.SuppressLint;
 
-import com.quranapp.android.utils.app.AppUtils;
-import com.quranapp.android.utils.univ.FileUtils;
+import com.anonim.android.utils.app.AppUtils;
+import com.anonim.android.utils.univ.FileUtils;
 
 public class ChapterInfoUtils {
     public static final String DIR_NAME = FileUtils.createPath(AppUtils.BASE_APP_DOWNLOADED_SAVED_DATA_DIR,

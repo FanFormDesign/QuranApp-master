@@ -1,4 +1,4 @@
-package com.quranapp.android.components.recitation
+package com.anonim.android.components.recitation
 
 import android.content.Context
 import android.graphics.Typeface
@@ -7,10 +7,10 @@ import android.text.SpannableString
 import android.text.TextUtils
 import android.text.style.RelativeSizeSpan
 import android.text.style.StyleSpan
-import com.quranapp.android.R
-import com.quranapp.android.api.models.recitation.RecitationInfoBaseModel
-import com.quranapp.android.components.quran.QuranMeta.ChapterMeta
-import com.quranapp.android.utils.univ.StringUtils
+import com.anonim.android.R
+import com.anonim.android.api.models.recitation.RecitationInfoBaseModel
+import com.anonim.android.components.quran.QuranMeta.ChapterMeta
+import com.anonim.android.utils.univ.StringUtils
 
 class ManageAudioChapterModel(
     val chapterMeta: ChapterMeta,

@@ -3,7 +3,7 @@
  * Created on 21/2/2022.
  * All rights reserved.
  */
-package com.quranapp.android.widgets.chapterCard
+package com.anonim.android.widgets.chapterCard
 
 import android.content.Context
 import android.graphics.Typeface
@@ -20,15 +20,15 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.color
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.getDimenPx
-import com.quranapp.android.utils.extensions.setTextSizePx
-import com.quranapp.android.utils.extensions.updateMarginHorizontal
-import com.quranapp.android.utils.extensions.updatePaddings
-import com.quranapp.android.utils.sharedPrefs.SPFavouriteChapters
-import com.quranapp.android.views.reader.ChapterIcon
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.color
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.getDimenPx
+import com.anonim.android.utils.extensions.setTextSizePx
+import com.anonim.android.utils.extensions.updateMarginHorizontal
+import com.anonim.android.utils.extensions.updatePaddings
+import com.anonim.android.utils.sharedPrefs.SPFavouriteChapters
+import com.anonim.android.views.reader.ChapterIcon
 import java.util.Locale
 
 open class ChapterCard @JvmOverloads constructor(

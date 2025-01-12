@@ -1,7 +1,7 @@
 /*
  * Created by Faisal Khan on (c) 13/8/2021.
  */
-package com.quranapp.android.components
+package com.anonim.android.components
 
 import java.io.Serializable
 

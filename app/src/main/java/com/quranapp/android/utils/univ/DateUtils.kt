@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.univ
+package com.anonim.android.utils.univ
 
 import java.text.ParseException
 import java.text.SimpleDateFormat

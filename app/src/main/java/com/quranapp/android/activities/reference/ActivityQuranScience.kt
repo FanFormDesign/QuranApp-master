@@ -1,17 +1,17 @@
-package com.quranapp.android.activities.reference
+package com.anonim.android.activities.reference
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.adapters.reference.ADPQuranScience
-import com.quranapp.android.R
-import com.quranapp.android.activities.base.BaseActivity
-import com.quranapp.android.components.quran.QuranScienceItem
-import com.quranapp.android.databinding.ActivityExclusiveVersesBinding
-import com.quranapp.android.utils.extended.GapedItemDecoration
-import com.quranapp.android.views.BoldHeader
+import com.anonim.android.adapters.reference.ADPQuranScience
+import com.anonim.android.R
+import com.anonim.android.activities.base.BaseActivity
+import com.anonim.android.components.quran.QuranScienceItem
+import com.anonim.android.databinding.ActivityExclusiveVersesBinding
+import com.anonim.android.utils.extended.GapedItemDecoration
+import com.anonim.android.views.BoldHeader
 import org.json.JSONArray
 
 class ActivityQuranScience : BaseActivity() {

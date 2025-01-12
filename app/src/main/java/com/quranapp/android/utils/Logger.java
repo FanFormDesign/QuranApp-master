@@ -4,14 +4,14 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.utils;
+package com.anonim.android.utils;
 
 import android.os.Bundle;
 import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.quranapp.android.utils.univ.StringUtils;
+import com.anonim.android.utils.univ.StringUtils;
 
 public abstract class Logger {
     private static final String TAG = "QuranAppLogs";
@@ -32,7 +32,7 @@ public abstract class Logger {
     }
 
     public static void print(@Nullable Object... msgs) {
-        if (com.quranapp.android.BuildConfig.DEBUG) {
+        if (com.anonim.android.BuildConfig.DEBUG) {
             String msg = prepareLogMsg(msgs);
             System.out.println("TRACKING: " + msg);
         }

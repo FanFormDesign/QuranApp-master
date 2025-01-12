@@ -1,14 +1,14 @@
-package com.quranapp.android.utils.quran.parser
+package com.anonim.android.utils.quran.parser
 
 import android.content.Context
-import com.quranapp.android.R
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.quran.QuranProphet
-import com.quranapp.android.components.quran.QuranProphet.Prophet
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.quran.parser.ParserUtils.prepareChapterText
-import com.quranapp.android.utils.quran.parser.ParserUtils.prepareChaptersList
-import com.quranapp.android.utils.quran.parser.ParserUtils.prepareVersesList
+import com.anonim.android.R
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.quran.QuranProphet
+import com.anonim.android.components.quran.QuranProphet.Prophet
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.quran.parser.ParserUtils.prepareChapterText
+import com.anonim.android.utils.quran.parser.ParserUtils.prepareChaptersList
+import com.anonim.android.utils.quran.parser.ParserUtils.prepareVersesList
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.verse;
+package com.anonim.android.utils.verse;
 
 import android.os.Build;
 import android.content.Context;
@@ -14,19 +14,19 @@ import static android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
 import static android.text.Spanned.SPAN_POINT_MARK;
 
 import com.peacedesign.android.utils.span.TypefaceSpan2;
-import com.quranapp.android.components.quran.Quran;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.db.readHistory.ReadHistoryDBHelper;
-import com.quranapp.android.interfaceUtils.VOTDCallback;
-import com.quranapp.android.utils.Logger;
-import com.quranapp.android.utils.others.ShortcutUtils;
-import com.quranapp.android.utils.sharedPrefs.SPVerses;
-import com.quranapp.android.utils.simplified.SimpleClickableSpan;
-import com.quranapp.android.utils.span.VerseArabicHighlightSpan;
-import com.quranapp.android.utils.thread.runner.RunnableTaskRunner;
-import com.quranapp.android.utils.thread.tasks.BaseRunnableTask;
-import com.quranapp.android.utils.univ.Keys;
+import com.anonim.android.components.quran.Quran;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.db.readHistory.ReadHistoryDBHelper;
+import com.anonim.android.interfaceUtils.VOTDCallback;
+import com.anonim.android.utils.Logger;
+import com.anonim.android.utils.others.ShortcutUtils;
+import com.anonim.android.utils.sharedPrefs.SPVerses;
+import com.anonim.android.utils.simplified.SimpleClickableSpan;
+import com.anonim.android.utils.span.VerseArabicHighlightSpan;
+import com.anonim.android.utils.thread.runner.RunnableTaskRunner;
+import com.anonim.android.utils.thread.tasks.BaseRunnableTask;
+import com.anonim.android.utils.univ.Keys;
 
 import java.time.Duration;
 import java.util.Calendar;

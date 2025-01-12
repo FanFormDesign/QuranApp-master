@@ -1,15 +1,15 @@
-package com.quranapp.android.activities.reference
+package com.anonim.android.activities.reference
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.activities.QuranMetaPossessingActivity
-import com.quranapp.android.components.quran.ExclusiveVerse
-import com.quranapp.android.databinding.ActivityExclusiveVersesBinding
-import com.quranapp.android.utils.extended.GapedItemDecoration
+import com.anonim.android.R
+import com.anonim.android.activities.QuranMetaPossessingActivity
+import com.anonim.android.components.quran.ExclusiveVerse
+import com.anonim.android.databinding.ActivityExclusiveVersesBinding
+import com.anonim.android.utils.extended.GapedItemDecoration
 
 abstract class ActivityExclusiveVersesBase : QuranMetaPossessingActivity() {
     override fun getStatusBarBG(): Int {

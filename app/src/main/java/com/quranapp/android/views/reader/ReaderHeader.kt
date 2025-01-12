@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader
+package com.anonim.android.views.reader
 
 import android.content.Context
 import android.content.Intent
@@ -9,21 +9,21 @@ import androidx.core.view.ViewCompat
 import com.google.android.material.appbar.AppBarLayout
 import com.peacedesign.android.utils.Dimen
 import com.peacedesign.android.utils.DrawableUtils
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.databinding.LytReaderHeaderBinding
-import com.quranapp.android.interfaceUtils.Destroyable
-import com.quranapp.android.reader_managers.ReaderParams
-import com.quranapp.android.utils.univ.Keys.READER_KEY_READ_TYPE
-import com.quranapp.android.utils.univ.Keys.READER_KEY_SAVE_TRANSL_CHANGES
-import com.quranapp.android.utils.univ.Keys.READER_KEY_SETTING_IS_FROM_READER
-import com.quranapp.android.utils.univ.Keys.READER_KEY_TRANSL_SLUGS
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerItem
-import com.quranapp.android.views.reader.verseSpinner.VerseSpinnerItem
-import com.quranapp.android.views.readerSpinner2.adapters.ChapterSelectorAdapter2
-import com.quranapp.android.views.readerSpinner2.adapters.JuzSelectorAdapter2
-import com.quranapp.android.views.readerSpinner2.adapters.VerseSelectorAdapter2
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.databinding.LytReaderHeaderBinding
+import com.anonim.android.interfaceUtils.Destroyable
+import com.anonim.android.reader_managers.ReaderParams
+import com.anonim.android.utils.univ.Keys.READER_KEY_READ_TYPE
+import com.anonim.android.utils.univ.Keys.READER_KEY_SAVE_TRANSL_CHANGES
+import com.anonim.android.utils.univ.Keys.READER_KEY_SETTING_IS_FROM_READER
+import com.anonim.android.utils.univ.Keys.READER_KEY_TRANSL_SLUGS
+import com.anonim.android.views.reader.spinner.ReaderSpinnerItem
+import com.anonim.android.views.reader.verseSpinner.VerseSpinnerItem
+import com.anonim.android.views.readerSpinner2.adapters.ChapterSelectorAdapter2
+import com.anonim.android.views.readerSpinner2.adapters.JuzSelectorAdapter2
+import com.anonim.android.views.readerSpinner2.adapters.VerseSelectorAdapter2
 
 class ReaderHeader @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :
     AppBarLayout(context, attrs, defStyleAttr), Destroyable {

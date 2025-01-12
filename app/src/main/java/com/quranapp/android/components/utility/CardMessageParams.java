@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.components.utility;
+package com.anonim.android.components.utility;
 
 import android.graphics.drawable.Drawable;
 

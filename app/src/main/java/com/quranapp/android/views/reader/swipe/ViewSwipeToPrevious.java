@@ -4,15 +4,15 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.views.reader.swipe;
+package com.anonim.android.views.reader.swipe;
 
 import android.content.Context;
 import android.widget.TextView;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_CHAPTER;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_CHAPTER;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
+import com.anonim.android.R;
 
 import me.dkzwm.widget.srl.extra.IRefreshView;
 

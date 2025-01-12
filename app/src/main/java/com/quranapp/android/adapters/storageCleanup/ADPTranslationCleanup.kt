@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.storageCleanup
+package com.anonim.android.adapters.storageCleanup
 
 import android.content.Context
 import android.graphics.Typeface
@@ -10,13 +10,13 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.ColorUtils
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.R
-import com.quranapp.android.components.storageCleanup.TranslationCleanupItemModel
-import com.quranapp.android.components.transls.TranslBaseModel
-import com.quranapp.android.components.transls.TranslTitleModel
-import com.quranapp.android.databinding.LytStorageCleanupItemBinding
-import com.quranapp.android.utils.extensions.*
-import com.quranapp.android.utils.reader.factory.QuranTranslationFactory
+import com.anonim.android.R
+import com.anonim.android.components.storageCleanup.TranslationCleanupItemModel
+import com.anonim.android.components.transls.TranslBaseModel
+import com.anonim.android.components.transls.TranslTitleModel
+import com.anonim.android.databinding.LytStorageCleanupItemBinding
+import com.anonim.android.utils.extensions.*
+import com.anonim.android.utils.reader.factory.QuranTranslationFactory
 
 class ADPTranslationCleanup(ctx: Context, private val items: List<TranslBaseModel>) :
     RecyclerView.Adapter<ADPTranslationCleanup.VHTranslationCleanupItem>() {

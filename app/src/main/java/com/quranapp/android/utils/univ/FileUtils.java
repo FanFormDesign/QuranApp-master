@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.univ;
+package com.anonim.android.utils.univ;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -11,17 +11,17 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.FileProvider;
-import static com.quranapp.android.utils.reader.TranslUtils.TRANSL_AVAILABLE_DOWNLOADS_FILE_NAME;
-import static com.quranapp.android.utils.reader.recitation.RecitationUtils.AVAILABLE_RECITATIONS_FILENAME;
-import static com.quranapp.android.utils.reader.recitation.RecitationUtils.AVAILABLE_RECITATION_TRANSLATIONS_FILENAME;
+import static com.anonim.android.utils.reader.TranslUtils.TRANSL_AVAILABLE_DOWNLOADS_FILE_NAME;
+import static com.anonim.android.utils.reader.recitation.RecitationUtils.AVAILABLE_RECITATIONS_FILENAME;
+import static com.anonim.android.utils.reader.recitation.RecitationUtils.AVAILABLE_RECITATION_TRANSLATIONS_FILENAME;
 import static android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION;
 
-import com.quranapp.android.utils.app.AppUtils;
-import com.quranapp.android.utils.chapterInfo.ChapterInfoUtils;
-import com.quranapp.android.utils.reader.QuranScriptUtils;
-import com.quranapp.android.utils.reader.TranslUtils;
-import com.quranapp.android.utils.reader.recitation.RecitationUtils;
-import com.quranapp.android.utils.tafsir.TafsirUtils;
+import com.anonim.android.utils.app.AppUtils;
+import com.anonim.android.utils.chapterInfo.ChapterInfoUtils;
+import com.anonim.android.utils.reader.QuranScriptUtils;
+import com.anonim.android.utils.reader.TranslUtils;
+import com.anonim.android.utils.reader.recitation.RecitationUtils;
+import com.anonim.android.utils.tafsir.TafsirUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

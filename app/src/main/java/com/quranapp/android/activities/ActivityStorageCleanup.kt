@@ -1,13 +1,13 @@
-package com.quranapp.android.activities
+package com.anonim.android.activities
 
 import android.os.Bundle
 import android.view.View
-import com.quranapp.android.R
-import com.quranapp.android.activities.base.BaseActivity
-import com.quranapp.android.databinding.ActivityStorageCleanupBinding
-import com.quranapp.android.frags.storageCleapup.FragStorageCleanupBase
-import com.quranapp.android.frags.storageCleapup.FragStorageCleanupMain
-import com.quranapp.android.views.BoldHeader
+import com.anonim.android.R
+import com.anonim.android.activities.base.BaseActivity
+import com.anonim.android.databinding.ActivityStorageCleanupBinding
+import com.anonim.android.frags.storageCleapup.FragStorageCleanupBase
+import com.anonim.android.frags.storageCleapup.FragStorageCleanupMain
+import com.anonim.android.views.BoldHeader
 
 class ActivityStorageCleanup : BaseActivity() {
 

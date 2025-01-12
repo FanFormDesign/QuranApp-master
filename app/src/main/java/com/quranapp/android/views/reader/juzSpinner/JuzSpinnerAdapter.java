@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader.juzSpinner;
+package com.anonim.android.views.reader.juzSpinner;
 
 import android.content.Context;
 import android.view.View;
@@ -10,10 +10,10 @@ import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.utils.extensions.ViewPaddingKt;
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerAdapter;
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerItem;
+import com.anonim.android.R;
+import com.anonim.android.utils.extensions.ViewPaddingKt;
+import com.anonim.android.views.reader.spinner.ReaderSpinnerAdapter;
+import com.anonim.android.views.reader.spinner.ReaderSpinnerItem;
 
 import java.util.List;
 

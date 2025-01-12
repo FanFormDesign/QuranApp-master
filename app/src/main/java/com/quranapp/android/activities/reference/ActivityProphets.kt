@@ -1,7 +1,7 @@
 /*
  * Created by Faisal Khan on (c) 13/8/2021.
  */
-package com.quranapp.android.activities.reference
+package com.anonim.android.activities.reference
 
 import android.content.Intent
 import android.os.Bundle
@@ -20,19 +20,19 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.updatePadding
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.SimpleItemAnimator
-import com.quranapp.android.R
-import com.quranapp.android.activities.QuranMetaPossessingActivity
-import com.quranapp.android.adapters.ADPProphets
-import com.quranapp.android.adapters.utility.TopicFilterSpinnerAdapter
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.quran.QuranProphet
-import com.quranapp.android.components.utility.SpinnerItem
-import com.quranapp.android.databinding.ActivityTopicsBinding
-import com.quranapp.android.databinding.LytTopicsActivityHeaderBinding
-import com.quranapp.android.utils.extended.GapedItemDecoration
-import com.quranapp.android.utils.simplified.SimpleTextWatcher
-import com.quranapp.android.views.helper.Spinner2
-import com.quranapp.android.views.helper.Spinner2.SimplerSpinnerItemSelectListener
+import com.anonim.android.R
+import com.anonim.android.activities.QuranMetaPossessingActivity
+import com.anonim.android.adapters.ADPProphets
+import com.anonim.android.adapters.utility.TopicFilterSpinnerAdapter
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.quran.QuranProphet
+import com.anonim.android.components.utility.SpinnerItem
+import com.anonim.android.databinding.ActivityTopicsBinding
+import com.anonim.android.databinding.LytTopicsActivityHeaderBinding
+import com.anonim.android.utils.extended.GapedItemDecoration
+import com.anonim.android.utils.simplified.SimpleTextWatcher
+import com.anonim.android.views.helper.Spinner2
+import com.anonim.android.views.helper.Spinner2.SimplerSpinnerItemSelectListener
 import java.util.regex.Pattern
 
 class ActivityProphets : QuranMetaPossessingActivity() {

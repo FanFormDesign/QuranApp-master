@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 2/2/2022.
  */
 
-package com.quranapp.android.adapters.quranIndex;
+package com.anonim.android.adapters.quranIndex;
 
 import android.content.Context;
 import android.view.ViewGroup;
@@ -12,13 +12,13 @@ import static android.view.ViewGroup.LayoutParams;
 import static android.view.ViewGroup.MarginLayoutParams;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.frags.readerindex.BaseFragReaderIndex;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
-import com.quranapp.android.utils.reader.factory.ReaderFactory;
-import com.quranapp.android.viewModels.FavChaptersViewModel;
-import com.quranapp.android.widgets.chapterCard.ChapterCard;
+import com.anonim.android.R;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.frags.readerindex.BaseFragReaderIndex;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.utils.reader.factory.ReaderFactory;
+import com.anonim.android.viewModels.FavChaptersViewModel;
+import com.anonim.android.widgets.chapterCard.ChapterCard;
 
 import java.util.ArrayList;
 import java.util.List;

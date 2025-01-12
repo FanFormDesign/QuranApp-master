@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.reader;
+package com.anonim.android.utils.reader;
 
 import android.text.Editable;
 import android.text.TextPaint;
@@ -12,8 +12,8 @@ import static android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
 
 import com.peacedesign.android.utils.span.RoundedBG_FGSpan;
 import com.peacedesign.android.utils.span.SuperscriptSpan2;
-import com.quranapp.android.utils.parser.HtmlParser;
-import com.quranapp.android.utils.quran.QuranConstants;
+import com.anonim.android.utils.parser.HtmlParser;
+import com.anonim.android.utils.quran.QuranConstants;
 
 import org.xml.sax.Attributes;
 

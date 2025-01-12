@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 28/9/2021.
  */
 
-package com.quranapp.android.adapters;
+package com.anonim.android.adapters;
 
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
@@ -20,15 +20,15 @@ import static android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
 
 import com.peacedesign.android.utils.Dimen;
 import com.peacedesign.android.utils.span.LineHeightSpan2;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityBookmark;
-import com.quranapp.android.adapters.extended.PeaceBottomSheetMenuAdapter;
-import com.quranapp.android.components.bookmark.BookmarkModel;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.databinding.LytBookmarkItemBinding;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheetMenu;
-import com.quranapp.android.widgets.list.base.BaseListItem;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityBookmark;
+import com.anonim.android.adapters.extended.PeaceBottomSheetMenuAdapter;
+import com.anonim.android.components.bookmark.BookmarkModel;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.databinding.LytBookmarkItemBinding;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheetMenu;
+import com.anonim.android.widgets.list.base.BaseListItem;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

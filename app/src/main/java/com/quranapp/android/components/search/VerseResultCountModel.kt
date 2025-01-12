@@ -1,6 +1,6 @@
-package com.quranapp.android.components.search
+package com.anonim.android.components.search
 
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo
 
 class VerseResultCountModel(val bookInfo: QuranTranslBookInfo?) : SearchResultModelBase() {
     @JvmField

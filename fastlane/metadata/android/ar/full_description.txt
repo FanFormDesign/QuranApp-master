@@ -76,4 +76,4 @@
 -الوضع الداكن والفاتح
 - دعم لغات متعددة
 
-<i> للإبلاغ عن مشكلة أو طلب ميزة جديدة، يرجى زيارة مستودع GitHub على <a href='https://github.com/AlfaazPlus/QuranApp'> 🐞 Github</a>. </i>
+<i> للإبلاغ عن مشكلة أو طلب ميزة جديدة، يرجى زيارة مستودع GitHub على <a href='https://github.com/FanFormDesign/QuranApp-master'> 🐞 Github</a>. </i>

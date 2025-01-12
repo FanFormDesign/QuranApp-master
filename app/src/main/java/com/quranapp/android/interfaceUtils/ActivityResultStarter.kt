@@ -3,7 +3,7 @@
  * Created on 5/4/2022.
  * All rights reserved.
  */
-package com.quranapp.android.interfaceUtils
+package com.anonim.android.interfaceUtils
 
 import android.content.Intent
 import androidx.core.app.ActivityOptionsCompat

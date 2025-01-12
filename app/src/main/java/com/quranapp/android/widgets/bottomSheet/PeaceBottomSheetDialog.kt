@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.bottomSheet
+package com.anonim.android.widgets.bottomSheet
 
 import android.content.Context
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.view.ViewGroup.LayoutParams
 import android.view.Window
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.peacedesign.R
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.getWindowWidth
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.getWindowWidth
 
 open class PeaceBottomSheetDialog constructor(
     context: Context,

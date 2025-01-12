@@ -1,4 +1,4 @@
-package com.quranapp.android.vh.search
+package com.anonim.android.vh.search
 
 import android.view.View
 import android.view.ViewGroup
@@ -6,8 +6,8 @@ import android.view.ViewGroup.MarginLayoutParams
 import androidx.core.view.updateMarginsRelative
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.Dimen
-import com.quranapp.android.R
-import com.quranapp.android.components.search.SearchResultModelBase
+import com.anonim.android.R
+import com.anonim.android.components.search.SearchResultModelBase
 
 open class VHSearchResultBase(itemView: View) : RecyclerView.ViewHolder(itemView) {
     open fun bind(model: SearchResultModelBase, pos: Int) {}

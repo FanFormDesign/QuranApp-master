@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.univ;
+package com.anonim.android.utils.univ;
 
 import android.os.Build;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import androidx.core.content.ContextCompat;
 
-import com.quranapp.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.extensions.ViewKt;
 
 public class PopupWindow2 extends RelativePopupWindow {
     private float mDimAmount;

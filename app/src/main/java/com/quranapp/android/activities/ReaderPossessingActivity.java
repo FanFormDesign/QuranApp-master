@@ -1,4 +1,4 @@
-package com.quranapp.android.activities;
+package com.anonim.android.activities;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -17,25 +17,25 @@ import androidx.annotation.Nullable;
 import static android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
 
 import com.peacedesign.android.utils.span.TypefaceSpan2;
-import com.quranapp.android.R;
-import com.quranapp.android.components.bookmark.BookmarkModel;
-import com.quranapp.android.components.quran.Quran;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Footnote;
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo;
-import com.quranapp.android.components.quran.subcomponents.Translation;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.db.bookmark.BookmarkDBHelper;
-import com.quranapp.android.interfaceUtils.BookmarkCallbacks;
-import com.quranapp.android.reader_managers.ActionController;
-import com.quranapp.android.reader_managers.ReaderVerseDecorator;
-import com.quranapp.android.suppliments.BookmarkViewer;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.parser.HtmlParser;
-import com.quranapp.android.utils.reader.ReferenceTagHandler;
-import com.quranapp.android.utils.reader.TranslUtils;
-import com.quranapp.android.utils.reader.factory.QuranTranslationFactory;
-import com.quranapp.android.utils.verse.VerseUtils;
+import com.anonim.android.R;
+import com.anonim.android.components.bookmark.BookmarkModel;
+import com.anonim.android.components.quran.Quran;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Footnote;
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo;
+import com.anonim.android.components.quran.subcomponents.Translation;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.db.bookmark.BookmarkDBHelper;
+import com.anonim.android.interfaceUtils.BookmarkCallbacks;
+import com.anonim.android.reader_managers.ActionController;
+import com.anonim.android.reader_managers.ReaderVerseDecorator;
+import com.anonim.android.suppliments.BookmarkViewer;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.parser.HtmlParser;
+import com.anonim.android.utils.reader.ReferenceTagHandler;
+import com.anonim.android.utils.reader.TranslUtils;
+import com.anonim.android.utils.reader.factory.QuranTranslationFactory;
+import com.anonim.android.utils.verse.VerseUtils;
 
 import org.jetbrains.annotations.NotNull;
 

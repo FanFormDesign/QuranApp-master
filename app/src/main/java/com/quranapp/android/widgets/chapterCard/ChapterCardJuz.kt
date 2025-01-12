@@ -3,7 +3,7 @@
  * Created on 21/2/2022.
  * All rights reserved.
  */
-package com.quranapp.android.widgets.chapterCard
+package com.anonim.android.widgets.chapterCard
 
 import android.content.Context
 import android.text.SpannableString
@@ -18,7 +18,7 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
 import com.peacedesign.android.utils.Dimen
-import com.quranapp.android.R
+import com.anonim.android.R
 
 class ChapterCardJuz(context: Context) : ChapterCard(context, false) {
     override fun createRightView(): View? {

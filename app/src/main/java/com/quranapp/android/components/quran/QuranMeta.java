@@ -1,13 +1,13 @@
-package com.quranapp.android.components.quran;
+package com.anonim.android.components.quran;
 
 import android.content.Context;
 import android.util.SparseArray;
 import androidx.annotation.NonNull;
 
-import com.quranapp.android.R;
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback;
-import com.quranapp.android.utils.quran.QuranUtils;
-import com.quranapp.android.utils.quran.parser.QuranMetaParserJSON;
+import com.anonim.android.R;
+import com.anonim.android.interfaceUtils.OnResultReadyCallback;
+import com.anonim.android.utils.quran.QuranUtils;
+import com.anonim.android.utils.quran.parser.QuranMetaParserJSON;
 
 import java.io.Serializable;
 import java.util.ArrayList;

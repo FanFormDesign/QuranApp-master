@@ -1,33 +1,33 @@
-package com.quranapp.android.adapters;
+package com.anonim.android.adapters;
 
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.BISMILLAH;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_INFO;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_TITLE;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.IS_VOTD;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.NO_TRANSL_SELECTED;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_FOOTER;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.VERSE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.BISMILLAH;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_INFO;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_TITLE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.IS_VOTD;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.NO_TRANSL_SELECTED;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_FOOTER;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.VERSE;
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.activities.readerSettings.ActivitySettings;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.components.reader.ReaderRecyclerItemModel;
-import com.quranapp.android.components.utility.CardMessageParams;
-import com.quranapp.android.databinding.LytReaderIsVotdBinding;
-import com.quranapp.android.views.CardMessage;
-import com.quranapp.android.views.reader.BismillahView;
-import com.quranapp.android.views.reader.ChapterInfoCardView;
-import com.quranapp.android.views.reader.ChapterTitleView;
-import com.quranapp.android.views.reader.ReaderFooter;
-import com.quranapp.android.views.reader.VerseView;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.activities.readerSettings.ActivitySettings;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.components.reader.ReaderRecyclerItemModel;
+import com.anonim.android.components.utility.CardMessageParams;
+import com.anonim.android.databinding.LytReaderIsVotdBinding;
+import com.anonim.android.views.CardMessage;
+import com.anonim.android.views.reader.BismillahView;
+import com.anonim.android.views.reader.ChapterInfoCardView;
+import com.anonim.android.views.reader.ChapterTitleView;
+import com.anonim.android.views.reader.ReaderFooter;
+import com.anonim.android.views.reader.VerseView;
 
 import java.util.ArrayList;
 

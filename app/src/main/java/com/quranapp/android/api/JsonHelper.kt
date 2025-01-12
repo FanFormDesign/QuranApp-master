@@ -1,4 +1,4 @@
-package com.quranapp.android.api
+package com.anonim.android.api
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json

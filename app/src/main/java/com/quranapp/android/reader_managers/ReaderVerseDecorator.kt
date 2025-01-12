@@ -1,22 +1,22 @@
-package com.quranapp.android.reader_managers
+package com.anonim.android.reader_managers
 
 import android.content.Context
 import android.graphics.Typeface
 import android.text.SpannableString
 import android.util.TypedValue
 import android.widget.TextView
-import com.quranapp.android.R
-import com.quranapp.android.components.quran.subcomponents.Verse
-import com.quranapp.android.utils.extensions.color
-import com.quranapp.android.utils.extensions.getDimension
-import com.quranapp.android.utils.extensions.getFont
-import com.quranapp.android.utils.reader.getQuranScriptFontRes
-import com.quranapp.android.utils.reader.getQuranScriptVerseTextSizeMediumRes
-import com.quranapp.android.utils.reader.isKFQPCScript
-import com.quranapp.android.utils.reader.toKFQPCFontFilename
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.FileUtils
-import com.quranapp.android.utils.verse.VerseUtils
+import com.anonim.android.R
+import com.anonim.android.components.quran.subcomponents.Verse
+import com.anonim.android.utils.extensions.color
+import com.anonim.android.utils.extensions.getDimension
+import com.anonim.android.utils.extensions.getFont
+import com.anonim.android.utils.reader.getQuranScriptFontRes
+import com.anonim.android.utils.reader.getQuranScriptVerseTextSizeMediumRes
+import com.anonim.android.utils.reader.isKFQPCScript
+import com.anonim.android.utils.reader.toKFQPCFontFilename
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.FileUtils
+import com.anonim.android.utils.verse.VerseUtils
 import java.io.File
 
 class ReaderVerseDecorator(private val ctx: Context) {

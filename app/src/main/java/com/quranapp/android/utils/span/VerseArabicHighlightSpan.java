@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.span;
+package com.anonim.android.utils.span;
 
 import android.os.Parcel;
 import android.text.TextPaint;

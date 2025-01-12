@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.checkbox
+package com.anonim.android.widgets.checkbox
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -7,9 +7,9 @@ import android.view.ContextThemeWrapper
 import android.widget.CompoundButton
 import androidx.annotation.DrawableRes
 import androidx.appcompat.widget.AppCompatCheckBox
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.drawable
-import com.quranapp.android.widgets.compound.PeaceCompoundButton
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.drawable
+import com.anonim.android.widgets.compound.PeaceCompoundButton
 
 class PeaceCheckBox @JvmOverloads constructor(
     context: Context,

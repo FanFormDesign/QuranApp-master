@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader;
+package com.anonim.android.views.reader;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,19 +18,19 @@ import android.widget.FrameLayout;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.ViewCompat;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.activities.ReaderPossessingActivity;
-import com.quranapp.android.components.bookmark.BookmarkModel;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.components.reader.ChapterVersePair;
-import com.quranapp.android.databinding.LytReaderVerseBinding;
-import com.quranapp.android.databinding.LytReaderVerseQuickActionsBinding;
-import com.quranapp.android.interfaceUtils.BookmarkCallbacks;
-import com.quranapp.android.reader_managers.ReaderVerseDecorator;
-import com.quranapp.android.utils.reader.factory.ReaderFactory;
-import com.quranapp.android.utils.reader.recitation.RecitationUtils;
-import com.quranapp.android.utils.univ.SelectableLinkMovementMethod;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.activities.ReaderPossessingActivity;
+import com.anonim.android.components.bookmark.BookmarkModel;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.components.reader.ChapterVersePair;
+import com.anonim.android.databinding.LytReaderVerseBinding;
+import com.anonim.android.databinding.LytReaderVerseQuickActionsBinding;
+import com.anonim.android.interfaceUtils.BookmarkCallbacks;
+import com.anonim.android.reader_managers.ReaderVerseDecorator;
+import com.anonim.android.utils.reader.factory.ReaderFactory;
+import com.anonim.android.utils.reader.recitation.RecitationUtils;
+import com.anonim.android.utils.univ.SelectableLinkMovementMethod;
 
 @SuppressLint("ViewConstructor")
 public class VerseView extends FrameLayout implements BookmarkCallbacks {

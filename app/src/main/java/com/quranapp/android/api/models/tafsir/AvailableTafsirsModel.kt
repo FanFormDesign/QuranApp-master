@@ -1,4 +1,4 @@
-package com.quranapp.android.api.models.tafsir
+package com.anonim.android.api.models.tafsir
 
 import kotlinx.serialization.Serializable
 

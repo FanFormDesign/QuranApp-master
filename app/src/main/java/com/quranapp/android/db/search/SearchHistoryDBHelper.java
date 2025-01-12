@@ -1,4 +1,4 @@
-package com.quranapp.android.db.search;
+package com.anonim.android.db.search;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,14 +8,14 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.text.TextUtils;
 import androidx.annotation.NonNull;
-import static com.quranapp.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_DATETIME;
-import static com.quranapp.android.db.search.SearchHistoryContract.SearchEntry.COL_TEXT;
-import static com.quranapp.android.db.search.SearchHistoryContract.SearchEntry.TABLE_NAME;
-import static com.quranapp.android.db.search.SearchHistoryContract.SearchEntry._ID;
+import static com.anonim.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_DATETIME;
+import static com.anonim.android.db.search.SearchHistoryContract.SearchEntry.COL_TEXT;
+import static com.anonim.android.db.search.SearchHistoryContract.SearchEntry.TABLE_NAME;
+import static com.anonim.android.db.search.SearchHistoryContract.SearchEntry._ID;
 
-import com.quranapp.android.components.search.SearchHistoryModel;
-import com.quranapp.android.components.search.SearchResultModelBase;
-import com.quranapp.android.utils.univ.DateUtils;
+import com.anonim.android.components.search.SearchHistoryModel;
+import com.anonim.android.components.search.SearchResultModelBase;
+import com.anonim.android.utils.univ.DateUtils;
 
 import java.util.ArrayList;
 

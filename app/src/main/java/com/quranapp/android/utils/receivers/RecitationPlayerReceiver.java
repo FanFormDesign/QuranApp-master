@@ -2,13 +2,13 @@
  * Created by Faisal Khan on (c) 26/8/2021.
  */
 
-package com.quranapp.android.utils.receivers;
+package com.anonim.android.utils.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.quranapp.android.views.recitation.RecitationPlayer;
+import com.anonim.android.views.recitation.RecitationPlayer;
 
 
 public class RecitationPlayerReceiver extends BroadcastReceiver {

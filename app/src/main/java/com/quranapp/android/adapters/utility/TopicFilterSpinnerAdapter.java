@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.utility;
+package com.anonim.android.adapters.utility;
 
 import android.content.Context;
 import android.view.View;
@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.components.utility.SpinnerItem;
-import com.quranapp.android.utils.extensions.ViewPaddingKt;
+import com.anonim.android.components.utility.SpinnerItem;
+import com.anonim.android.utils.extensions.ViewPaddingKt;
 
 import java.util.List;
 

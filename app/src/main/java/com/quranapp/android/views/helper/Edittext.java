@@ -1,4 +1,4 @@
-package com.quranapp.android.views.helper;
+package com.anonim.android.views.helper;
 
 import android.content.Context;
 import android.util.AttributeSet;

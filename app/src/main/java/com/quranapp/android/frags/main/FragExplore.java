@@ -1,6 +1,6 @@
-package com.quranapp.android.frags.main;
+package com.anonim.android.frags.main;
 
-import com.quranapp.android.frags.BaseFragment;
+import com.anonim.android.frags.BaseFragment;
 
 public class FragExplore extends BaseFragment {
 

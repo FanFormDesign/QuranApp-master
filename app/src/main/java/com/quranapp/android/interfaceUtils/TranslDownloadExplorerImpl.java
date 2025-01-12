@@ -4,12 +4,12 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.interfaceUtils;
+package com.anonim.android.interfaceUtils;
 
 import android.view.View;
 
-import com.quranapp.android.adapters.transl.ADPDownloadTranslations;
-import com.quranapp.android.components.transls.TranslModel;
+import com.anonim.android.adapters.transl.ADPDownloadTranslations;
+import com.anonim.android.components.transls.TranslModel;
 
 public interface TranslDownloadExplorerImpl {
     void onDownloadAttempt(ADPDownloadTranslations adapter, ADPDownloadTranslations.VHDownloadTransl vhTransl, View referencedView, TranslModel model);

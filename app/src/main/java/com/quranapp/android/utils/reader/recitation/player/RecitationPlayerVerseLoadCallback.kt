@@ -1,10 +1,10 @@
-package com.quranapp.android.utils.reader.recitation.player
+package com.anonim.android.utils.reader.recitation.player
 
 import android.widget.Toast
 import androidx.core.net.toUri
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.exceptions.HttpNotFoundException
-import com.quranapp.android.utils.services.RecitationService
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.exceptions.HttpNotFoundException
+import com.anonim.android.utils.services.RecitationService
 import java.io.File
 
 open class RecitationPlayerVerseLoadCallback(private val service: RecitationService?) {

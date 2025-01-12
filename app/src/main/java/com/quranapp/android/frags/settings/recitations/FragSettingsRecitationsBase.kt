@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.settings.recitations
+package com.anonim.android.frags.settings.recitations
 
 import android.content.Context
 import android.os.Bundle
@@ -6,12 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.CallSuper
-import com.quranapp.android.R
-import com.quranapp.android.databinding.FragSettingsTranslBinding
-import com.quranapp.android.frags.BaseFragment
-import com.quranapp.android.frags.settings.FragSettingsBase
-import com.quranapp.android.utils.univ.FileUtils
-import com.quranapp.android.widgets.PageAlert
+import com.anonim.android.R
+import com.anonim.android.databinding.FragSettingsTranslBinding
+import com.anonim.android.frags.BaseFragment
+import com.anonim.android.frags.settings.FragSettingsBase
+import com.anonim.android.utils.univ.FileUtils
+import com.anonim.android.widgets.PageAlert
 
 abstract class FragSettingsRecitationsBase : BaseFragment() {
     companion object {

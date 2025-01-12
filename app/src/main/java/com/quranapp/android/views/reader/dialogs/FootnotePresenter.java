@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 29/8/2021.
  */
 
-package com.quranapp.android.views.reader.dialogs;
+package com.anonim.android.views.reader.dialogs;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -20,31 +20,31 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.asynclayoutinflater.view.AsyncLayoutInflater;
 import androidx.core.content.ContextCompat;
-import static com.quranapp.android.utils.univ.StringUtils.HYPHEN;
+import static com.anonim.android.utils.univ.StringUtils.HYPHEN;
 import static android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
 import com.peacedesign.android.utils.span.TypefaceSpan2;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ReaderPossessingActivity;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Footnote;
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo;
-import com.quranapp.android.components.quran.subcomponents.Translation;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.databinding.LytReaderVerseFootnoteBinding;
-import com.quranapp.android.reader_managers.ReaderVerseDecorator;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.utils.parser.HtmlParser;
-import com.quranapp.android.utils.reader.ReferenceTagHandler;
-import com.quranapp.android.utils.reader.TranslUtils;
-import com.quranapp.android.utils.univ.ResUtils;
-import com.quranapp.android.utils.univ.SelectableLinkMovementMethod;
-import com.quranapp.android.utils.univ.SpannableFactory;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheet;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheetParams;
+import com.anonim.android.R;
+import com.anonim.android.activities.ReaderPossessingActivity;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Footnote;
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo;
+import com.anonim.android.components.quran.subcomponents.Translation;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.databinding.LytReaderVerseFootnoteBinding;
+import com.anonim.android.reader_managers.ReaderVerseDecorator;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.parser.HtmlParser;
+import com.anonim.android.utils.reader.ReferenceTagHandler;
+import com.anonim.android.utils.reader.TranslUtils;
+import com.anonim.android.utils.univ.ResUtils;
+import com.anonim.android.utils.univ.SelectableLinkMovementMethod;
+import com.anonim.android.utils.univ.SpannableFactory;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheet;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheetParams;
 
 import java.util.Collections;
 import java.util.HashMap;

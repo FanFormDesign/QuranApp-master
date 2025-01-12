@@ -1,14 +1,14 @@
-package com.quranapp.android.adapters.extended
+package com.anonim.android.adapters.extended
 
 import android.content.Context
 import android.view.View
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.color
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.updatePaddingVertical
-import com.quranapp.android.widgets.list.base.BaseListAdapter
-import com.quranapp.android.widgets.list.base.BaseListItem
-import com.quranapp.android.widgets.list.base.BaseListItemView
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.color
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.updatePaddingVertical
+import com.anonim.android.widgets.list.base.BaseListAdapter
+import com.anonim.android.widgets.list.base.BaseListItem
+import com.anonim.android.widgets.list.base.BaseListItemView
 
 class PeaceBottomSheetMenuAdapter(context: Context) : BaseListAdapter(context) {
     private val mMessageColor = context.color(R.color.colorText2)

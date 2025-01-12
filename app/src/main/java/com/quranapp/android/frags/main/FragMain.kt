@@ -1,18 +1,18 @@
-package com.quranapp.android.frags.main
+package com.anonim.android.frags.main
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.quranapp.android.R
-import com.quranapp.android.activities.reference.ActivityQuranScience
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.databinding.FragMainBinding
-import com.quranapp.android.frags.BaseFragment
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback
-import com.quranapp.android.utils.app.UpdateManager
-import com.quranapp.android.views.VOTDView
+import com.anonim.android.R
+import com.anonim.android.activities.reference.ActivityQuranScience
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.databinding.FragMainBinding
+import com.anonim.android.frags.BaseFragment
+import com.anonim.android.interfaceUtils.OnResultReadyCallback
+import com.anonim.android.utils.app.UpdateManager
+import com.anonim.android.views.VOTDView
 
 class FragMain : BaseFragment() {
     private lateinit var binding: FragMainBinding

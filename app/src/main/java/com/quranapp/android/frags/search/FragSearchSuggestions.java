@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.search;
+package com.anonim.android.frags.search;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -18,14 +18,14 @@ import static android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
 
 import com.peacedesign.android.utils.ColorUtils;
 import com.peacedesign.android.utils.span.RoundedBG_FGSpan;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivitySearch;
-import com.quranapp.android.adapters.search.ADPSearchSugg;
-import com.quranapp.android.components.search.SearchResultModelBase;
-import com.quranapp.android.databinding.FragSearchSuggestionsBinding;
-import com.quranapp.android.frags.BaseFragment;
-import com.quranapp.android.interfaceUtils.Destroyable;
-import com.quranapp.android.utils.univ.MessageUtils;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivitySearch;
+import com.anonim.android.adapters.search.ADPSearchSugg;
+import com.anonim.android.components.search.SearchResultModelBase;
+import com.anonim.android.databinding.FragSearchSuggestionsBinding;
+import com.anonim.android.frags.BaseFragment;
+import com.anonim.android.interfaceUtils.Destroyable;
+import com.anonim.android.utils.univ.MessageUtils;
 
 import java.util.ArrayList;
 

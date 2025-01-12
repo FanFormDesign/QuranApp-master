@@ -1,10 +1,10 @@
-package com.quranapp.android.adapters.reference
+package com.anonim.android.adapters.reference
 
 import android.content.Context
-import com.quranapp.android.R
-import com.quranapp.android.components.quran.ExclusiveVerse
-import com.quranapp.android.databinding.LytQuranExclusiveVerseItemBinding
-import com.quranapp.android.utils.reader.factory.ReaderFactory
+import com.anonim.android.R
+import com.anonim.android.components.quran.ExclusiveVerse
+import com.anonim.android.databinding.LytQuranExclusiveVerseItemBinding
+import com.anonim.android.utils.reader.factory.ReaderFactory
 
 class ADPSolutionVerses(
     ctx: Context,

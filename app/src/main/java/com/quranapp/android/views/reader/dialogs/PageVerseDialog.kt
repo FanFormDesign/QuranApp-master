@@ -1,7 +1,7 @@
 /*
  * Created by Faisal Khan on (c) 29/8/2021.
  */
-package com.quranapp.android.views.reader.dialogs
+package com.anonim.android.views.reader.dialogs
 
 import android.content.Context
 import android.graphics.Color
@@ -13,23 +13,23 @@ import androidx.asynclayoutinflater.view.AsyncLayoutInflater
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.components.bookmark.BookmarkModel
-import com.quranapp.android.components.quran.subcomponents.Verse
-import com.quranapp.android.components.reader.ChapterVersePair
-import com.quranapp.android.databinding.LytPageVerseDialogBinding
-import com.quranapp.android.databinding.LytReaderVerseQuickActionsBinding
-import com.quranapp.android.interfaceUtils.BookmarkCallbacks
-import com.quranapp.android.utils.extensions.layoutInflater
-import com.quranapp.android.utils.extensions.removeView
-import com.quranapp.android.utils.extensions.serializableExtra
-import com.quranapp.android.utils.reader.factory.ReaderFactory.startTafsir
-import com.quranapp.android.utils.reader.recitation.RecitationUtils
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.SelectableLinkMovementMethod
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheet
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheetParams
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.components.bookmark.BookmarkModel
+import com.anonim.android.components.quran.subcomponents.Verse
+import com.anonim.android.components.reader.ChapterVersePair
+import com.anonim.android.databinding.LytPageVerseDialogBinding
+import com.anonim.android.databinding.LytReaderVerseQuickActionsBinding
+import com.anonim.android.interfaceUtils.BookmarkCallbacks
+import com.anonim.android.utils.extensions.layoutInflater
+import com.anonim.android.utils.extensions.removeView
+import com.anonim.android.utils.extensions.serializableExtra
+import com.anonim.android.utils.reader.factory.ReaderFactory.startTafsir
+import com.anonim.android.utils.reader.recitation.RecitationUtils
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.SelectableLinkMovementMethod
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheet
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheetParams
 
 class PageVerseDialog : PeaceBottomSheet() {
     private var binding: LytPageVerseDialogBinding? = null

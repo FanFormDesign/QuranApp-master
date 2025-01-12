@@ -1,4 +1,4 @@
-package com.quranapp.android.db.transl;
+package com.anonim.android.db.transl;
 
 public final class QuranTranslInfoContract {
     private QuranTranslInfoContract() {}

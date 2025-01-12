@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.views.reader.dialogs;
+package com.anonim.android.views.reader.dialogs;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -28,16 +28,16 @@ import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.quranapp.android.R;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.databinding.LytBottomSheetActionBtn1Binding;
-import com.quranapp.android.databinding.LytReaderVrdBinding;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheet;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheetDialog;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheetParams;
+import com.anonim.android.R;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.databinding.LytBottomSheetActionBtn1Binding;
+import com.anonim.android.databinding.LytReaderVrdBinding;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheet;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheetDialog;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheetParams;
 
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;

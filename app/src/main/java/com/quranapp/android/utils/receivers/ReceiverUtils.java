@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 23/8/2021.
  */
 
-package com.quranapp.android.utils.receivers;
+package com.anonim.android.utils.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;

@@ -1,14 +1,14 @@
-package com.quranapp.android.utils.quran.parser;
+package com.anonim.android.utils.quran.parser;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.SparseArray;
 
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.univ.RegexPattern;
-import com.quranapp.android.utils.univ.StringUtils;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.univ.RegexPattern;
+import com.anonim.android.utils.univ.StringUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

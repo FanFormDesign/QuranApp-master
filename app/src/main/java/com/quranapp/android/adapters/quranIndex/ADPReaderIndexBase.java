@@ -4,12 +4,12 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.adapters.quranIndex;
+package com.anonim.android.adapters.quranIndex;
 
 import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.quranapp.android.frags.readerindex.BaseFragReaderIndex;
+import com.anonim.android.frags.readerindex.BaseFragReaderIndex;
 
 public abstract class ADPReaderIndexBase<VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
     protected final BaseFragReaderIndex mFragment;

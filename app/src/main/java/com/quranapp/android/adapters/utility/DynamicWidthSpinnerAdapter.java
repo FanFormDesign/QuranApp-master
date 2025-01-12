@@ -1,11 +1,11 @@
-package com.quranapp.android.adapters.utility;
+package com.anonim.android.adapters.utility;
 
 import android.database.DataSetObserver;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SpinnerAdapter;
 
-import com.quranapp.android.views.helper.Spinner2;
+import com.anonim.android.views.helper.Spinner2;
 
 public class DynamicWidthSpinnerAdapter implements SpinnerAdapter {
     private final Spinner2 mSpinner;

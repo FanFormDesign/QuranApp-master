@@ -1,7 +1,7 @@
-package com.quranapp.android.views.reader.juzSpinner
+package com.anonim.android.views.reader.juzSpinner
 
-import com.quranapp.android.utils.univ.StringUtils
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerItem
+import com.anonim.android.utils.univ.StringUtils
+import com.anonim.android.views.reader.spinner.ReaderSpinnerItem
 
 class JuzSpinnerItem(label: CharSequence) : ReaderSpinnerItem() {
     var juzNumber = -1

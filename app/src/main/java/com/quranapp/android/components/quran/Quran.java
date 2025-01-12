@@ -1,13 +1,13 @@
-package com.quranapp.android.components.quran;
+package com.anonim.android.components.quran;
 
 import android.content.Context;
 import androidx.annotation.Nullable;
 
-import com.quranapp.android.components.quran.subcomponents.Chapter;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback;
-import com.quranapp.android.utils.quran.parser.QuranParser;
-import com.quranapp.android.utils.sharedPrefs.SPReader;
+import com.anonim.android.components.quran.subcomponents.Chapter;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.interfaceUtils.OnResultReadyCallback;
+import com.anonim.android.utils.quran.parser.QuranParser;
+import com.anonim.android.utils.sharedPrefs.SPReader;
 
 import java.util.HashMap;
 import java.util.Map;

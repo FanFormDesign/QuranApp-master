@@ -1,9 +1,9 @@
-package com.quranapp.android.utils.app
+package com.anonim.android.utils.app
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatDelegate
-import com.quranapp.android.R
-import com.quranapp.android.utils.sharedPrefs.SPAppConfigs
+import com.anonim.android.R
+import com.anonim.android.utils.sharedPrefs.SPAppConfigs
 
 object ThemeUtils {
     @JvmStatic

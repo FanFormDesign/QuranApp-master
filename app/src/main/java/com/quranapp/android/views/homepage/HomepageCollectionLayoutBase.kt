@@ -1,4 +1,4 @@
-package com.quranapp.android.views.homepage2
+package com.anonim.android.views.homepage2
 
 import android.content.Context
 import android.util.AttributeSet
@@ -15,17 +15,17 @@ import androidx.annotation.StringRes
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.Dimen
-import com.quranapp.android.R
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.databinding.LytHomepageTitledItemTitleBinding
-import com.quranapp.android.utils.extended.GapedItemDecoration
-import com.quranapp.android.utils.extensions.color
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.removeView
-import com.quranapp.android.utils.extensions.updateMarginVertical
-import com.quranapp.android.utils.extensions.updatePaddingVertical
-import com.quranapp.android.utils.extensions.updatePaddings
-import com.quranapp.android.utils.gesture.HoverPushOpacityEffect
+import com.anonim.android.R
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.databinding.LytHomepageTitledItemTitleBinding
+import com.anonim.android.utils.extended.GapedItemDecoration
+import com.anonim.android.utils.extensions.color
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.removeView
+import com.anonim.android.utils.extensions.updateMarginVertical
+import com.anonim.android.utils.extensions.updatePaddingVertical
+import com.anonim.android.utils.extensions.updatePaddings
+import com.anonim.android.utils.gesture.HoverPushOpacityEffect
 
 abstract class HomepageCollectionLayoutBase @JvmOverloads constructor(
     context: Context,

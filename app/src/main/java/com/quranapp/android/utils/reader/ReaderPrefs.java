@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.reader;
+package com.anonim.android.utils.reader;
 
 public class ReaderPrefs {
 

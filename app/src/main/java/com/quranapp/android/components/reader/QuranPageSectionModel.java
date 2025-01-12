@@ -1,7 +1,7 @@
-package com.quranapp.android.components.reader;
+package com.anonim.android.components.reader;
 
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.views.reader.QuranPageView;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.views.reader.QuranPageView;
 
 import java.util.ArrayList;
 

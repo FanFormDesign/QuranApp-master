@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader;
+package com.anonim.android.views.reader;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -12,8 +12,8 @@ import androidx.core.content.ContextCompat;
 import androidx.core.widget.TextViewCompat;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.utils.quran.QuranUtils;
+import com.anonim.android.R;
+import com.anonim.android.utils.quran.QuranUtils;
 
 public class ChapterIcon extends AppCompatTextView {
     private int mChapterNumber;

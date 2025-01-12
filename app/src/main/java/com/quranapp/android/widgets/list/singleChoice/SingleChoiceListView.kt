@@ -1,10 +1,10 @@
-package com.quranapp.android.widgets.list.singleChoice
+package com.anonim.android.widgets.list.singleChoice
 
 import android.content.Context
 import android.view.ViewGroup
-import com.quranapp.android.widgets.list.base.BaseListItem
-import com.quranapp.android.widgets.list.base.BaseListView
-import com.quranapp.android.widgets.radio.PeaceRadioGroup
+import com.anonim.android.widgets.list.base.BaseListItem
+import com.anonim.android.widgets.list.base.BaseListView
+import com.anonim.android.widgets.radio.PeaceRadioGroup
 
 class SingleChoiceListView(context: Context) : BaseListView(context) {
     private var selectionChangeListener: OnItemClickListener? = null

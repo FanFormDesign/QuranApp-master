@@ -1,24 +1,24 @@
 /*
  * (c) Faisal Khan. Created on 12/10/2021.
  */
-package com.quranapp.android.utils.app
+package com.anonim.android.utils.app
 
 import android.content.Context
 import android.content.ContextWrapper
 import android.widget.Toast
 import com.peacedesign.android.utils.AppBridge
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.R
-import com.quranapp.android.api.ApiConfig
-import com.quranapp.android.api.RetrofitInstance
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.extensions.copyToClipboard
-import com.quranapp.android.utils.reader.factory.QuranTranslationFactory
-import com.quranapp.android.utils.services.TranslationDownloadService
-import com.quranapp.android.utils.sharedPrefs.SPAppActions
-import com.quranapp.android.utils.sharedPrefs.SPAppConfigs
-import com.quranapp.android.utils.sharedPrefs.SPLog
-import com.quranapp.android.utils.votd.VOTDUtils
+import com.anonim.android.R
+import com.anonim.android.api.ApiConfig
+import com.anonim.android.api.RetrofitInstance
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.extensions.copyToClipboard
+import com.anonim.android.utils.reader.factory.QuranTranslationFactory
+import com.anonim.android.utils.services.TranslationDownloadService
+import com.anonim.android.utils.sharedPrefs.SPAppActions
+import com.anonim.android.utils.sharedPrefs.SPAppConfigs
+import com.anonim.android.utils.sharedPrefs.SPLog
+import com.anonim.android.utils.votd.VOTDUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

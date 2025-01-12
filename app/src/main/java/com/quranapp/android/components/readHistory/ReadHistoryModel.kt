@@ -1,4 +1,4 @@
-package com.quranapp.android.components.readHistory
+package com.anonim.android.components.readHistory
 
 class ReadHistoryModel(
     val id: Long,

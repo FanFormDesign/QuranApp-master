@@ -1,13 +1,13 @@
-package com.quranapp.android.utils.search;
+package com.anonim.android.utils.search;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 
 import com.peacedesign.android.widget.dialog.base.PeaceDialog;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivitySearch;
-import com.quranapp.android.databinding.LytSearchFiltersBinding;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivitySearch;
+import com.anonim.android.databinding.LytSearchFiltersBinding;
 
 import kotlin.Unit;
 

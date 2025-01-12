@@ -1,4 +1,4 @@
-package com.quranapp.android.frags
+package com.anonim.android.frags
 
 import android.app.Activity
 import android.content.Context
@@ -14,10 +14,10 @@ import androidx.annotation.CallSuper
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.quranapp.android.interfaceUtils.ActivityResultStarter
-import com.quranapp.android.utils.receivers.NetworkStateReceiver
-import com.quranapp.android.utils.receivers.NetworkStateReceiver.Companion.intentFilter
-import com.quranapp.android.utils.receivers.NetworkStateReceiver.NetworkStateReceiverListener
+import com.anonim.android.interfaceUtils.ActivityResultStarter
+import com.anonim.android.utils.receivers.NetworkStateReceiver
+import com.anonim.android.utils.receivers.NetworkStateReceiver.Companion.intentFilter
+import com.anonim.android.utils.receivers.NetworkStateReceiver.NetworkStateReceiverListener
 
 abstract class BaseFragment : Fragment(), NetworkStateReceiverListener, ActivityResultStarter {
     private val mActivityResultLauncher = activityResultHandler()

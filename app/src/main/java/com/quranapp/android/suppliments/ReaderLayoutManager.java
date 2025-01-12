@@ -1,4 +1,4 @@
-package com.quranapp.android.suppliments;
+package com.anonim.android.suppliments;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.LinearSmoothScroller;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.quranapp.android.views.reader.VerseView;
+import com.anonim.android.views.reader.VerseView;
 
 public class ReaderLayoutManager extends LinearLayoutManager {
     private final Context mContext;

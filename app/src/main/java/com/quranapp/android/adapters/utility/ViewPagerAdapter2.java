@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.utility;
+package com.anonim.android.adapters.utility;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

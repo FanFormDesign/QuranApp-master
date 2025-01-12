@@ -1,4 +1,4 @@
-package com.quranapp.android.components.quran
+package com.anonim.android.components.quran
 
 import java.io.Serializable
 

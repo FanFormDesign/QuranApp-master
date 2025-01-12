@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.radio
+package com.anonim.android.widgets.radio
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.annotation.IdRes
-import com.quranapp.android.R
-import com.quranapp.android.widgets.compound.PeaceCompoundButtonGroup
+import com.anonim.android.R
+import com.anonim.android.widgets.compound.PeaceCompoundButtonGroup
 
 class PeaceRadioGroup @JvmOverloads constructor(
     context: Context,

@@ -1,4 +1,4 @@
-package com.quranapp.android.activities
+package com.anonim.android.activities
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -14,19 +14,19 @@ import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.LinearLayout
 import com.peacedesign.android.utils.AppBridge
 import com.peacedesign.android.utils.DrawableUtils
-import com.quranapp.android.BuildConfig
-import com.quranapp.android.R
-import com.quranapp.android.activities.base.BaseActivity
-import com.quranapp.android.api.ApiConfig
-import com.quranapp.android.databinding.ActivityAboutBinding
-import com.quranapp.android.databinding.LytReaderSettingsItemBinding
-import com.quranapp.android.utils.app.InfoUtils.openAbout
-import com.quranapp.android.utils.app.InfoUtils.openDiscord
-import com.quranapp.android.utils.extensions.isRTL
-import com.quranapp.android.utils.extensions.updateMarginHorizontal
-import com.quranapp.android.utils.extensions.updateMarginVertical
-import com.quranapp.android.views.BoldHeader
-import com.quranapp.android.widgets.IconedTextView
+import com.anonim.android.BuildConfig
+import com.anonim.android.R
+import com.anonim.android.activities.base.BaseActivity
+import com.anonim.android.api.ApiConfig
+import com.anonim.android.databinding.ActivityAboutBinding
+import com.anonim.android.databinding.LytReaderSettingsItemBinding
+import com.anonim.android.utils.app.InfoUtils.openAbout
+import com.anonim.android.utils.app.InfoUtils.openDiscord
+import com.anonim.android.utils.extensions.isRTL
+import com.anonim.android.utils.extensions.updateMarginHorizontal
+import com.anonim.android.utils.extensions.updateMarginVertical
+import com.anonim.android.views.BoldHeader
+import com.anonim.android.widgets.IconedTextView
 
 class ActivityAbout : BaseActivity() {
     override fun shouldInflateAsynchronously() = true

@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader;
+package com.anonim.android.views.reader;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.databinding.LytChapterTitleBinding;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.R;
+import com.anonim.android.databinding.LytChapterTitleBinding;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
 
 public class ChapterTitleView extends FrameLayout {
     private static final int SIZE_SMALL = 0;

@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.utility;
+package com.anonim.android.adapters.utility;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import com.quranapp.android.R;
-import com.quranapp.android.components.utility.SpinnerItem;
-import com.quranapp.android.views.helper.Spinner2;
+import com.anonim.android.R;
+import com.anonim.android.components.utility.SpinnerItem;
+import com.anonim.android.views.helper.Spinner2;
 
 import java.util.List;
 

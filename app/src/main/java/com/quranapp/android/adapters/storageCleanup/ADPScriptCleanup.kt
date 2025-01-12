@@ -1,18 +1,18 @@
-package com.quranapp.android.adapters.storageCleanup
+package com.anonim.android.adapters.storageCleanup
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.ColorUtils
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.R
-import com.quranapp.android.components.storageCleanup.ScriptCleanupItemModel
-import com.quranapp.android.databinding.LytStorageCleanupItemBinding
-import com.quranapp.android.utils.extensions.layoutInflater
-import com.quranapp.android.utils.reader.QuranScriptUtils
-import com.quranapp.android.utils.reader.getQuranScriptName
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.R
+import com.anonim.android.components.storageCleanup.ScriptCleanupItemModel
+import com.anonim.android.databinding.LytStorageCleanupItemBinding
+import com.anonim.android.utils.extensions.layoutInflater
+import com.anonim.android.utils.reader.QuranScriptUtils
+import com.anonim.android.utils.reader.getQuranScriptName
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.FileUtils
 
 class ADPScriptCleanup(
     private val items: List<ScriptCleanupItemModel>,

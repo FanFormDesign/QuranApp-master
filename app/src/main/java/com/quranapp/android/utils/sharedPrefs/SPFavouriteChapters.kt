@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.sharedPrefs
+package com.anonim.android.utils.sharedPrefs
 
 import android.annotation.SuppressLint
 import android.content.Context

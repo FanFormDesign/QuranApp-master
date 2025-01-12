@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets;
+package com.anonim.android.widgets;
 
 import android.content.Context;
 import android.content.res.Resources;

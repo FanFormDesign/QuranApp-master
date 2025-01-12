@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.widgets
+package com.anonim.android.widgets
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -28,8 +28,8 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
 import com.peacedesign.android.utils.Dimen
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.*
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.*
 
 open class PageAlert : LinearLayout {
     private lateinit var mIconView: AppCompatImageView

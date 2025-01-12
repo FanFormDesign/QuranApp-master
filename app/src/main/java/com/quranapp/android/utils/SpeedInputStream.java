@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 27/8/2021.
  */
 
-package com.quranapp.android.utils;
+package com.anonim.android.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

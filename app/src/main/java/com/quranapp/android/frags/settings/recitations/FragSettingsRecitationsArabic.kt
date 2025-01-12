@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.settings.recitations
+package com.anonim.android.frags.settings.recitations
 
 import android.content.Context
 import android.os.Bundle
@@ -6,14 +6,14 @@ import android.view.View
 import androidx.core.os.bundleOf
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.SimpleItemAnimator
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.adapters.recitation.ADPRecitations
-import com.quranapp.android.api.models.recitation.RecitationInfoModel
-import com.quranapp.android.utils.reader.recitation.RecitationManager
-import com.quranapp.android.utils.receivers.NetworkStateReceiver
-import com.quranapp.android.utils.sharedPrefs.SPAppActions
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.StringUtils
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.adapters.recitation.ADPRecitations
+import com.anonim.android.api.models.recitation.RecitationInfoModel
+import com.anonim.android.utils.reader.recitation.RecitationManager
+import com.anonim.android.utils.receivers.NetworkStateReceiver
+import com.anonim.android.utils.sharedPrefs.SPAppActions
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.StringUtils
 import java.util.regex.Pattern
 
 class FragSettingsRecitationsArabic : FragSettingsRecitationsBase() {

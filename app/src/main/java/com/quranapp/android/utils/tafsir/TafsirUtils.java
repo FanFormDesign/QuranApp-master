@@ -1,11 +1,11 @@
-package com.quranapp.android.utils.tafsir;
+package com.anonim.android.utils.tafsir;
 
 import androidx.annotation.Nullable;
 
-import com.quranapp.android.api.models.tafsir.TafsirInfoModel;
-import com.quranapp.android.utils.app.AppUtils;
-import com.quranapp.android.utils.reader.tafsir.TafsirManager;
-import com.quranapp.android.utils.univ.FileUtils;
+import com.anonim.android.api.models.tafsir.TafsirInfoModel;
+import com.anonim.android.utils.app.AppUtils;
+import com.anonim.android.utils.reader.tafsir.TafsirManager;
+import com.anonim.android.utils.univ.FileUtils;
 
 import java.util.List;
 import java.util.Map;

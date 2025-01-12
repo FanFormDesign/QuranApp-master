@@ -1,20 +1,20 @@
-package com.quranapp.android.frags.settings
+package com.anonim.android.frags.settings
 
 import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.updatePaddingRelative
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.databinding.FragSettingsLangBinding
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.getStringArray
-import com.quranapp.android.utils.sharedPrefs.SPAppConfigs
-import com.quranapp.android.views.BoldHeader
-import com.quranapp.android.views.BoldHeader.BoldHeaderCallback
-import com.quranapp.android.widgets.compound.PeaceCompoundButton
-import com.quranapp.android.widgets.radio.PeaceRadioButton
+import com.anonim.android.R
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.databinding.FragSettingsLangBinding
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.getStringArray
+import com.anonim.android.utils.sharedPrefs.SPAppConfigs
+import com.anonim.android.views.BoldHeader
+import com.anonim.android.views.BoldHeader.BoldHeaderCallback
+import com.anonim.android.widgets.compound.PeaceCompoundButton
+import com.anonim.android.widgets.radio.PeaceRadioButton
 import java.util.*
 
 class FragSettingsLanguage : FragSettingsBase() {

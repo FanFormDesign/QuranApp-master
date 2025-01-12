@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.tablayout;
+package com.anonim.android.widgets.tablayout;
 
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 import static androidx.core.content.ContextCompat.getColorStateList;
@@ -19,10 +19,10 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 
 import com.peacedesign.android.utils.DrawableUtils;
-import com.quranapp.android.R;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
-import com.quranapp.android.utils.gesture.HoverPushEffect;
+import com.anonim.android.R;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.utils.gesture.HoverPushEffect;
 
 @SuppressLint("ViewConstructor")
 public class BottomTabView extends LinearLayout {

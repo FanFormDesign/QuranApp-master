@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.frags.settings;
+package com.anonim.android.frags.settings;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -17,32 +17,32 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import static com.quranapp.android.utils.univ.Codes.SETTINGS_LAUNCHER_RESULT_CODE;
-import static com.quranapp.android.utils.univ.Keys.READER_KEY_SAVE_TRANSL_CHANGES;
-import static com.quranapp.android.utils.univ.Keys.READER_KEY_TRANSL_SLUGS;
+import static com.anonim.android.utils.univ.Codes.SETTINGS_LAUNCHER_RESULT_CODE;
+import static com.anonim.android.utils.univ.Keys.READER_KEY_SAVE_TRANSL_CHANGES;
+import static com.anonim.android.utils.univ.Keys.READER_KEY_TRANSL_SLUGS;
 import static java.util.regex.Pattern.CASE_INSENSITIVE;
 import static java.util.regex.Pattern.DOTALL;
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.readerSettings.ActivitySettings;
-import com.quranapp.android.adapters.transl.ADPTransls;
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo;
-import com.quranapp.android.components.transls.TranslBaseModel;
-import com.quranapp.android.components.transls.TranslModel;
-import com.quranapp.android.components.transls.TranslTitleModel;
-import com.quranapp.android.databinding.FragSettingsTranslBinding;
-import com.quranapp.android.interfaceUtils.OnTranslSelectionChangeListener;
-import com.quranapp.android.utils.reader.TranslUtils;
-import com.quranapp.android.utils.reader.factory.QuranTranslationFactory;
-import com.quranapp.android.utils.sharedPrefs.SPReader;
-import com.quranapp.android.utils.thread.runner.CallableTaskRunner;
-import com.quranapp.android.utils.thread.tasks.BaseCallableTask;
-import com.quranapp.android.utils.univ.FileUtils;
-import com.quranapp.android.utils.univ.StringUtils;
-import com.quranapp.android.views.BoldHeader;
-import com.quranapp.android.widgets.PageAlert;
+import com.anonim.android.R;
+import com.anonim.android.activities.readerSettings.ActivitySettings;
+import com.anonim.android.adapters.transl.ADPTransls;
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo;
+import com.anonim.android.components.transls.TranslBaseModel;
+import com.anonim.android.components.transls.TranslModel;
+import com.anonim.android.components.transls.TranslTitleModel;
+import com.anonim.android.databinding.FragSettingsTranslBinding;
+import com.anonim.android.interfaceUtils.OnTranslSelectionChangeListener;
+import com.anonim.android.utils.reader.TranslUtils;
+import com.anonim.android.utils.reader.factory.QuranTranslationFactory;
+import com.anonim.android.utils.sharedPrefs.SPReader;
+import com.anonim.android.utils.thread.runner.CallableTaskRunner;
+import com.anonim.android.utils.thread.tasks.BaseCallableTask;
+import com.anonim.android.utils.univ.FileUtils;
+import com.anonim.android.utils.univ.StringUtils;
+import com.anonim.android.views.BoldHeader;
+import com.anonim.android.widgets.PageAlert;
 
 import java.util.ArrayList;
 import java.util.Arrays;

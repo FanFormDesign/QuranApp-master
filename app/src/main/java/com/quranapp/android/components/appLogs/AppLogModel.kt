@@ -1,4 +1,4 @@
-package com.quranapp.android.components.appLogs
+package com.anonim.android.components.appLogs
 
 import java.io.File
 

@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.search;
+package com.anonim.android.utils.search;
 
 import android.text.TextUtils;
 

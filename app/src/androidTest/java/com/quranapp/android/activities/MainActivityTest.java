@@ -1,4 +1,4 @@
-package com.quranapp.android.activities;
+package com.anonim.android.activities;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
@@ -16,7 +16,7 @@ import androidx.test.espresso.util.TreeIterables;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.quranapp.android.R;
+import com.anonim.android.R;
 
 import junit.framework.TestCase;
 

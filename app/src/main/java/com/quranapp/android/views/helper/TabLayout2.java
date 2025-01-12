@@ -1,4 +1,4 @@
-package com.quranapp.android.views.helper;
+package com.anonim.android.views.helper;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,9 +12,9 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
-import com.quranapp.android.R;
-import com.quranapp.android.adapters.utility.ViewPagerAdapter2;
-import com.quranapp.android.utils.extensions.ContextKt;
+import com.anonim.android.R;
+import com.anonim.android.adapters.utility.ViewPagerAdapter2;
+import com.anonim.android.utils.extensions.ContextKt;
 
 public class TabLayout2 extends TabLayout {
     private ViewPagerAdapter2 mAdapter;

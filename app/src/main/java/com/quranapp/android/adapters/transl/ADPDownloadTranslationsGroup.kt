@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.transl
+package com.anonim.android.adapters.transl
 
 import android.annotation.SuppressLint
 import android.text.SpannableString
@@ -9,11 +9,11 @@ import android.view.Gravity
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.R
-import com.quranapp.android.components.transls.TranslationGroupModel
-import com.quranapp.android.databinding.LytDownloadTranslationGroupItemBinding
-import com.quranapp.android.interfaceUtils.TranslDownloadExplorerImpl
-import com.quranapp.android.utils.extensions.*
+import com.anonim.android.R
+import com.anonim.android.components.transls.TranslationGroupModel
+import com.anonim.android.databinding.LytDownloadTranslationGroupItemBinding
+import com.anonim.android.interfaceUtils.TranslDownloadExplorerImpl
+import com.anonim.android.utils.extensions.*
 
 
 class ADPDownloadTranslationsGroup(

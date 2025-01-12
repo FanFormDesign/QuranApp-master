@@ -1,6 +1,6 @@
-package com.quranapp.android.components.reader
+package com.anonim.android.components.reader
 
-import com.quranapp.android.components.quran.subcomponents.Verse
+import com.anonim.android.components.quran.subcomponents.Verse
 import java.io.Serializable
 
 data class ChapterVersePair(val chapterNo: Int, val verseNo: Int) : Serializable {

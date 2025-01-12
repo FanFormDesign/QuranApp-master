@@ -1,6 +1,6 @@
-package com.quranapp.android.utils.app
+package com.anonim.android.utils.app
 
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.utils.univ.FileUtils
 
 object AppUtils {
     @JvmField

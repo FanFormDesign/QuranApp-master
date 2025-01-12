@@ -11,12 +11,12 @@
 
 The QuranApp is an ad-free and privacy-focused mobile application that facilitates reading and exploring the Holy Qur’an on daily basis at any time and place.
 
-[![CI](https://github.com/AlfaazPlus/QuranApp/actions/workflows/ci.yml/badge.svg)](https://github.com/AlfaazPlus/QuranApp/actions/workflows/ci.yml)
-[![Version](https://img.shields.io/github/v/release/AlfaazPlus/QuranApp?include_prereleases&sort=semver&color=025e3e&style=flat-square)](https://github.com/AlfaazPlus/QuranApp/releases/latest)
-[![Stars](https://img.shields.io/github/stars/AlfaazPlus/QuranApp?color=025e3e&style=flat-square)](https://github.com/AlfaazPlus/QuranApp/stargazers)
-[![Issues](https://img.shields.io/github/issues/AlfaazPlus/QuranApp?color=025e3e&style=flat-square)](https://github.com/AlfaazPlus/QuranApp/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/AlfaazPlus/QuranApp?color=025e3e&style=flat-square)](https://github.com/AlfaazPlus/QuranApp/commits/master)
-[![License](https://img.shields.io/github/license/AlfaazPlus/QuranApp?color=025e3e&style=flat-square)](https://github.com/AlfaazPlus/QuranApp/blob/master/LICENSE)
+[![CI](https://github.com/FanFormDesign/QuranApp-master/actions/workflows/ci.yml/badge.svg)](https://github.com/FanFormDesign/QuranApp-master/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/github/v/release/FanFormDesign/QuranApp-master?include_prereleases&sort=semver&color=025e3e&style=flat-square)](https://github.com/FanFormDesign/QuranApp-master/releases/latest)
+[![Stars](https://img.shields.io/github/stars/FanFormDesign/QuranApp-master?color=025e3e&style=flat-square)](https://github.com/FanFormDesign/QuranApp-master/stargazers)
+[![Issues](https://img.shields.io/github/issues/FanFormDesign/QuranApp-master?color=025e3e&style=flat-square)](https://github.com/FanFormDesign/QuranApp-master/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/FanFormDesign/QuranApp-master?color=025e3e&style=flat-square)](https://github.com/FanFormDesign/QuranApp-master/commits/master)
+[![License](https://img.shields.io/github/license/FanFormDesign/QuranApp-master?color=025e3e&style=flat-square)](https://github.com/FanFormDesign/QuranApp-master/blob/master/LICENSE)
 
 <hr />
 
@@ -28,13 +28,13 @@ The discord server is the primary communication channel for any kind of discussi
 
 [<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
 alt='Get it on Google Play'
-height="80">](https://play.google.com/store/apps/details?id=com.quranapp.android)
+height="80">](https://play.google.com/store/apps/details?id=com.anonim.android)
 [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
       alt='Get it on GitHub'
-      height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.quranapp.android)
+      height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.anonim.android)
 [<img src="https://user-images.githubusercontent.com/69304392/148696068-0cfea65d-b18f-4685-82b5-329a330b1c0d.png"
       alt='Get it on GitHub'
-      height="80">](https://github.com/alfaazplus/quranapp/releases/latest)
+      height="80">](https://github.com/FanFormDesign/QuranApp-master/releases/latest)
 </div>
 
 <div align="left">
@@ -50,8 +50,8 @@ height="80">](https://play.google.com/store/apps/details?id=com.quranapp.android
 - Contribute
   - [Contributing](#contributing)
   - [Contributors](/CONTRIBUTORS.md)
-- [Wiki](https://github.com/AlfaazPlus/QuranApp/wiki)
-- [Roadmap](https://github.com/AlfaazPlus/QuranApp/wiki/Roadmap)
+- [Wiki](https://github.com/FanFormDesign/QuranApp-master/wiki)
+- [Roadmap](https://github.com/FanFormDesign/QuranApp-master/wiki/Roadmap)
 - [License](/LICENSE)
 </details>
 
@@ -64,7 +64,7 @@ height="80">](https://play.google.com/store/apps/details?id=com.quranapp.android
       <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.jpg" alt='Screenshot 4' width='19%' />
       <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_5.jpg" alt='Screenshot 5' width='19%' />
 
-* For more [Screenshot](https://github.com/AlfaazPlus/QuranApp/blob/master/SCREEN_SHOT.md) 
+* For more [Screenshot](https://github.com/FanFormDesign/QuranApp-master/blob/master/SCREEN_SHOT.md) 
   </div>
 
 ## Features
@@ -84,7 +84,7 @@ height="80">](https://play.google.com/store/apps/details?id=com.quranapp.android
       
 See an overview of all the features [here](/FEATURES.md).
 
-If you want help with using the QuranApp, please take a look at [WiKi](https://github.com/AlfaazPlus/QuranApp/wiki).
+If you want help with using the QuranApp, please take a look at [WiKi](https://github.com/FanFormDesign/QuranApp-master/wiki).
 
 ## Credits
 Data:

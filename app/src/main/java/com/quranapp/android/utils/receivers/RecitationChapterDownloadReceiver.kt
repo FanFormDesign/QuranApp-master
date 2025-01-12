@@ -1,13 +1,13 @@
 /*
  * Created by Faisal Khan on (c) 26/8/2021.
  */
-package com.quranapp.android.utils.receivers
+package com.anonim.android.utils.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.quranapp.android.components.recitation.ManageAudioChapterModel
-import com.quranapp.android.utils.extensions.serializableExtra
+import com.anonim.android.components.recitation.ManageAudioChapterModel
+import com.anonim.android.utils.extensions.serializableExtra
 
 class RecitationChapterDownloadReceiver : BroadcastReceiver() {
     companion object {

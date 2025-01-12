@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.univ
+package com.anonim.android.utils.univ
 
 object Codes {
     const val APP_UPDATE = 0x100

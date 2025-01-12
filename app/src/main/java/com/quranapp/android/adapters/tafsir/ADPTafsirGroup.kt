@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.tafsir
+package com.anonim.android.adapters.tafsir
 
 import android.annotation.SuppressLint
 import android.text.SpannableString
@@ -10,10 +10,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SimpleItemAnimator
-import com.quranapp.android.R
-import com.quranapp.android.components.tafsir.TafsirGroupModel
-import com.quranapp.android.databinding.LytDownloadTranslationGroupItemBinding
-import com.quranapp.android.utils.extensions.*
+import com.anonim.android.R
+import com.anonim.android.components.tafsir.TafsirGroupModel
+import com.anonim.android.databinding.LytDownloadTranslationGroupItemBinding
+import com.anonim.android.utils.extensions.*
 
 class ADPTafsirGroup(private val models: List<TafsirGroupModel>) :
     RecyclerView.Adapter<ADPTafsirGroup.VHTafsirGroup>() {

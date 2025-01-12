@@ -1,4 +1,4 @@
-package com.quranapp.android.db.readHistory;
+package com.anonim.android.db.readHistory;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,21 +7,21 @@ import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.NonNull;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_CHAPTER_NO;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_DATETIME;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_FROM_VERSE_NO;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_JUZ_NO;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_READER_STYLE;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_READ_TYPE;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_TO_VERSE_NO;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.TABLE_NAME;
-import static com.quranapp.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry._ID;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_CHAPTER_NO;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_DATETIME;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_FROM_VERSE_NO;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_JUZ_NO;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_READER_STYLE;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_READ_TYPE;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.COL_TO_VERSE_NO;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry.TABLE_NAME;
+import static com.anonim.android.db.readHistory.ReadHistoryContract.ReadHistoryEntry._ID;
 import static java.lang.String.valueOf;
 
-import com.quranapp.android.components.readHistory.ReadHistoryModel;
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback;
-import com.quranapp.android.utils.univ.DBUtils;
-import com.quranapp.android.utils.univ.DateUtils;
+import com.anonim.android.components.readHistory.ReadHistoryModel;
+import com.anonim.android.interfaceUtils.OnResultReadyCallback;
+import com.anonim.android.utils.univ.DBUtils;
+import com.anonim.android.utils.univ.DateUtils;
 
 import java.util.ArrayList;
 import java.util.List;

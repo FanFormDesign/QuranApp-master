@@ -4,9 +4,9 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.components.quran.subcomponents
+package com.anonim.android.components.quran.subcomponents
 
-import com.quranapp.android.utils.univ.StringUtils
+import com.anonim.android.utils.univ.StringUtils
 import java.io.Serializable
 
 /**

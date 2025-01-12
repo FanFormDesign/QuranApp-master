@@ -76,4 +76,4 @@ Fitur-fitur berikut adalah alasan mengapa Anda harus menggunakan QuranApp.
 - Tema gelap dan terang
 - Dukungan beberapa bahasa
 
-<i>🐞 Untuk melaporkan masalah atau meminta fitur baru, silakan kunjungi repositori GitHub di <a href='https://github.com/AlfaazPlus/QuranApp'>Github</a>.</i>
+<i>🐞 Untuk melaporkan masalah atau meminta fitur baru, silakan kunjungi repositori GitHub di <a href='https://github.com/FanFormDesign/QuranApp-master'>Github</a>.</i>

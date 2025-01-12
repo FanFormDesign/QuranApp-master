@@ -93,4 +93,4 @@ QuranApp, her an ve her yerde Kur'an-ı Kerim'i okumayı ve keşfetmeyi kolayla�
  - Karanlık ve aydınlık temalar
  - Çoklu dil desteği
 
- <i>🐞 Bir sorunu bildirmek veya yeni bir özellik talep etmek için lütfen <a href='https://github.com/AlfaazPlus/QuranApp'>Github</a> adresindeki GitHub deposunu ziyaret edin.</i>
+ <i>🐞 Bir sorunu bildirmek veya yeni bir özellik talep etmek için lütfen <a href='https://github.com/FanFormDesign/QuranApp-master'>Github</a> adresindeki GitHub deposunu ziyaret edin.</i>

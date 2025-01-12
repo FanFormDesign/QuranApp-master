@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.transl
+package com.anonim.android.adapters.transl
 
 import android.util.TypedValue
 import android.view.View
@@ -9,11 +9,11 @@ import android.widget.Toast
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.Dimen
-import com.quranapp.android.R
-import com.quranapp.android.components.transls.TranslModel
-import com.quranapp.android.databinding.LytSettingsDownlTranslItemBinding
-import com.quranapp.android.interfaceUtils.TranslDownloadExplorerImpl
-import com.quranapp.android.utils.extensions.*
+import com.anonim.android.R
+import com.anonim.android.components.transls.TranslModel
+import com.anonim.android.databinding.LytSettingsDownlTranslItemBinding
+import com.anonim.android.interfaceUtils.TranslDownloadExplorerImpl
+import com.anonim.android.utils.extensions.*
 
 class ADPDownloadTranslations(
     private val impl: TranslDownloadExplorerImpl,

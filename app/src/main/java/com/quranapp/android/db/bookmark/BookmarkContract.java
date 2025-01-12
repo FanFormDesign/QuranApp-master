@@ -1,4 +1,4 @@
-package com.quranapp.android.db.bookmark;
+package com.anonim.android.db.bookmark;
 
 import android.provider.BaseColumns;
 

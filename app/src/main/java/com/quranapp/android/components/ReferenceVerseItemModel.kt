@@ -1,6 +1,6 @@
-package com.quranapp.android.components
+package com.anonim.android.components
 
-import com.quranapp.android.components.quran.subcomponents.Verse
+import com.anonim.android.components.quran.subcomponents.Verse
 
 class ReferenceVerseItemModel(
     val viewType: Int,

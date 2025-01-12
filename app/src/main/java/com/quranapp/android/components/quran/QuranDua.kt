@@ -1,7 +1,7 @@
-package com.quranapp.android.components.quran
+package com.anonim.android.components.quran
 
 import android.content.Context
-import com.quranapp.android.utils.quran.parser.QuranDuaParser
+import com.anonim.android.utils.quran.parser.QuranDuaParser
 import java.util.concurrent.atomic.AtomicReference
 
 object QuranDua {

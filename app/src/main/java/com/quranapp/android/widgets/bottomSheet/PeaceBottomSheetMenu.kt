@@ -1,14 +1,14 @@
-package com.quranapp.android.widgets.bottomSheet
+package com.anonim.android.widgets.bottomSheet
 
 import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.widget.LinearLayout
-import com.quranapp.android.widgets.list.base.BaseListAdapter
-import com.quranapp.android.widgets.list.base.BaseListItem
-import com.quranapp.android.widgets.list.base.BaseListView
-import com.quranapp.android.widgets.list.singleChoice.SingleChoiceListAdapter
-import com.quranapp.android.widgets.list.singleChoice.SingleChoiceListView
+import com.anonim.android.widgets.list.base.BaseListAdapter
+import com.anonim.android.widgets.list.base.BaseListItem
+import com.anonim.android.widgets.list.base.BaseListView
+import com.anonim.android.widgets.list.singleChoice.SingleChoiceListAdapter
+import com.anonim.android.widgets.list.singleChoice.SingleChoiceListView
 
 open class PeaceBottomSheetMenu : PeaceBottomSheet() {
     var onItemClickListener: OnItemClickListener? = null

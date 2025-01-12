@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.checkbox
+package com.anonim.android.widgets.checkbox
 
 import android.content.Context
 import android.util.AttributeSet

@@ -1,4 +1,4 @@
-package com.quranapp.android.db.readHistory;
+package com.anonim.android.db.readHistory;
 
 import android.provider.BaseColumns;
 

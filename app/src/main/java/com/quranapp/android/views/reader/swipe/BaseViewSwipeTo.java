@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.views.reader.swipe;
+package com.anonim.android.views.reader.swipe;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -32,9 +32,9 @@ import static android.view.animation.Animation.RELATIVE_TO_SELF;
 
 import com.peacedesign.android.utils.Dimen;
 import com.peacedesign.android.utils.DrawableUtils;
-import com.quranapp.android.R;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.utils.extensions.ViewPaddingKt;
+import com.anonim.android.R;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.utils.extensions.ViewPaddingKt;
 
 import me.dkzwm.widget.srl.SmoothRefreshLayout;
 import me.dkzwm.widget.srl.extra.IRefreshView;

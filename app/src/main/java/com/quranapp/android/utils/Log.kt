@@ -1,11 +1,11 @@
-package com.quranapp.android.utils
+package com.anonim.android.utils
 
 import android.content.Context
-import com.quranapp.android.BuildConfig
-import com.quranapp.android.utils.app.AppUtils
-import com.quranapp.android.utils.sharedPrefs.SPLog
-import com.quranapp.android.utils.univ.DateUtils
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.BuildConfig
+import com.anonim.android.utils.app.AppUtils
+import com.anonim.android.utils.sharedPrefs.SPLog
+import com.anonim.android.utils.univ.DateUtils
+import com.anonim.android.utils.univ.FileUtils
 import java.io.File
 
 object Log {

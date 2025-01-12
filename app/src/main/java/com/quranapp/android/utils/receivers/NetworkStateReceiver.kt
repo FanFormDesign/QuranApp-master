@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.receivers
+package com.anonim.android.utils.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -8,7 +8,7 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.net.NetworkInfo
 import android.os.Build
-import com.quranapp.android.utils.univ.MessageUtils
+import com.anonim.android.utils.univ.MessageUtils
 
 class NetworkStateReceiver : BroadcastReceiver() {
     private var prevNetworkStatus: String? = null

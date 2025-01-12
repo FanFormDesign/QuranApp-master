@@ -1,6 +1,6 @@
-package com.quranapp.android.utils.quran;
+package com.anonim.android.utils.quran;
 
-import com.quranapp.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.QuranMeta;
 
 import java.util.stream.IntStream;
 

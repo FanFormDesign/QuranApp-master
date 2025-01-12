@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader;
+package com.anonim.android.views.reader;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,21 +15,21 @@ import android.view.View;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_CHAPTER;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_VERSES;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_CHAPTER;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_VERSES;
 import static android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
 
 import com.peacedesign.android.utils.DrawableUtils;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.databinding.LytReaderFooterBinding;
-import com.quranapp.android.reader_managers.Navigator;
-import com.quranapp.android.reader_managers.ReaderParams;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.utils.quran.QuranUtils;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.databinding.LytReaderFooterBinding;
+import com.anonim.android.reader_managers.Navigator;
+import com.anonim.android.reader_managers.ReaderParams;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.quran.QuranUtils;
 
 import kotlin.Pair;
 

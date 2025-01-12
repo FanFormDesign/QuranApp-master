@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.readerindex
+package com.anonim.android.frags.readerindex
 
 import android.content.Context
 import android.view.View
@@ -6,12 +6,12 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.adapters.quranIndex.ADPFavChaptersList
-import com.quranapp.android.utils.Logger
-import com.quranapp.android.utils.sharedPrefs.SPFavouriteChapters
-import com.quranapp.android.views.helper.RecyclerView2
-import com.quranapp.android.widgets.PageAlert
+import com.anonim.android.R
+import com.anonim.android.adapters.quranIndex.ADPFavChaptersList
+import com.anonim.android.utils.Logger
+import com.anonim.android.utils.sharedPrefs.SPFavouriteChapters
+import com.anonim.android.views.helper.RecyclerView2
+import com.anonim.android.widgets.PageAlert
 
 class FragReaderIndexFavChapters : BaseFragReaderIndex() {
     private var pageAlert: PageAlert? = null

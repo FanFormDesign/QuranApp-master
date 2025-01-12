@@ -1,20 +1,20 @@
-package com.quranapp.android.activities
+package com.anonim.android.activities
 
 import android.os.Bundle
 import android.view.View
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
-import com.quranapp.android.R
-import com.quranapp.android.activities.base.BaseActivity
-import com.quranapp.android.adapters.utility.ViewPagerAdapter2
-import com.quranapp.android.databinding.ActivityOnboardBinding
-import com.quranapp.android.frags.onboard.FragOnboardLanguage
-import com.quranapp.android.frags.onboard.FragOnboardRecitation
-import com.quranapp.android.frags.onboard.FragOnboardThemes
-import com.quranapp.android.frags.onboard.FragOnboardTranslations
-import com.quranapp.android.utils.gesture.HoverPushOpacityEffect
-import com.quranapp.android.utils.sharedPrefs.SPAppActions.setRequireOnboarding
-import com.quranapp.android.utils.simplified.SimpleTabSelectorListener
+import com.anonim.android.R
+import com.anonim.android.activities.base.BaseActivity
+import com.anonim.android.adapters.utility.ViewPagerAdapter2
+import com.anonim.android.databinding.ActivityOnboardBinding
+import com.anonim.android.frags.onboard.FragOnboardLanguage
+import com.anonim.android.frags.onboard.FragOnboardRecitation
+import com.anonim.android.frags.onboard.FragOnboardThemes
+import com.anonim.android.frags.onboard.FragOnboardTranslations
+import com.anonim.android.utils.gesture.HoverPushOpacityEffect
+import com.anonim.android.utils.sharedPrefs.SPAppActions.setRequireOnboarding
+import com.anonim.android.utils.simplified.SimpleTabSelectorListener
 
 class ActivityOnboarding : BaseActivity() {
     private lateinit var binding: ActivityOnboardBinding

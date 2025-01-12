@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.appLogs
+package com.anonim.android.adapters.appLogs
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,12 +6,12 @@ import android.widget.Toast
 import androidx.core.view.ViewCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.AppBridge
-import com.quranapp.android.R
-import com.quranapp.android.api.ApiConfig
-import com.quranapp.android.components.appLogs.AppLogModel
-import com.quranapp.android.databinding.LytLogItemBinding
-import com.quranapp.android.utils.extensions.copyToClipboard
-import com.quranapp.android.utils.univ.MessageUtils
+import com.anonim.android.R
+import com.anonim.android.api.ApiConfig
+import com.anonim.android.components.appLogs.AppLogModel
+import com.anonim.android.databinding.LytLogItemBinding
+import com.anonim.android.utils.extensions.copyToClipboard
+import com.anonim.android.utils.univ.MessageUtils
 
 class ADPAppLogs(
     private val logs: ArrayList<AppLogModel>,

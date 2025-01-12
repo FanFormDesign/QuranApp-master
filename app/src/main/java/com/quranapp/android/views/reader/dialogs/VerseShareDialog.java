@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 31/8/2021.
  */
 
-package com.quranapp.android.views.reader.dialogs;
+package com.anonim.android.views.reader.dialogs;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,9 +17,9 @@ import androidx.annotation.NonNull;
 import androidx.asynclayoutinflater.view.AsyncLayoutInflater;
 import androidx.core.content.ContextCompat;
 import androidx.core.widget.NestedScrollView;
-import static com.quranapp.android.utils.univ.StringUtils.HYPHEN;
-import static com.quranapp.android.widgets.compound.PeaceCompoundButton.COMPOUND_TEXT_GRAVITY_LEFT;
-import static com.quranapp.android.widgets.compound.PeaceCompoundButton.COMPOUND_TEXT_GRAVITY_RIGHT;
+import static com.anonim.android.utils.univ.StringUtils.HYPHEN;
+import static com.anonim.android.widgets.compound.PeaceCompoundButton.COMPOUND_TEXT_GRAVITY_LEFT;
+import static com.anonim.android.widgets.compound.PeaceCompoundButton.COMPOUND_TEXT_GRAVITY_RIGHT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import com.peacedesign.android.utils.AppBridge;
@@ -27,19 +27,19 @@ import com.peacedesign.android.utils.Dimen;
 import com.peacedesign.android.utils.WindowUtils;
 import com.peacedesign.android.widget.dialog.base.PeaceDialog;
 import com.peacedesign.android.widget.dialog.base.PeaceDialogController;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ReaderPossessingActivity;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Footnote;
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo;
-import com.quranapp.android.components.quran.subcomponents.Translation;
-import com.quranapp.android.databinding.LytVerseShareBinding;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.extensions.ViewPaddingKt;
-import com.quranapp.android.utils.univ.MessageUtils;
-import com.quranapp.android.utils.univ.StringUtils;
-import com.quranapp.android.widgets.checkbox.PeaceCheckBox;
-import com.quranapp.android.widgets.checkbox.PeaceCheckboxGroup;
+import com.anonim.android.R;
+import com.anonim.android.activities.ReaderPossessingActivity;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Footnote;
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo;
+import com.anonim.android.components.quran.subcomponents.Translation;
+import com.anonim.android.databinding.LytVerseShareBinding;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.extensions.ViewPaddingKt;
+import com.anonim.android.utils.univ.MessageUtils;
+import com.anonim.android.utils.univ.StringUtils;
+import com.anonim.android.widgets.checkbox.PeaceCheckBox;
+import com.anonim.android.widgets.checkbox.PeaceCheckboxGroup;
 
 import java.util.List;
 import java.util.Map;

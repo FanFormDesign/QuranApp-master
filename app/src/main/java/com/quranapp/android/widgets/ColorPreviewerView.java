@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets;
+package com.anonim.android.widgets;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.quranapp.android.R;
+import com.anonim.android.R;
 
 
 public class ColorPreviewerView extends View {

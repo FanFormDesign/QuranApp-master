@@ -1,9 +1,9 @@
-package com.quranapp.android.utils.sharedPrefs;
+package com.anonim.android.utils.sharedPrefs;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.quranapp.android.utils.univ.Keys;
+import com.anonim.android.utils.univ.Keys;
 
 /**
  * SharedPreferences utility class for verse related utils.

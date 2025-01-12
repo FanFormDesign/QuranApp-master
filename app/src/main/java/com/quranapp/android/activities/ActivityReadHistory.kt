@@ -1,4 +1,4 @@
-package com.quranapp.android.activities
+package com.anonim.android.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,16 +10,16 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.ColorUtils
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.adapters.ADPReadHistory
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.readHistory.ReadHistoryModel
-import com.quranapp.android.databinding.ActivityBookmarkBinding
-import com.quranapp.android.db.readHistory.ReadHistoryDBHelper
-import com.quranapp.android.interfaceUtils.ReadHistoryCallbacks
-import com.quranapp.android.utils.univ.MessageUtils
-import com.quranapp.android.views.BoldHeader
-import com.quranapp.android.views.BoldHeader.BoldHeaderCallback
+import com.anonim.android.R
+import com.anonim.android.adapters.ADPReadHistory
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.readHistory.ReadHistoryModel
+import com.anonim.android.databinding.ActivityBookmarkBinding
+import com.anonim.android.db.readHistory.ReadHistoryDBHelper
+import com.anonim.android.interfaceUtils.ReadHistoryCallbacks
+import com.anonim.android.utils.univ.MessageUtils
+import com.anonim.android.views.BoldHeader
+import com.anonim.android.views.BoldHeader.BoldHeaderCallback
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

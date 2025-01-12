@@ -1,14 +1,14 @@
-package com.quranapp.android.views.homepage2
+package com.anonim.android.views.homepage2
 
 import android.content.Context
 import android.content.Intent
 import android.util.AttributeSet
-import com.quranapp.android.R
-import com.quranapp.android.activities.reference.ActivityProphets
-import com.quranapp.android.adapters.ADPProphets
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.quran.QuranProphet.Companion.prepareInstance
-import com.quranapp.android.utils.extensions.dp2px
+import com.anonim.android.R
+import com.anonim.android.activities.reference.ActivityProphets
+import com.anonim.android.adapters.ADPProphets
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.quran.QuranProphet.Companion.prepareInstance
+import com.anonim.android.utils.extensions.dp2px
 
 class FeatureProphetsLayout @JvmOverloads constructor(
     context: Context,

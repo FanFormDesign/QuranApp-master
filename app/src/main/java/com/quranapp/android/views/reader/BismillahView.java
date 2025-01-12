@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader;
+package com.anonim.android.views.reader;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -10,8 +10,8 @@ import androidx.core.widget.TextViewCompat;
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.R;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
 
 public class BismillahView extends AppCompatTextView {
     public BismillahView(Context context) {

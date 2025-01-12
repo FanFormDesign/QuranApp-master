@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.receivers
+package com.anonim.android.utils.receivers
 
 import android.app.NotificationManager
 import android.content.BroadcastReceiver
@@ -7,10 +7,10 @@ import android.content.Intent
 import android.net.Uri
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import com.quranapp.android.R
-import com.quranapp.android.api.ApiConfig
-import com.quranapp.android.utils.extensions.copyToClipboard
-import com.quranapp.android.utils.sharedPrefs.SPLog
+import com.anonim.android.R
+import com.anonim.android.api.ApiConfig
+import com.anonim.android.utils.extensions.copyToClipboard
+import com.anonim.android.utils.sharedPrefs.SPLog
 
 class CrashReceiver : BroadcastReceiver() {
     companion object {

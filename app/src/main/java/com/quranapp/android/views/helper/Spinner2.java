@@ -1,4 +1,4 @@
-package com.quranapp.android.views.helper;
+package com.anonim.android.views.helper;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatSpinner;
 
-import com.quranapp.android.adapters.utility.DynamicWidthSpinnerAdapter;
-import com.quranapp.android.adapters.utility.SpinnerAdapter2;
+import com.anonim.android.adapters.utility.DynamicWidthSpinnerAdapter;
+import com.anonim.android.adapters.utility.SpinnerAdapter2;
 
 import java.lang.reflect.Field;
 

@@ -1,6 +1,6 @@
-package com.quranapp.android.api
+package com.anonim.android.api
 
-import com.quranapp.android.api.models.tafsir.TafsirModel
+import com.anonim.android.api.models.tafsir.TafsirModel
 import retrofit2.http.GET
 import retrofit2.http.Path
 

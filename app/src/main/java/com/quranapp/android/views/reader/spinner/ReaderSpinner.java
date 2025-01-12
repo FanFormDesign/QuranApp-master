@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader.spinner;
+package com.anonim.android.views.reader.spinner;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -18,14 +18,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.databinding.LytReaderSpinnerBinding;
-import com.quranapp.android.databinding.LytReaderSpinnerPopupBinding;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.utils.simplified.SimpleTextWatcher;
-import com.quranapp.android.utils.univ.PopupWindow2;
-import com.quranapp.android.utils.univ.StringUtils;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.databinding.LytReaderSpinnerBinding;
+import com.anonim.android.databinding.LytReaderSpinnerPopupBinding;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.utils.simplified.SimpleTextWatcher;
+import com.anonim.android.utils.univ.PopupWindow2;
+import com.anonim.android.utils.univ.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;

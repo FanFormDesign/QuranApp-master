@@ -1,11 +1,11 @@
-package com.quranapp.android.utils.tafsir
+package com.anonim.android.utils.tafsir
 
 import android.webkit.JavascriptInterface
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.activities.ActivityTafsir
-import com.quranapp.android.utils.reader.factory.ReaderFactory.prepareSingleVerseIntent
-import com.quranapp.android.utils.univ.Codes
-import com.quranapp.android.utils.univ.Keys
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.activities.ActivityTafsir
+import com.anonim.android.utils.reader.factory.ReaderFactory.prepareSingleVerseIntent
+import com.anonim.android.utils.univ.Codes
+import com.anonim.android.utils.univ.Keys
 
 class TafsirJsInterface(private val activity: ActivityTafsir) {
     @JavascriptInterface

@@ -1,12 +1,12 @@
-package com.quranapp.android.frags.storageCleapup
+package com.anonim.android.frags.storageCleapup
 
 import android.content.Context
 import android.os.Bundle
 import androidx.annotation.CallSuper
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityStorageCleanup
-import com.quranapp.android.frags.BaseFragment
-import com.quranapp.android.views.BoldHeader
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityStorageCleanup
+import com.anonim.android.frags.BaseFragment
+import com.anonim.android.views.BoldHeader
 
 abstract class FragStorageCleanupBase : BaseFragment() {
     abstract fun getFragTitle(ctx: Context): String?

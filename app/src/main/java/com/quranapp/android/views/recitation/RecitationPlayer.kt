@@ -1,4 +1,4 @@
-package com.quranapp.android.views.recitation
+package com.anonim.android.views.recitation
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,13 +11,13 @@ import android.widget.SeekBar.OnSeekBarChangeListener
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.content.ContextCompat
 import com.google.android.material.behavior.HideBottomViewOnScrollBehavior
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.components.reader.ChapterVersePair
-import com.quranapp.android.databinding.LytRecitationPlayerBinding
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.reader.recitation.player.RecitationPlayerParams
-import com.quranapp.android.utils.services.RecitationService
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.components.reader.ChapterVersePair
+import com.anonim.android.databinding.LytRecitationPlayerBinding
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.reader.recitation.player.RecitationPlayerParams
+import com.anonim.android.utils.services.RecitationService
 import java.util.*
 import java.util.concurrent.TimeUnit
 

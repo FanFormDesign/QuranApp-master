@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.bottomSheet
+package com.anonim.android.widgets.bottomSheet
 
 import android.view.View
 import androidx.annotation.FloatRange

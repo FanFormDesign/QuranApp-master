@@ -1,15 +1,15 @@
-package com.quranapp.android.utils.reader.recitation.player
+package com.anonim.android.utils.reader.recitation.player
 
 import android.content.Context
 import android.net.Uri
 import android.os.Parcel
 import android.os.Parcelable
 import androidx.core.os.ParcelCompat
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.reader.ChapterVersePair
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.reader.recitation.RecitationUtils
-import com.quranapp.android.utils.sharedPrefs.SPReader
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.reader.ChapterVersePair
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.reader.recitation.RecitationUtils
+import com.anonim.android.utils.sharedPrefs.SPReader
 
 class RecitationPlayerParams() : Parcelable {
     /**

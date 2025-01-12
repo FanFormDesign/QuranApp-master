@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.settings.recitations.manage
+package com.anonim.android.frags.settings.recitations.manage
 
 import android.app.Activity
 import android.content.ComponentName
@@ -18,28 +18,28 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SimpleItemAnimator
 import com.peacedesign.android.utils.ColorUtils
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.R
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.adapters.recitation.ADPManageAudioChapters
-import com.quranapp.android.api.models.recitation.RecitationInfoBaseModel
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.recitation.ManageAudioChapterModel
-import com.quranapp.android.frags.settings.FragSettingsBase
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.serializableExtra
-import com.quranapp.android.utils.receivers.NetworkStateReceiver
-import com.quranapp.android.utils.receivers.RecitationChapterDownloadReceiver
-import com.quranapp.android.utils.receivers.RecitationChapterDownloadReceiver.Companion.RECITATION_DOWNLOAD_STATUS_CANCELED
-import com.quranapp.android.utils.receivers.RecitationChapterDownloadReceiver.Companion.RECITATION_DOWNLOAD_STATUS_FAILED
-import com.quranapp.android.utils.receivers.RecitationChapterDownloadReceiver.Companion.RECITATION_DOWNLOAD_STATUS_PROGRESS
-import com.quranapp.android.utils.receivers.RecitationChapterDownloadReceiver.Companion.RECITATION_DOWNLOAD_STATUS_SUCCEED
-import com.quranapp.android.utils.services.RecitationChapterDownloadService
-import com.quranapp.android.utils.univ.FileUtils
-import com.quranapp.android.utils.univ.MessageUtils
-import com.quranapp.android.views.BoldHeader
-import com.quranapp.android.views.helper.RecyclerView2
-import com.quranapp.android.widgets.dialog.loader.PeaceProgressDialog
+import com.anonim.android.R
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.adapters.recitation.ADPManageAudioChapters
+import com.anonim.android.api.models.recitation.RecitationInfoBaseModel
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.recitation.ManageAudioChapterModel
+import com.anonim.android.frags.settings.FragSettingsBase
+import com.anonim.android.interfaceUtils.OnResultReadyCallback
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.serializableExtra
+import com.anonim.android.utils.receivers.NetworkStateReceiver
+import com.anonim.android.utils.receivers.RecitationChapterDownloadReceiver
+import com.anonim.android.utils.receivers.RecitationChapterDownloadReceiver.Companion.RECITATION_DOWNLOAD_STATUS_CANCELED
+import com.anonim.android.utils.receivers.RecitationChapterDownloadReceiver.Companion.RECITATION_DOWNLOAD_STATUS_FAILED
+import com.anonim.android.utils.receivers.RecitationChapterDownloadReceiver.Companion.RECITATION_DOWNLOAD_STATUS_PROGRESS
+import com.anonim.android.utils.receivers.RecitationChapterDownloadReceiver.Companion.RECITATION_DOWNLOAD_STATUS_SUCCEED
+import com.anonim.android.utils.services.RecitationChapterDownloadService
+import com.anonim.android.utils.univ.FileUtils
+import com.anonim.android.utils.univ.MessageUtils
+import com.anonim.android.views.BoldHeader
+import com.anonim.android.views.helper.RecyclerView2
+import com.anonim.android.widgets.dialog.loader.PeaceProgressDialog
 
 class FragSettingsManageAudioReciter :
     FragSettingsBase(),

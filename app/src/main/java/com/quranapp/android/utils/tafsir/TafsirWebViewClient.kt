@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.tafsir
+package com.anonim.android.utils.tafsir
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -10,10 +10,10 @@ import android.webkit.WebView
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.webkit.WebViewClientCompat
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityTafsir
-import com.quranapp.android.utils.extensions.drawable
-import com.quranapp.android.utils.univ.ResUtils.getBitmapInputStream
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityTafsir
+import com.anonim.android.utils.extensions.drawable
+import com.anonim.android.utils.univ.ResUtils.getBitmapInputStream
 import java.io.IOException
 import java.io.InputStream
 import java.net.URLConnection

@@ -1,13 +1,13 @@
-package com.quranapp.android.views.reader.chapterSpinner;
+package com.anonim.android.views.reader.chapterSpinner;
 
 import android.content.Context;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 
-import com.quranapp.android.components.quran.subcomponents.Chapter;
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerAdapter;
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerItem;
-import com.quranapp.android.widgets.chapterCard.ChapterCard;
+import com.anonim.android.components.quran.subcomponents.Chapter;
+import com.anonim.android.views.reader.spinner.ReaderSpinnerAdapter;
+import com.anonim.android.views.reader.spinner.ReaderSpinnerItem;
+import com.anonim.android.widgets.chapterCard.ChapterCard;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
-package com.quranapp.android.widgets.list.singleChoice
+package com.anonim.android.widgets.list.singleChoice
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
-import com.quranapp.android.widgets.list.base.BaseListAdapter
-import com.quranapp.android.widgets.list.base.BaseListItem
-import com.quranapp.android.widgets.radio.PeaceRadioButton
-import com.quranapp.android.widgets.radio.PeaceRadioGroup
+import com.anonim.android.widgets.list.base.BaseListAdapter
+import com.anonim.android.widgets.list.base.BaseListItem
+import com.anonim.android.widgets.radio.PeaceRadioButton
+import com.anonim.android.widgets.radio.PeaceRadioGroup
 
 class SingleChoiceListAdapter(context: Context) : BaseListAdapter(context) {
     override fun onCreateItemView(item: BaseListItem, position: Int): View {

@@ -1,11 +1,11 @@
-package com.quranapp.android.utils.thread.runner;
+package com.anonim.android.utils.thread.runner;
 
 import android.os.Handler;
 import android.os.Looper;
 import androidx.annotation.NonNull;
 import androidx.core.os.HandlerCompat;
 
-import com.quranapp.android.utils.thread.tasks.TaskRunnable;
+import com.anonim.android.utils.thread.tasks.TaskRunnable;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

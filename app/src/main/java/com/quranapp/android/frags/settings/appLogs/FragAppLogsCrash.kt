@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.settings.appLogs
+package com.anonim.android.frags.settings.appLogs
 
 import android.content.Context
 import android.graphics.Color
@@ -7,18 +7,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.quranapp.android.R
-import com.quranapp.android.adapters.appLogs.ADPAppLogs
-import com.quranapp.android.components.appLogs.AppLogModel
-import com.quranapp.android.databinding.FragSettingsTranslBinding
-import com.quranapp.android.frags.BaseFragment
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.extended.GapedItemDecoration
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.updatePaddingHorizontal
-import com.quranapp.android.utils.univ.DateUtils
-import com.quranapp.android.utils.univ.FileUtils
-import com.quranapp.android.widgets.PageAlert
+import com.anonim.android.R
+import com.anonim.android.adapters.appLogs.ADPAppLogs
+import com.anonim.android.components.appLogs.AppLogModel
+import com.anonim.android.databinding.FragSettingsTranslBinding
+import com.anonim.android.frags.BaseFragment
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.extended.GapedItemDecoration
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.updatePaddingHorizontal
+import com.anonim.android.utils.univ.DateUtils
+import com.anonim.android.utils.univ.FileUtils
+import com.anonim.android.widgets.PageAlert
 
 class FragAppLogsCrash : BaseFragment() {
     private lateinit var binding: FragSettingsTranslBinding

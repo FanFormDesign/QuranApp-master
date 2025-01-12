@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.extensions
+package com.anonim.android.utils.extensions
 
 import android.content.SharedPreferences
 import android.os.Handler

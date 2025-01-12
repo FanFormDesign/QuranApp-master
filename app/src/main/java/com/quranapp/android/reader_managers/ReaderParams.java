@@ -1,22 +1,22 @@
-package com.quranapp.android.reader_managers;
+package com.anonim.android.reader_managers;
 
 import android.content.Context;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.BISMILLAH;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_INFO;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_TITLE;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.IS_VOTD;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.NO_TRANSL_SELECTED;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_FOOTER;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_PAGE;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.VERSE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.BISMILLAH;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_INFO;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_TITLE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.IS_VOTD;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.NO_TRANSL_SELECTED;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_FOOTER;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_PAGE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.VERSE;
 
-import com.quranapp.android.activities.ReaderPossessingActivity;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Chapter;
-import com.quranapp.android.utils.quran.QuranUtils;
-import com.quranapp.android.utils.sharedPrefs.SPReader;
+import com.anonim.android.activities.ReaderPossessingActivity;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Chapter;
+import com.anonim.android.utils.quran.QuranUtils;
+import com.anonim.android.utils.sharedPrefs.SPReader;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

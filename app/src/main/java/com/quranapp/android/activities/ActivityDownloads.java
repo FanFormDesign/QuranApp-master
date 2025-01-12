@@ -2,17 +2,17 @@
  * (c) Faisal Khan. Created on 7/10/2021.
  */
 
-package com.quranapp.android.activities;
+package com.anonim.android.activities;
 
 import android.os.Bundle;
 import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.base.BaseActivity;
-import com.quranapp.android.databinding.ActivityDownloadsBinding;
-import com.quranapp.android.views.BoldHeader;
+import com.anonim.android.R;
+import com.anonim.android.activities.base.BaseActivity;
+import com.anonim.android.databinding.ActivityDownloadsBinding;
+import com.anonim.android.views.BoldHeader;
 
 public class ActivityDownloads extends BaseActivity {
     private ActivityDownloadsBinding mBinding;

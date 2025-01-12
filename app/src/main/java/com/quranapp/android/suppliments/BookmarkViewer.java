@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 7/10/2021.
  */
 
-package com.quranapp.android.suppliments;
+package com.anonim.android.suppliments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,20 +15,20 @@ import androidx.core.content.ContextCompat;
 
 import com.peacedesign.android.utils.ColorUtils;
 import com.peacedesign.android.widget.dialog.base.PeaceDialog;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.components.bookmark.BookmarkModel;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.databinding.LytBookmarkDialogBinding;
-import com.quranapp.android.db.bookmark.BookmarkDBHelper;
-import com.quranapp.android.interfaceUtils.BookmarkCallbacks;
-import com.quranapp.android.interfaceUtils.Destroyable;
-import com.quranapp.android.utils.Logger;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.utils.gesture.HoverPushOpacityEffect;
-import com.quranapp.android.utils.quran.QuranUtils;
-import com.quranapp.android.utils.reader.factory.ReaderFactory;
-import com.quranapp.android.utils.simplified.SimpleTextWatcher;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.components.bookmark.BookmarkModel;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.databinding.LytBookmarkDialogBinding;
+import com.anonim.android.db.bookmark.BookmarkDBHelper;
+import com.anonim.android.interfaceUtils.BookmarkCallbacks;
+import com.anonim.android.interfaceUtils.Destroyable;
+import com.anonim.android.utils.Logger;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.gesture.HoverPushOpacityEffect;
+import com.anonim.android.utils.quran.QuranUtils;
+import com.anonim.android.utils.reader.factory.ReaderFactory;
+import com.anonim.android.utils.simplified.SimpleTextWatcher;
 
 import java.util.concurrent.atomic.AtomicReference;
 

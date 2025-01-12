@@ -1,11 +1,11 @@
-package com.quranapp.android.views.homepage2
+package com.anonim.android.views.homepage2
 
 import android.content.Context
 import android.util.AttributeSet
-import com.quranapp.android.R
-import com.quranapp.android.adapters.ADPFeaturedQuran
-import com.quranapp.android.components.FeaturedQuranModel
-import com.quranapp.android.components.quran.QuranMeta
+import com.anonim.android.R
+import com.anonim.android.adapters.ADPFeaturedQuran
+import com.anonim.android.components.FeaturedQuranModel
+import com.anonim.android.components.quran.QuranMeta
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

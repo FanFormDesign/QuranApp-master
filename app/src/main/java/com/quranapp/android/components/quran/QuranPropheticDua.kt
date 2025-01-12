@@ -1,8 +1,8 @@
-package com.quranapp.android.components.quran
+package com.anonim.android.components.quran
 
 import android.content.Context
 import androidx.annotation.DrawableRes
-import com.quranapp.android.utils.quran.parser.QuranPropheticDuasParser
+import com.anonim.android.utils.quran.parser.QuranPropheticDuasParser
 import java.io.Serializable
 import java.text.MessageFormat
 import java.util.concurrent.atomic.AtomicReference

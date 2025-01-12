@@ -1,7 +1,7 @@
 /*
  * Created by Faisal Khan on (c) 16/8/2021.
  */
-package com.quranapp.android.components.transls
+package com.anonim.android.components.transls
 
 class TranslationGroupModel(
     val langCode: String,

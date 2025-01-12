@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 22/8/2021.
  */
 
-package com.quranapp.android.adapters.transl;
+package com.anonim.android.adapters.transl;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -16,12 +16,12 @@ import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.components.transls.TranslBaseModel;
-import com.quranapp.android.components.transls.TranslModel;
-import com.quranapp.android.components.transls.TranslTitleModel;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
-import com.quranapp.android.utils.extensions.ViewPaddingKt;
+import com.anonim.android.R;
+import com.anonim.android.components.transls.TranslBaseModel;
+import com.anonim.android.components.transls.TranslModel;
+import com.anonim.android.components.transls.TranslTitleModel;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.utils.extensions.ViewPaddingKt;
 
 import java.util.ArrayList;
 import java.util.List;

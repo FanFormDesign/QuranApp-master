@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters
+package com.anonim.android.adapters
 
 import android.content.Context
 import android.graphics.Typeface
@@ -15,16 +15,16 @@ import androidx.core.view.updateLayoutParams
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.Dimen
 import com.peacedesign.android.utils.span.LineHeightSpan2
-import com.quranapp.android.R
-import com.quranapp.android.activities.reference.ActivityReference
-import com.quranapp.android.components.quran.QuranProphet
-import com.quranapp.android.components.quran.QuranPropheticDua
-import com.quranapp.android.databinding.LytQuranProphetDuaItemBinding
-import com.quranapp.android.databinding.LytQuranProphetItemBinding
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.drawable
-import com.quranapp.android.utils.extensions.getDimenPx
-import com.quranapp.android.utils.reader.factory.ReaderFactory.prepareReferenceVerseIntent
+import com.anonim.android.R
+import com.anonim.android.activities.reference.ActivityReference
+import com.anonim.android.components.quran.QuranProphet
+import com.anonim.android.components.quran.QuranPropheticDua
+import com.anonim.android.databinding.LytQuranProphetDuaItemBinding
+import com.anonim.android.databinding.LytQuranProphetItemBinding
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.drawable
+import com.anonim.android.utils.extensions.getDimenPx
+import com.anonim.android.utils.reader.factory.ReaderFactory.prepareReferenceVerseIntent
 import java.text.MessageFormat
 import java.util.LinkedList
 

@@ -1,7 +1,7 @@
 /*
  * Created by Faisal Khan on (c) 17/8/2021.
  */
-package com.quranapp.android.components.transls
+package com.anonim.android.components.transls
 
 import java.io.Serializable
 

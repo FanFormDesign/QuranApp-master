@@ -402,7 +402,7 @@
     <string name="strMsgDuaFor" formatted="false">%s için dua ediniz</string>
     <string name="place" formatted="false">%d yeri</string>
     <string name="places" formatted="false">%d yerleri</string>
-    <string name="strMsgShareApp" formatted="false">QuranApp, Kur\'an-ı Kerim\'i meali ile okumak ve keşfetmek için ücretsiz ve açık kaynaklı bir uygulamadır. Bu uygulama, tefsir, tilavet, hatırlatma ve daha birçok özelliğiyle zarif ve sade bir arayüze sahiptir.
+    <string name="strMsgShareApp" formatted="false">M. Bekir Şengün Uygulaması, Kur\'an-ı Kerim\'i mealini okuyup ve keşfetmek amacıyla hazırlanmıştır. Bu uygulama demo sürümü olup, lisanslıdır. İzinsiz kullanım tespit edilmesi durumunda hukuki yollara başvurulacaktır. Bu uygulama, İKBAL Mimarlık İç Mimarlık Anonim Şirketi için hazırlanmıştır.
 \n
 \nŞİMDİ İNDİR:
 \n%s</string>

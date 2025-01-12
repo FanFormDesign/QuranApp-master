@@ -1,5 +1,5 @@
-package com.quranapp.android.components.search
+package com.anonim.android.components.search
 
-import com.quranapp.android.components.ComponentBase
+import com.anonim.android.components.ComponentBase
 
 open class SearchResultModelBase : ComponentBase()

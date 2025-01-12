@@ -1,6 +1,6 @@
-package com.quranapp.android.components.utility;
+package com.anonim.android.components.utility;
 
-import com.quranapp.android.components.ComponentBase;
+import com.anonim.android.components.ComponentBase;
 
 public class SpinnerItem extends ComponentBase {
     private CharSequence name;

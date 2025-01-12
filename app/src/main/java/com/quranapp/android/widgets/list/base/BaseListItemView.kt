@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.list.base
+package com.anonim.android.widgets.list.base
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,11 +13,11 @@ import androidx.annotation.DrawableRes
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
 import com.peacedesign.android.utils.Dimen
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.drawable
-import com.quranapp.android.utils.extensions.removeView
-import com.quranapp.android.utils.extensions.updateMarginHorizontal
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.drawable
+import com.anonim.android.utils.extensions.removeView
+import com.anonim.android.utils.extensions.updateMarginHorizontal
 
 @SuppressLint("ViewConstructor")
 class BaseListItemView(context: Context, val item: BaseListItem) : FrameLayout(context) {

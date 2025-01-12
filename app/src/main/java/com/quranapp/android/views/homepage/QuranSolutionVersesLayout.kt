@@ -1,17 +1,17 @@
-package com.quranapp.android.views.homepage2
+package com.anonim.android.views.homepage2
 
 import android.content.Context
 import android.content.Intent
 import android.util.AttributeSet
 import com.peacedesign.android.utils.Dimen
-import com.quranapp.android.R
-import com.quranapp.android.activities.reference.ActivitySolutionVerses
-import com.quranapp.android.adapters.reference.ADPSolutionVerses
-import com.quranapp.android.components.quran.ExclusiveVerse
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.quran.SituationVerse
-import com.quranapp.android.databinding.LytHomepageTitledItemTitleBinding
-import com.quranapp.android.utils.extensions.color
+import com.anonim.android.R
+import com.anonim.android.activities.reference.ActivitySolutionVerses
+import com.anonim.android.adapters.reference.ADPSolutionVerses
+import com.anonim.android.components.quran.ExclusiveVerse
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.quran.SituationVerse
+import com.anonim.android.databinding.LytHomepageTitledItemTitleBinding
+import com.anonim.android.utils.extensions.color
 
 class QuranSolutionVersesLayout @JvmOverloads constructor(
     context: Context,

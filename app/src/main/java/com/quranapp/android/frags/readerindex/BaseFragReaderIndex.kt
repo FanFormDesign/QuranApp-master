@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.readerindex
+package com.anonim.android.frags.readerindex
 
 import android.content.Context
 import android.os.Bundle
@@ -9,15 +9,15 @@ import androidx.annotation.CallSuper
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.SimpleItemAnimator
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReaderIndexPage
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.databinding.FragReaderIndexBinding
-import com.quranapp.android.frags.BaseFragment
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback
-import com.quranapp.android.interfaceUtils.readerIndex.FragReaderIndexCallback
-import com.quranapp.android.viewModels.FavChaptersViewModel
-import com.quranapp.android.views.helper.RecyclerView2
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReaderIndexPage
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.databinding.FragReaderIndexBinding
+import com.anonim.android.frags.BaseFragment
+import com.anonim.android.interfaceUtils.OnResultReadyCallback
+import com.anonim.android.interfaceUtils.readerIndex.FragReaderIndexCallback
+import com.anonim.android.viewModels.FavChaptersViewModel
+import com.anonim.android.views.helper.RecyclerView2
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

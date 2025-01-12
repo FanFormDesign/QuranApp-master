@@ -1,4 +1,4 @@
-package com.quranapp.android.suppliments;
+package com.anonim.android.suppliments;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -17,20 +17,20 @@ import com.google.android.material.divider.MaterialDivider;
 import com.peacedesign.android.utils.AppBridge;
 import com.peacedesign.android.utils.Dimen;
 import com.peacedesign.android.utils.DrawableUtils;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityAbout;
-import com.quranapp.android.activities.ActivityBookmark;
-import com.quranapp.android.activities.ActivityStorageCleanup;
-import com.quranapp.android.activities.base.BaseActivity;
-import com.quranapp.android.activities.readerSettings.ActivitySettings;
-import com.quranapp.android.databinding.LytIndexMenuBinding;
-import com.quranapp.android.databinding.LytIndexMenuItemBinding;
-import com.quranapp.android.interfaceUtils.Destroyable;
-import com.quranapp.android.utils.app.InfoUtils;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
-import com.quranapp.android.utils.univ.PopupWindow2;
-import com.quranapp.android.widgets.IconedTextView;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityAbout;
+import com.anonim.android.activities.ActivityBookmark;
+import com.anonim.android.activities.ActivityStorageCleanup;
+import com.anonim.android.activities.base.BaseActivity;
+import com.anonim.android.activities.readerSettings.ActivitySettings;
+import com.anonim.android.databinding.LytIndexMenuBinding;
+import com.anonim.android.databinding.LytIndexMenuItemBinding;
+import com.anonim.android.interfaceUtils.Destroyable;
+import com.anonim.android.utils.app.InfoUtils;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.utils.univ.PopupWindow2;
+import com.anonim.android.widgets.IconedTextView;
 
 public class IndexMenu implements View.OnClickListener, Destroyable {
     private BaseActivity mActivity;

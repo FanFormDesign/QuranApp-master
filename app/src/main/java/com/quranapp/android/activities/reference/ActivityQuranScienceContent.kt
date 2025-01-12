@@ -1,4 +1,4 @@
-package com.quranapp.android.activities.reference
+package com.anonim.android.activities.reference
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -9,17 +9,17 @@ import android.webkit.ConsoleMessage
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.activities.ReaderPossessingActivity
-import com.quranapp.android.components.quran.QuranScienceItem
-import com.quranapp.android.databinding.ActivityChapterInfoBinding
-import com.quranapp.android.utils.Log.d
-import com.quranapp.android.utils.Logger
-import com.quranapp.android.utils.extensions.serializableExtra
-import com.quranapp.android.utils.quranScience.QuranScienceWebViewClient
-import com.quranapp.android.utils.reader.TranslUtils
-import com.quranapp.android.utils.reader.factory.QuranTranslationFactory
-import com.quranapp.android.utils.univ.StringUtils
+import com.anonim.android.R
+import com.anonim.android.activities.ReaderPossessingActivity
+import com.anonim.android.components.quran.QuranScienceItem
+import com.anonim.android.databinding.ActivityChapterInfoBinding
+import com.anonim.android.utils.Log.d
+import com.anonim.android.utils.Logger
+import com.anonim.android.utils.extensions.serializableExtra
+import com.anonim.android.utils.quranScience.QuranScienceWebViewClient
+import com.anonim.android.utils.reader.TranslUtils
+import com.anonim.android.utils.reader.factory.QuranTranslationFactory
+import com.anonim.android.utils.univ.StringUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

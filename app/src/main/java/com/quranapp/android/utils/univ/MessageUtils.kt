@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.univ
+package com.anonim.android.utils.univ
 
 import android.content.Context
 import android.content.DialogInterface
@@ -7,8 +7,8 @@ import android.widget.Toast
 import com.peacedesign.android.utils.ColorUtils
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
 import com.peacedesign.android.widget.dialog.base.PeaceDialog.DialogGravity
-import com.quranapp.android.R
-import com.quranapp.android.components.bookmark.BookmarkModel
+import com.anonim.android.R
+import com.anonim.android.components.bookmark.BookmarkModel
 import java.lang.ref.WeakReference
 
 object MessageUtils {

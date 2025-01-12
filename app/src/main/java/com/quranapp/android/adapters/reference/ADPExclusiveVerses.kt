@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.reference
+package com.anonim.android.adapters.reference
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -13,14 +13,14 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.utils.span.LineHeightSpan2
-import com.quranapp.android.R
-import com.quranapp.android.components.quran.ExclusiveVerse
-import com.quranapp.android.databinding.LytQuranExclusiveVerseItemBinding
-import com.quranapp.android.utils.extensions.color
-import com.quranapp.android.utils.extensions.colorStateList
-import com.quranapp.android.utils.extensions.getDimenPx
-import com.quranapp.android.utils.gesture.HoverPushEffect
-import com.quranapp.android.utils.gesture.HoverPushOpacityEffect
+import com.anonim.android.R
+import com.anonim.android.components.quran.ExclusiveVerse
+import com.anonim.android.databinding.LytQuranExclusiveVerseItemBinding
+import com.anonim.android.utils.extensions.color
+import com.anonim.android.utils.extensions.colorStateList
+import com.anonim.android.utils.extensions.getDimenPx
+import com.anonim.android.utils.gesture.HoverPushEffect
+import com.anonim.android.utils.gesture.HoverPushOpacityEffect
 
 abstract class ADPExclusiveVerses(
     ctx: Context,

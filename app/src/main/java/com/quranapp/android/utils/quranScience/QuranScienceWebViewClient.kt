@@ -1,17 +1,17 @@
-package com.quranapp.android.utils.quranScience
+package com.anonim.android.utils.quranScience
 
 import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
 import android.webkit.WebView
 import androidx.webkit.WebViewClientCompat
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.activities.reference.ActivityQuranScienceContent
-import com.quranapp.android.utils.reader.factory.ReaderFactory
-import com.quranapp.android.utils.reader.getQuranScriptFontRes
-import com.quranapp.android.utils.reader.toKFQPCFontFilename
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.Keys.READER_KEY_SAVE_TRANSL_CHANGES
-import com.quranapp.android.utils.univ.Keys.READER_KEY_TRANSL_SLUGS
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.activities.reference.ActivityQuranScienceContent
+import com.anonim.android.utils.reader.factory.ReaderFactory
+import com.anonim.android.utils.reader.getQuranScriptFontRes
+import com.anonim.android.utils.reader.toKFQPCFontFilename
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.Keys.READER_KEY_SAVE_TRANSL_CHANGES
+import com.anonim.android.utils.univ.Keys.READER_KEY_TRANSL_SLUGS
 import java.io.File
 import java.io.FileInputStream
 import java.io.IOException

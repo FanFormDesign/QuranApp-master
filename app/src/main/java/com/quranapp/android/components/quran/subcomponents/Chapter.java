@@ -1,6 +1,6 @@
-package com.quranapp.android.components.quran.subcomponents;
+package com.anonim.android.components.quran.subcomponents;
 
-import com.quranapp.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.QuranMeta;
 
 import java.io.Serializable;
 import java.util.ArrayList;

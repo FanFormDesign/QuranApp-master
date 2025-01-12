@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader;
+package com.anonim.android.views.reader;
 
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
@@ -26,16 +26,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.components.reader.QuranPageModel;
-import com.quranapp.android.components.reader.QuranPageSectionModel;
-import com.quranapp.android.databinding.LytQuranPageBinding;
-import com.quranapp.android.databinding.LytQuranPageSectionBinding;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.utils.span.VerseArabicHighlightSpan;
-import com.quranapp.android.utils.univ.SelectableLinkMovementMethod;
-import com.quranapp.android.utils.univ.SpannableFactory;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.components.reader.QuranPageModel;
+import com.anonim.android.components.reader.QuranPageSectionModel;
+import com.anonim.android.databinding.LytQuranPageBinding;
+import com.anonim.android.databinding.LytQuranPageSectionBinding;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.span.VerseArabicHighlightSpan;
+import com.anonim.android.utils.univ.SelectableLinkMovementMethod;
+import com.anonim.android.utils.univ.SpannableFactory;
 
 import java.util.concurrent.atomic.AtomicReference;
 

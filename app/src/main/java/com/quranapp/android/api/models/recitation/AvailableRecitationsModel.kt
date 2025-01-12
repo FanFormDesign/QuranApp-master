@@ -1,4 +1,4 @@
-package com.quranapp.android.api.models.recitation
+package com.anonim.android.api.models.recitation
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.list.base
+package com.anonim.android.widgets.list.base
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

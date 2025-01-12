@@ -1,4 +1,4 @@
-package com.quranapp.android.api.models
+package com.anonim.android.api.models
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

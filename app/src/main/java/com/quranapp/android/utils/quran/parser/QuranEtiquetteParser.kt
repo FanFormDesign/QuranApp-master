@@ -1,11 +1,11 @@
-package com.quranapp.android.utils.quran.parser
+package com.anonim.android.utils.quran.parser
 
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.quran.ExclusiveVerse
-import com.quranapp.android.utils.Log
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.quran.ExclusiveVerse
+import com.anonim.android.utils.Log
 import java.util.*
 import java.util.concurrent.atomic.AtomicReference
 

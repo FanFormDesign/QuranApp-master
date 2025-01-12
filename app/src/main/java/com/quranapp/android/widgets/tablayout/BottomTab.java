@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.tablayout;
+package com.anonim.android.widgets.tablayout;
 
 
 import androidx.annotation.DrawableRes;
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.quranapp.android.components.ComponentBase;
-import com.quranapp.android.utils.univ.StringUtils;
+import com.anonim.android.components.ComponentBase;
+import com.anonim.android.utils.univ.StringUtils;
 
 public class BottomTab extends ComponentBase {
     private String tabLabel;

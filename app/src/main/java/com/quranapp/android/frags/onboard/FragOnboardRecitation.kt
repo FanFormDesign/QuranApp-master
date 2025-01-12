@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.onboard
+package com.anonim.android.frags.onboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,15 +7,15 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SimpleItemAnimator
-import com.quranapp.android.R
-import com.quranapp.android.adapters.recitation.ADPRecitations
-import com.quranapp.android.api.models.recitation.RecitationInfoModel
-import com.quranapp.android.databinding.LytOnboardRecitationsBinding
-import com.quranapp.android.utils.reader.recitation.RecitationManager.getModels
-import com.quranapp.android.utils.reader.recitation.RecitationManager.prepare
-import com.quranapp.android.utils.receivers.NetworkStateReceiver
-import com.quranapp.android.utils.thread.runner.CallableTaskRunner
-import com.quranapp.android.widgets.PageAlert
+import com.anonim.android.R
+import com.anonim.android.adapters.recitation.ADPRecitations
+import com.anonim.android.api.models.recitation.RecitationInfoModel
+import com.anonim.android.databinding.LytOnboardRecitationsBinding
+import com.anonim.android.utils.reader.recitation.RecitationManager.getModels
+import com.anonim.android.utils.reader.recitation.RecitationManager.prepare
+import com.anonim.android.utils.receivers.NetworkStateReceiver
+import com.anonim.android.utils.thread.runner.CallableTaskRunner
+import com.anonim.android.widgets.PageAlert
 
 class FragOnboardRecitation : FragOnboardBase() {
     private val recitationTaskRunner = CallableTaskRunner<String>()

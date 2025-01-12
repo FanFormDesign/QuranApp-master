@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.parser;
+package com.anonim.android.utils.parser;
 
 import android.text.Editable;
 import android.text.Html;

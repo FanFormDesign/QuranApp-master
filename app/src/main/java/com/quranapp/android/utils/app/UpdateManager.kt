@@ -3,7 +3,7 @@
  * Created on 1/3/2022.
  * All rights reserved.
  */
-package com.quranapp.android.utils.app
+package com.anonim.android.utils.app
 
 import android.animation.*
 import android.content.Context
@@ -18,18 +18,18 @@ import android.widget.LinearLayout
 import com.peacedesign.android.utils.AppBridge
 import com.peacedesign.android.utils.ColorUtils
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.R
-import com.quranapp.android.api.JsonHelper
-import com.quranapp.android.api.RetrofitInstance
-import com.quranapp.android.components.AppUpdateInfo
-import com.quranapp.android.databinding.LytUpdateAppBinding
-import com.quranapp.android.databinding.LytUpdateAppDialogBinding
-import com.quranapp.android.utils.Logger
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.removeView
-import com.quranapp.android.utils.extensions.updateMargins
-import com.quranapp.android.utils.extensions.visible
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.R
+import com.anonim.android.api.JsonHelper
+import com.anonim.android.api.RetrofitInstance
+import com.anonim.android.components.AppUpdateInfo
+import com.anonim.android.databinding.LytUpdateAppBinding
+import com.anonim.android.databinding.LytUpdateAppDialogBinding
+import com.anonim.android.utils.Logger
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.removeView
+import com.anonim.android.utils.extensions.updateMargins
+import com.anonim.android.utils.extensions.visible
+import com.anonim.android.utils.univ.FileUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

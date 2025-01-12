@@ -1,7 +1,7 @@
 /*
  * (c) Faisal Khan. Created on 3/11/2021.
  */
-package com.quranapp.android.utils.univ
+package com.anonim.android.utils.univ
 
 object Keys {
     const val READER_KEY_READER_STYLE = "reader.style"

@@ -1,4 +1,4 @@
-package com.quranapp.android.components;
+package com.anonim.android.components;
 
 import androidx.annotation.NonNull;
 

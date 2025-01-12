@@ -1,16 +1,16 @@
-package com.quranapp.android.frags.onboard
+package com.anonim.android.frags.onboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDelegate
-import com.quranapp.android.R
-import com.quranapp.android.databinding.LytThemeExplorerBinding
-import com.quranapp.android.utils.app.ThemeUtils.resolveThemeIdFromMode
-import com.quranapp.android.utils.app.ThemeUtils.resolveThemeModeFromId
-import com.quranapp.android.utils.app.ThemeUtils.resolveThemeModeFromSP
-import com.quranapp.android.utils.sharedPrefs.SPAppConfigs.setThemeMode
+import com.anonim.android.R
+import com.anonim.android.databinding.LytThemeExplorerBinding
+import com.anonim.android.utils.app.ThemeUtils.resolveThemeIdFromMode
+import com.anonim.android.utils.app.ThemeUtils.resolveThemeModeFromId
+import com.anonim.android.utils.app.ThemeUtils.resolveThemeModeFromSP
+import com.anonim.android.utils.sharedPrefs.SPAppConfigs.setThemeMode
 
 class FragOnboardThemes : FragOnboardBase() {
     override fun onCreateView(

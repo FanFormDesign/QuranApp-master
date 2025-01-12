@@ -93,4 +93,4 @@ The following features are the reason why you should use the QuranApp.
 - Dark and light themes
 - App is available in 15+ languages
 
-<i>🐞 To report an issue or request a new feature, kindly visit the GitHub repository at <a href='https://github.com/AlfaazPlus/QuranApp'>Github</a>.</i>
+<i>🐞 To report an issue or request a new feature, kindly visit the GitHub repository at <a href='https://github.com/FanFormDesign/QuranApp-master'>Github</a>.</i>

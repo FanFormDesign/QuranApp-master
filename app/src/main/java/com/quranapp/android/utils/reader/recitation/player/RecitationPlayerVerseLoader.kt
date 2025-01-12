@@ -1,13 +1,13 @@
-package com.quranapp.android.utils.reader.recitation.player
+package com.anonim.android.utils.reader.recitation.player
 
 import android.os.Build
 import android.os.Handler
 import android.os.Looper
-import com.quranapp.android.api.models.recitation.RecitationInfoModel
-import com.quranapp.android.api.models.recitation.RecitationTranslationInfoModel
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.exceptions.HttpNotFoundException
-import com.quranapp.android.utils.reader.recitation.RecitationUtils
+import com.anonim.android.api.models.recitation.RecitationInfoModel
+import com.anonim.android.api.models.recitation.RecitationTranslationInfoModel
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.exceptions.HttpNotFoundException
+import com.anonim.android.utils.reader.recitation.RecitationUtils
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.FlowCollector
 import kotlinx.coroutines.flow.catch

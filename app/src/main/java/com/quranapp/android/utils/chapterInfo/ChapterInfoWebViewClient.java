@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.chapterInfo;
+package com.anonim.android.utils.chapterInfo;
 
 import android.net.Uri;
 import android.webkit.WebResourceRequest;
@@ -8,11 +8,11 @@ import android.webkit.WebViewClient;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityChapInfo;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.quran.QuranUtils;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityChapInfo;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.quran.QuranUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.reader.recitation;
+package com.anonim.android.utils.reader.recitation;
 
 import android.content.Context;
 import android.os.Build;
@@ -6,15 +6,15 @@ import android.text.TextUtils;
 import androidx.annotation.Nullable;
 import androidx.core.util.Pair;
 
-import com.quranapp.android.R;
-import com.quranapp.android.api.models.recitation.RecitationInfoBaseModel;
-import com.quranapp.android.api.models.recitation.RecitationInfoModel;
-import com.quranapp.android.api.models.recitation.RecitationTranslationInfoModel;
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback;
-import com.quranapp.android.utils.app.AppUtils;
-import com.quranapp.android.utils.sharedPrefs.SPReader;
-import com.quranapp.android.utils.univ.FileUtils;
-import com.quranapp.android.utils.univ.URLBuilder;
+import com.anonim.android.R;
+import com.anonim.android.api.models.recitation.RecitationInfoBaseModel;
+import com.anonim.android.api.models.recitation.RecitationInfoModel;
+import com.anonim.android.api.models.recitation.RecitationTranslationInfoModel;
+import com.anonim.android.interfaceUtils.OnResultReadyCallback;
+import com.anonim.android.utils.app.AppUtils;
+import com.anonim.android.utils.sharedPrefs.SPReader;
+import com.anonim.android.utils.univ.FileUtils;
+import com.anonim.android.utils.univ.URLBuilder;
 
 import java.util.List;
 import java.util.Locale;

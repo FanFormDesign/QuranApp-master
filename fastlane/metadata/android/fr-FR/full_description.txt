@@ -93,4 +93,4 @@ Les fonctionnalités suivantes sont la raison pour laquelle vous devriez utilise
 - Thèmes sombres et clairs
 - L'application est disponible dans plus de 15 langues
 
-<i>🐞 Pour signaler un problème ou demander une nouvelle fonctionnalité, veuillez visiter le référentiel GitHub à l'adresse <a href='https://github.com/AlfaazPlus/QuranApp'>Github</a>.</i>
+<i>🐞 Pour signaler un problème ou demander une nouvelle fonctionnalité, veuillez visiter le référentiel GitHub à l'adresse <a href='https://github.com/FanFormDesign/QuranApp-master'>Github</a>.</i>

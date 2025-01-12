@@ -1,8 +1,8 @@
-package com.quranapp.android.utils.exceptions
+package com.anonim.android.utils.exceptions
 
 import android.content.Context
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.app.NotificationUtils
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.app.NotificationUtils
 import org.apache.commons.lang3.exception.ExceptionUtils
 
 class CustomExceptionHandler(

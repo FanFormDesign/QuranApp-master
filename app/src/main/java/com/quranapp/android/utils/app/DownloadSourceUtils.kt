@@ -1,9 +1,9 @@
-package com.quranapp.android.utils.app
+package com.anonim.android.utils.app
 
 import android.content.Context
-import com.quranapp.android.api.ApiConfig
-import com.quranapp.android.api.RetrofitInstance
-import com.quranapp.android.utils.sharedPrefs.SPAppConfigs
+import com.anonim.android.api.ApiConfig
+import com.anonim.android.api.RetrofitInstance
+import com.anonim.android.utils.sharedPrefs.SPAppConfigs
 
 object DownloadSourceUtils {
     const val DOWNLOAD_SRC_GITHUB = "github"

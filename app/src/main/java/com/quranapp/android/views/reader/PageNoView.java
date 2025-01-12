@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader;
+package com.anonim.android.views.reader;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,8 +6,8 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.FrameLayout;
 
-import com.quranapp.android.R;
-import com.quranapp.android.databinding.LytPageNoBinding;
+import com.anonim.android.R;
+import com.anonim.android.databinding.LytPageNoBinding;
 
 public class PageNoView extends FrameLayout {
     private static final int SIZE_SMALL = 0;

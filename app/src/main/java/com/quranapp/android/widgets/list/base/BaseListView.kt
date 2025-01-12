@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.list.base
+package com.anonim.android.widgets.list.base
 
 import android.content.Context
 import android.util.AttributeSet
@@ -8,8 +8,8 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.LinearLayout
 import androidx.core.widget.NestedScrollView
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.updatePaddingVertical
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.updatePaddingVertical
 
 open class BaseListView @JvmOverloads constructor(
     context: Context,

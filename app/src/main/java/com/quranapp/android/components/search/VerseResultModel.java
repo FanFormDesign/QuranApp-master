@@ -1,9 +1,9 @@
-package com.quranapp.android.components.search;
+package com.anonim.android.components.search;
 
 import android.view.View;
 import androidx.annotation.NonNull;
 
-import com.quranapp.android.components.quran.subcomponents.Translation;
+import com.anonim.android.components.quran.subcomponents.Translation;
 
 import java.util.List;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.extended
+package com.anonim.android.utils.extended
 
 import android.graphics.Rect
 import android.view.View

@@ -1,30 +1,30 @@
-package com.quranapp.android.reader_managers;
+package com.anonim.android.reader_managers;
 
 import android.os.Handler;
 import android.os.Looper;
 import androidx.annotation.Nullable;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_CHAPTER;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_VERSES;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_CHAPTER;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_VERSES;
 
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.activities.ReaderPossessingActivity;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Chapter;
-import com.quranapp.android.components.quran.subcomponents.Footnote;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.components.reader.QuranPageSectionModel;
-import com.quranapp.android.interfaceUtils.BookmarkCallbacks;
-import com.quranapp.android.interfaceUtils.Destroyable;
-import com.quranapp.android.utils.Logger;
-import com.quranapp.android.utils.quran.QuranUtils;
-import com.quranapp.android.utils.reader.factory.ReaderFactory;
-import com.quranapp.android.utils.thread.runner.RunnableTaskRunner;
-import com.quranapp.android.views.reader.dialogs.FootnotePresenter;
-import com.quranapp.android.views.reader.dialogs.PageVerseDialog;
-import com.quranapp.android.views.reader.dialogs.QuickReference;
-import com.quranapp.android.views.reader.dialogs.VerseOptionsDialog;
-import com.quranapp.android.widgets.dialog.loader.PeaceProgressDialog;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.activities.ReaderPossessingActivity;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Chapter;
+import com.anonim.android.components.quran.subcomponents.Footnote;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.components.reader.QuranPageSectionModel;
+import com.anonim.android.interfaceUtils.BookmarkCallbacks;
+import com.anonim.android.interfaceUtils.Destroyable;
+import com.anonim.android.utils.Logger;
+import com.anonim.android.utils.quran.QuranUtils;
+import com.anonim.android.utils.reader.factory.ReaderFactory;
+import com.anonim.android.utils.thread.runner.RunnableTaskRunner;
+import com.anonim.android.views.reader.dialogs.FootnotePresenter;
+import com.anonim.android.views.reader.dialogs.PageVerseDialog;
+import com.anonim.android.views.reader.dialogs.QuickReference;
+import com.anonim.android.views.reader.dialogs.VerseOptionsDialog;
+import com.anonim.android.widgets.dialog.loader.PeaceProgressDialog;
 
 import java.util.Set;
 

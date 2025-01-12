@@ -1,13 +1,13 @@
-package com.quranapp.android.adapters.reference
+package com.anonim.android.adapters.reference
 
 import android.content.Context
 import android.content.Intent
-import com.quranapp.android.R
-import com.quranapp.android.activities.reference.ActivityPropheticDuas
-import com.quranapp.android.components.quran.ExclusiveVerse
-import com.quranapp.android.databinding.LytQuranExclusiveVerseItemBinding
-import com.quranapp.android.utils.reader.factory.ReaderFactory
-import com.quranapp.android.utils.univ.Keys
+import com.anonim.android.R
+import com.anonim.android.activities.reference.ActivityPropheticDuas
+import com.anonim.android.components.quran.ExclusiveVerse
+import com.anonim.android.databinding.LytQuranExclusiveVerseItemBinding
+import com.anonim.android.utils.reader.factory.ReaderFactory
+import com.anonim.android.utils.univ.Keys
 
 class ADPDua(
     ctx: Context,

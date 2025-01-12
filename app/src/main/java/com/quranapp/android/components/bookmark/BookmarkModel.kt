@@ -1,8 +1,8 @@
-package com.quranapp.android.components.bookmark
+package com.anonim.android.components.bookmark
 
 import android.content.Context
-import com.quranapp.android.R
-import com.quranapp.android.utils.univ.DateUtils
+import com.anonim.android.R
+import com.anonim.android.utils.univ.DateUtils
 import java.text.MessageFormat
 import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoField

@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 29/8/2021.
  */
 
-package com.quranapp.android.views.reader.dialogs;
+package com.anonim.android.views.reader.dialogs;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -16,39 +16,39 @@ import androidx.annotation.Nullable;
 import androidx.asynclayoutinflater.view.AsyncLayoutInflater;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import static com.quranapp.android.utils.univ.RegexPattern.VERSE_RANGE_PATTERN;
+import static com.anonim.android.utils.univ.RegexPattern.VERSE_RANGE_PATTERN;
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
 import com.peacedesign.android.utils.Dimen;
 import com.peacedesign.android.widget.dialog.base.PeaceDialog;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.activities.ReaderPossessingActivity;
-import com.quranapp.android.activities.readerSettings.ActivitySettings;
-import com.quranapp.android.adapters.ADPQuickReference;
-import com.quranapp.android.components.bookmark.BookmarkModel;
-import com.quranapp.android.components.quran.Quran;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Chapter;
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo;
-import com.quranapp.android.components.quran.subcomponents.Translation;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.databinding.LytSheetVerseReferenceBinding;
-import com.quranapp.android.databinding.LytSheetVerseReferenceHeaderBinding;
-import com.quranapp.android.interfaceUtils.BookmarkCallbacks;
-import com.quranapp.android.interfaceUtils.Destroyable;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.Logger;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.utils.quran.QuranUtils;
-import com.quranapp.android.utils.reader.factory.ReaderFactory;
-import com.quranapp.android.utils.sharedPrefs.SPReader;
-import com.quranapp.android.utils.thread.runner.CallableTaskRunner;
-import com.quranapp.android.utils.thread.tasks.BaseCallableTask;
-import com.quranapp.android.views.CardMessage;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheet;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheetParams;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.activities.ReaderPossessingActivity;
+import com.anonim.android.activities.readerSettings.ActivitySettings;
+import com.anonim.android.adapters.ADPQuickReference;
+import com.anonim.android.components.bookmark.BookmarkModel;
+import com.anonim.android.components.quran.Quran;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Chapter;
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo;
+import com.anonim.android.components.quran.subcomponents.Translation;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.databinding.LytSheetVerseReferenceBinding;
+import com.anonim.android.databinding.LytSheetVerseReferenceHeaderBinding;
+import com.anonim.android.interfaceUtils.BookmarkCallbacks;
+import com.anonim.android.interfaceUtils.Destroyable;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.Logger;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.quran.QuranUtils;
+import com.anonim.android.utils.reader.factory.ReaderFactory;
+import com.anonim.android.utils.sharedPrefs.SPReader;
+import com.anonim.android.utils.thread.runner.CallableTaskRunner;
+import com.anonim.android.utils.thread.tasks.BaseCallableTask;
+import com.anonim.android.views.CardMessage;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheet;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheetParams;
 
 import java.util.ArrayList;
 import java.util.Arrays;

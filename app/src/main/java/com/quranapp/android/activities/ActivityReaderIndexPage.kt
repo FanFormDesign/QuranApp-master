@@ -1,4 +1,4 @@
-package com.quranapp.android.activities
+package com.anonim.android.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,17 +7,17 @@ import android.view.View
 import androidx.viewpager2.widget.ViewPager2
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.google.android.material.tabs.TabLayout
-import com.quranapp.android.R
-import com.quranapp.android.activities.base.BaseActivity
-import com.quranapp.android.adapters.utility.ViewPagerAdapter2
-import com.quranapp.android.databinding.ActivityReaderIndexPageBinding
-import com.quranapp.android.databinding.LytFavChaptersTabBtnBinding
-import com.quranapp.android.databinding.LytReaderIndexTabBinding
-import com.quranapp.android.frags.readerindex.FragReaderIndexChapters
-import com.quranapp.android.frags.readerindex.FragReaderIndexFavChapters
-import com.quranapp.android.frags.readerindex.FragReaderIndexJuz
-import com.quranapp.android.interfaceUtils.readerIndex.FragReaderIndexCallback
-import com.quranapp.android.utils.simplified.SimpleTabSelectorListener
+import com.anonim.android.R
+import com.anonim.android.activities.base.BaseActivity
+import com.anonim.android.adapters.utility.ViewPagerAdapter2
+import com.anonim.android.databinding.ActivityReaderIndexPageBinding
+import com.anonim.android.databinding.LytFavChaptersTabBtnBinding
+import com.anonim.android.databinding.LytReaderIndexTabBinding
+import com.anonim.android.frags.readerindex.FragReaderIndexChapters
+import com.anonim.android.frags.readerindex.FragReaderIndexFavChapters
+import com.anonim.android.frags.readerindex.FragReaderIndexJuz
+import com.anonim.android.interfaceUtils.readerIndex.FragReaderIndexCallback
+import com.anonim.android.utils.simplified.SimpleTabSelectorListener
 
 class ActivityReaderIndexPage : BaseActivity() {
     private val fragCallbacks: MutableList<FragReaderIndexCallback> = ArrayList()

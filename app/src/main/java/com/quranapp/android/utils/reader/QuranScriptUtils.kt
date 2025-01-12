@@ -1,11 +1,11 @@
-package com.quranapp.android.utils.reader
+package com.anonim.android.utils.reader
 
 import android.content.Context
 import androidx.annotation.DimenRes
-import com.quranapp.android.R
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.utils.app.AppUtils
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.R
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.utils.app.AppUtils
+import com.anonim.android.utils.univ.FileUtils
 import java.io.File
 import java.util.*
 

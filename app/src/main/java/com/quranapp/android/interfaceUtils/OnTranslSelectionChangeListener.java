@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 31/10/2021.
  */
 
-package com.quranapp.android.interfaceUtils;
+package com.anonim.android.interfaceUtils;
 
 import android.content.Context;
 

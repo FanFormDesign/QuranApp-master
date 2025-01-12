@@ -1,9 +1,9 @@
-package com.quranapp.android.frags.readerindex
+package com.anonim.android.frags.readerindex
 
 import android.content.Context
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.quranapp.android.adapters.quranIndex.ADPJuzList
-import com.quranapp.android.views.helper.RecyclerView2
+import com.anonim.android.adapters.quranIndex.ADPJuzList
+import com.anonim.android.views.helper.RecyclerView2
 
 class FragReaderIndexJuz : BaseFragReaderIndex() {
     override fun initList(list: RecyclerView2, ctx: Context) {

@@ -1,12 +1,12 @@
-package com.quranapp.android.adapters;
+package com.anonim.android.adapters;
 
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.quranapp.android.activities.ReaderPossessingActivity;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.views.reader.VerseView;
+import com.anonim.android.activities.ReaderPossessingActivity;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.views.reader.VerseView;
 
 import java.util.List;
 

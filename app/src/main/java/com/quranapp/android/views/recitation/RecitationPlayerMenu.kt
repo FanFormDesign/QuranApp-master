@@ -1,4 +1,4 @@
-package com.quranapp.android.views.recitation
+package com.anonim.android.views.recitation
 
 import android.content.Context
 import android.text.SpannableString
@@ -14,23 +14,23 @@ import androidx.asynclayoutinflater.view.AsyncLayoutInflater
 import androidx.core.content.ContextCompat
 import com.peacedesign.android.utils.DrawableUtils
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.databinding.LytAudioOptionExplorerBinding
-import com.quranapp.android.databinding.LytPlaybackSpeedExplorerBinding
-import com.quranapp.android.databinding.LytRecitationMenuBinding
-import com.quranapp.android.utils.extensions.disableView
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.drawable
-import com.quranapp.android.utils.extensions.updatePaddings
-import com.quranapp.android.utils.reader.recitation.RecitationManager
-import com.quranapp.android.utils.reader.recitation.RecitationUtils
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.PopupWindow2
-import com.quranapp.android.utils.univ.RelativePopupWindow.HorizontalPosition
-import com.quranapp.android.utils.univ.RelativePopupWindow.VerticalPosition
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheet
-import com.quranapp.android.widgets.radio.PeaceRadioButton
+import com.anonim.android.R
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.databinding.LytAudioOptionExplorerBinding
+import com.anonim.android.databinding.LytPlaybackSpeedExplorerBinding
+import com.anonim.android.databinding.LytRecitationMenuBinding
+import com.anonim.android.utils.extensions.disableView
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.drawable
+import com.anonim.android.utils.extensions.updatePaddings
+import com.anonim.android.utils.reader.recitation.RecitationManager
+import com.anonim.android.utils.reader.recitation.RecitationUtils
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.PopupWindow2
+import com.anonim.android.utils.univ.RelativePopupWindow.HorizontalPosition
+import com.anonim.android.utils.univ.RelativePopupWindow.VerticalPosition
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheet
+import com.anonim.android.widgets.radio.PeaceRadioButton
 import java.util.Locale
 
 class RecitationPlayerMenu(private val player: RecitationPlayer) {

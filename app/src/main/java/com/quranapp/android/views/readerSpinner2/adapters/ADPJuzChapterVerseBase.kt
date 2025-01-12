@@ -3,14 +3,14 @@
  * Created on 24/7/2022.
  * All rights reserved.
  */
-package com.quranapp.android.views.readerSpinner2.adapters
+package com.anonim.android.views.readerSpinner2.adapters
 
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.databinding.LytJuzChapterVerseSheetBinding
-import com.quranapp.android.views.reader.chapterSpinner.ChapterSpinnerItem
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerItem
-import com.quranapp.android.views.readerSpinner2.juzChapterVerse.JuzChapterVerseSelector
-import com.quranapp.android.views.readerSpinner2.viewholders.VHJuzChapterVerseBase
+import com.anonim.android.databinding.LytJuzChapterVerseSheetBinding
+import com.anonim.android.views.reader.chapterSpinner.ChapterSpinnerItem
+import com.anonim.android.views.reader.spinner.ReaderSpinnerItem
+import com.anonim.android.views.readerSpinner2.juzChapterVerse.JuzChapterVerseSelector
+import com.anonim.android.views.readerSpinner2.viewholders.VHJuzChapterVerseBase
 import java.util.regex.Pattern
 
 abstract class ADPJuzChapterVerseBase<ITEM : ReaderSpinnerItem, VH : VHJuzChapterVerseBase<ITEM>>(

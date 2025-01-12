@@ -1,7 +1,7 @@
 /*
  * (c) Faisal Khan. Created on 18/2/2022.
  */
-package com.quranapp.android.utils.app
+package com.anonim.android.utils.app
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -16,8 +16,8 @@ import android.provider.Settings
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import com.quranapp.android.R
-import com.quranapp.android.utils.receivers.CrashReceiver
+import com.anonim.android.R
+import com.anonim.android.utils.receivers.CrashReceiver
 
 object NotificationUtils {
     const val CHANNEL_ID_DEFAULT = "default"

@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.widgets.chapterCard;
+package com.anonim.android.widgets.chapterCard;
 
 import android.content.Context;
 import android.view.View;

@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.bottomSheet
+package com.anonim.android.widgets.bottomSheet
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -21,8 +21,8 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.peacedesign.android.utils.Dimen
 import com.peacedesign.android.utils.DrawableUtils
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.*
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.*
 
 open class PeaceBottomSheet : BottomSheetDialogFragment() {
     var params = PeaceBottomSheetParams()

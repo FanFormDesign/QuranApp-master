@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.services
+package com.anonim.android.utils.services
 
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -12,18 +12,18 @@ import androidx.core.app.ServiceCompat
 import androidx.lifecycle.LifecycleService
 import androidx.lifecycle.flowWithLifecycle
 import androidx.lifecycle.lifecycleScope
-import com.quranapp.android.R
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.api.RetrofitInstance
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.app.NotificationUtils
-import com.quranapp.android.utils.extensions.getContentLengthAndStream
-import com.quranapp.android.utils.reader.QuranScriptUtils
-import com.quranapp.android.utils.reader.getQuranScriptName
-import com.quranapp.android.utils.reader.toKFQPCFontFilename
-import com.quranapp.android.utils.receivers.KFQPCScriptFontsDownloadReceiver
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.R
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.api.RetrofitInstance
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.app.NotificationUtils
+import com.anonim.android.utils.extensions.getContentLengthAndStream
+import com.anonim.android.utils.reader.QuranScriptUtils
+import com.anonim.android.utils.reader.getQuranScriptName
+import com.anonim.android.utils.reader.toKFQPCFontFilename
+import com.anonim.android.utils.receivers.KFQPCScriptFontsDownloadReceiver
+import com.anonim.android.utils.univ.FileUtils
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

@@ -1,21 +1,21 @@
-package com.quranapp.android.frags.settings.recitations.manage
+package com.anonim.android.frags.settings.recitations.manage
 
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.EditText
-import com.quranapp.android.R
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.adapters.utility.ViewPagerAdapter2
-import com.quranapp.android.databinding.FragSettingsRecitationsBinding
-import com.quranapp.android.databinding.LytReaderIndexTabBinding
-import com.quranapp.android.frags.settings.FragSettingsBase
-import com.quranapp.android.frags.settings.recitations.FragSettingsRecitationsArabic
-import com.quranapp.android.frags.settings.recitations.FragSettingsRecitationsBase
-import com.quranapp.android.frags.settings.recitations.FragSettingsRecitationsTranslation
-import com.quranapp.android.views.BoldHeader
-import com.quranapp.android.views.BoldHeader.BoldHeaderCallback
+import com.anonim.android.R
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.adapters.utility.ViewPagerAdapter2
+import com.anonim.android.databinding.FragSettingsRecitationsBinding
+import com.anonim.android.databinding.LytReaderIndexTabBinding
+import com.anonim.android.frags.settings.FragSettingsBase
+import com.anonim.android.frags.settings.recitations.FragSettingsRecitationsArabic
+import com.anonim.android.frags.settings.recitations.FragSettingsRecitationsBase
+import com.anonim.android.frags.settings.recitations.FragSettingsRecitationsTranslation
+import com.anonim.android.views.BoldHeader
+import com.anonim.android.views.BoldHeader.BoldHeaderCallback
 
 class FragSettingsManageAudio : FragSettingsBase() {
     private lateinit var binding: FragSettingsRecitationsBinding

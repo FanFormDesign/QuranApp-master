@@ -1,11 +1,11 @@
-package com.quranapp.android.activities
+package com.anonim.android.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import com.quranapp.android.activities.base.BaseActivity
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback
+import com.anonim.android.activities.base.BaseActivity
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.interfaceUtils.OnResultReadyCallback
 import java.util.concurrent.atomic.AtomicReference
 
 abstract class QuranMetaPossessingActivity : BaseActivity() {

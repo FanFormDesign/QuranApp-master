@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.onboard
+package com.anonim.android.frags.onboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.adapters.transl.ADPTransls
-import com.quranapp.android.components.transls.TranslBaseModel
-import com.quranapp.android.frags.settings.FragSettingsTransl.LoadTranslsTask
-import com.quranapp.android.utils.reader.TranslUtils
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.thread.runner.CallableTaskRunner
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.adapters.transl.ADPTransls
+import com.anonim.android.components.transls.TranslBaseModel
+import com.anonim.android.frags.settings.FragSettingsTransl.LoadTranslsTask
+import com.anonim.android.utils.reader.TranslUtils
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.thread.runner.CallableTaskRunner
+import com.anonim.android.utils.univ.FileUtils
 
 class FragOnboardTranslations : FragOnboardBase() {
     private val translTaskRunner = CallableTaskRunner<List<TranslBaseModel>>()

@@ -2,13 +2,13 @@
  * Created by Faisal Khan on (c) 26/8/2021.
  */
 
-package com.quranapp.android.utils.receivers;
+package com.anonim.android.utils.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo;
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo;
 
 public class TranslDownloadReceiver extends BroadcastReceiver {
     public static final String KEY_TRANSL_BOOK_INFO = "key.translation_book_info";

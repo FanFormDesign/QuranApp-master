@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 30/10/2021.
  */
 
-package com.quranapp.android.activities.base;
+package com.anonim.android.activities.base;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -32,18 +32,18 @@ import androidx.asynclayoutinflater.view.AsyncLayoutInflater.OnInflateFinishedLi
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.WindowInsetsControllerCompat;
-import static com.quranapp.android.activities.base.BaseActivity.ActivityAnimationStyle.DEFAULT;
-import static com.quranapp.android.activities.base.BaseActivity.ActivityAnimationStyle.NONE;
-import static com.quranapp.android.activities.base.BaseActivity.ActivityAnimationStyle.SLIDE;
-import static com.quranapp.android.utils.sharedPrefs.SPAppConfigs.LOCALE_DEFAULT;
+import static com.anonim.android.activities.base.BaseActivity.ActivityAnimationStyle.DEFAULT;
+import static com.anonim.android.activities.base.BaseActivity.ActivityAnimationStyle.NONE;
+import static com.anonim.android.activities.base.BaseActivity.ActivityAnimationStyle.SLIDE;
+import static com.anonim.android.utils.sharedPrefs.SPAppConfigs.LOCALE_DEFAULT;
 
 import com.peacedesign.android.utils.WindowUtils;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.MainActivity;
-import com.quranapp.android.interfaceUtils.ActivityResultStarter;
-import com.quranapp.android.utils.receivers.NetworkStateReceiver;
-import com.quranapp.android.utils.receivers.NetworkStateReceiver.NetworkStateReceiverListener;
-import com.quranapp.android.utils.sharedPrefs.SPAppConfigs;
+import com.anonim.android.R;
+import com.anonim.android.activities.MainActivity;
+import com.anonim.android.interfaceUtils.ActivityResultStarter;
+import com.anonim.android.utils.receivers.NetworkStateReceiver;
+import com.anonim.android.utils.receivers.NetworkStateReceiver.NetworkStateReceiverListener;
+import com.anonim.android.utils.sharedPrefs.SPAppConfigs;
 
 import java.util.Locale;
 

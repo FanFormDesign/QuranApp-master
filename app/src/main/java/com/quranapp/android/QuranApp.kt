@@ -1,16 +1,16 @@
-package com.quranapp.android
+package com.anonim.android
 
 import android.app.Application
 import android.content.Context
 import android.os.Build
 import android.webkit.WebView
 import androidx.appcompat.app.AppCompatDelegate
-import com.quranapp.android.api.RetrofitInstance
-import com.quranapp.android.utils.app.DownloadSourceUtils
-import com.quranapp.android.utils.app.NotificationUtils
-import com.quranapp.android.utils.app.ThemeUtils
-import com.quranapp.android.utils.exceptions.CustomExceptionHandler
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.api.RetrofitInstance
+import com.anonim.android.utils.app.DownloadSourceUtils
+import com.anonim.android.utils.app.NotificationUtils
+import com.anonim.android.utils.app.ThemeUtils
+import com.anonim.android.utils.exceptions.CustomExceptionHandler
+import com.anonim.android.utils.univ.FileUtils
 
 class QuranApp : Application() {
     override fun attachBaseContext(base: Context) {

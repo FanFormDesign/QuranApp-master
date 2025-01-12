@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.interfaceUtils;
+package com.anonim.android.interfaceUtils;
 
 public interface VOTDCallback {
     void onObtainVOTD(int chapterNo, int verseNo);

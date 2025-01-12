@@ -1,14 +1,14 @@
-package com.quranapp.android.adapters.recitation
+package com.anonim.android.adapters.recitation
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.R
-import com.quranapp.android.components.recitation.ManageAudioChapterModel
-import com.quranapp.android.databinding.LytManageAudioChapterItemBinding
-import com.quranapp.android.frags.settings.recitations.manage.FragSettingsManageAudioReciter
-import com.quranapp.android.utils.extensions.color
+import com.anonim.android.R
+import com.anonim.android.components.recitation.ManageAudioChapterModel
+import com.anonim.android.databinding.LytManageAudioChapterItemBinding
+import com.anonim.android.frags.settings.recitations.manage.FragSettingsManageAudioReciter
+import com.anonim.android.utils.extensions.color
 
 class ADPManageAudioChapters(
     private val frag: FragSettingsManageAudioReciter,

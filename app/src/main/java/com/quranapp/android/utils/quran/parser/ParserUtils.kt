@@ -1,11 +1,11 @@
 /*
  * Created by Faisal Khan on (c) 14/8/2021.
  */
-package com.quranapp.android.utils.quran.parser
+package com.anonim.android.utils.quran.parser
 
 import android.content.Context
-import com.quranapp.android.R
-import com.quranapp.android.components.quran.QuranMeta
+import com.anonim.android.R
+import com.anonim.android.components.quran.QuranMeta
 
 object ParserUtils {
     @JvmStatic

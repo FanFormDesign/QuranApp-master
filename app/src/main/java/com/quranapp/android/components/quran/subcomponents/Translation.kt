@@ -3,7 +3,7 @@
  * Created on 21/7/2022.
  * All rights reserved.
  */
-package com.quranapp.android.components.quran.subcomponents
+package com.anonim.android.components.quran.subcomponents
 
 import java.io.Serializable
 

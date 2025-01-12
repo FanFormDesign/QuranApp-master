@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 27/8/2021.
  */
 
-package com.quranapp.android.views;
+package com.anonim.android.views;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -20,12 +20,12 @@ import androidx.appcompat.widget.TooltipCompat;
 import androidx.core.content.ContextCompat;
 
 import com.google.android.material.appbar.AppBarLayout;
-import com.quranapp.android.R;
-import com.quranapp.android.databinding.LytBoldHeaderBinding;
-import com.quranapp.android.databinding.LytSimpleSearchBoxBinding;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.utils.simplified.SimpleTextWatcher;
+import com.anonim.android.R;
+import com.anonim.android.databinding.LytBoldHeaderBinding;
+import com.anonim.android.databinding.LytSimpleSearchBoxBinding;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.simplified.SimpleTextWatcher;
 
 public class BoldHeader extends AppBarLayout {
     private final LytBoldHeaderBinding mBinding;

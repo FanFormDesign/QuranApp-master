@@ -1,4 +1,4 @@
-package com.quranapp.android;
+package com.anonim.android;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.quranapp.android", appContext.getPackageName());
+        assertEquals("com.anonim.android", appContext.getPackageName());
     }
 }

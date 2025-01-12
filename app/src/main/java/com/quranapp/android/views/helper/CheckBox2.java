@@ -1,4 +1,4 @@
-package com.quranapp.android.views.helper;
+package com.anonim.android.views.helper;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatCheckBox;
 
-import com.quranapp.android.R;
+import com.anonim.android.R;
 
 public class CheckBox2 extends AppCompatCheckBox {
     public CheckBox2(@NonNull Context context) {

@@ -1,4 +1,4 @@
-package com.quranapp.android.components.search;
+package com.anonim.android.components.search;
 
 public class SearchHistoryModel extends SearchResultModelBase {
     private final CharSequence text;

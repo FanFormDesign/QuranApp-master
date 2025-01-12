@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.extensions
+package com.anonim.android.utils.extensions
 
 import com.google.common.net.HttpHeaders
 import okhttp3.ResponseBody

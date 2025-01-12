@@ -1,4 +1,4 @@
-package com.quranapp.android.components.quran
+package com.anonim.android.components.quran
 
 data class ExclusiveVerse(
     val id: Int,

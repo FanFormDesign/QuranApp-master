@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets;
+package com.anonim.android.widgets;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,7 +11,7 @@ import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.widget.TextViewCompat;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
+import com.anonim.android.R;
 
 public class IconedTextView extends AppCompatTextView {
     private float mDrawableStartDimen;

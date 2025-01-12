@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 29/8/2021.
  */
 
-package com.quranapp.android.views.reader.dialogs;
+package com.anonim.android.views.reader.dialogs;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -24,25 +24,25 @@ import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import com.peacedesign.android.utils.AppBridge;
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.activities.ReaderPossessingActivity;
-import com.quranapp.android.api.ApiConfig;
-import com.quranapp.android.components.bookmark.BookmarkModel;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.quran.subcomponents.Translation;
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.components.reader.ChapterVersePair;
-import com.quranapp.android.databinding.LytReaderVodBinding;
-import com.quranapp.android.databinding.LytReaderVodItemBinding;
-import com.quranapp.android.interfaceUtils.BookmarkCallbacks;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.utils.reader.factory.ReaderFactory;
-import com.quranapp.android.utils.reader.recitation.RecitationUtils;
-import com.quranapp.android.utils.services.RecitationService;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheet;
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheetParams;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.activities.ReaderPossessingActivity;
+import com.anonim.android.api.ApiConfig;
+import com.anonim.android.components.bookmark.BookmarkModel;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.quran.subcomponents.Translation;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.components.reader.ChapterVersePair;
+import com.anonim.android.databinding.LytReaderVodBinding;
+import com.anonim.android.databinding.LytReaderVodItemBinding;
+import com.anonim.android.interfaceUtils.BookmarkCallbacks;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.reader.factory.ReaderFactory;
+import com.anonim.android.utils.reader.recitation.RecitationUtils;
+import com.anonim.android.utils.services.RecitationService;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheet;
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheetParams;
 
 public class VerseOptionsDialog extends PeaceBottomSheet implements View.OnClickListener, BookmarkCallbacks {
     private ReaderPossessingActivity mActivity;

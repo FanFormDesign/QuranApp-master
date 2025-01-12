@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.onboard
+package com.anonim.android.frags.onboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import androidx.core.view.updatePaddingRelative
 import androidx.core.widget.NestedScrollView
 import com.peacedesign.android.utils.WindowUtils
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.getStringArray
-import com.quranapp.android.utils.sharedPrefs.SPAppConfigs
-import com.quranapp.android.widgets.compound.PeaceCompoundButton
-import com.quranapp.android.widgets.radio.PeaceRadioButton
-import com.quranapp.android.widgets.radio.PeaceRadioGroup
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.getStringArray
+import com.anonim.android.utils.sharedPrefs.SPAppConfigs
+import com.anonim.android.widgets.compound.PeaceCompoundButton
+import com.anonim.android.widgets.radio.PeaceRadioButton
+import com.anonim.android.widgets.radio.PeaceRadioGroup
 
 class FragOnboardLanguage : FragOnboardBase() {
     override fun onCreateView(

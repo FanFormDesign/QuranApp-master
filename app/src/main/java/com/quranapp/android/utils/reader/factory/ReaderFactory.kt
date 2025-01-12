@@ -1,18 +1,18 @@
-package com.quranapp.android.utils.reader.factory
+package com.anonim.android.utils.reader.factory
 
 import android.content.Context
 import android.content.Intent
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.activities.reference.ActivityReference
-import com.quranapp.android.activities.ActivityTafsir
-import com.quranapp.android.components.ReferenceVerseModel
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.readHistory.ReadHistoryModel
-import com.quranapp.android.components.reader.ChapterVersePair
-import com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_CHAPTER
-import com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ
-import com.quranapp.android.utils.univ.Keys
-import com.quranapp.android.utils.univ.Keys.KEY_REFERENCE_VERSE_MODEL
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.activities.reference.ActivityReference
+import com.anonim.android.activities.ActivityTafsir
+import com.anonim.android.components.ReferenceVerseModel
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.readHistory.ReadHistoryModel
+import com.anonim.android.components.reader.ChapterVersePair
+import com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_CHAPTER
+import com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ
+import com.anonim.android.utils.univ.Keys
+import com.anonim.android.utils.univ.Keys.KEY_REFERENCE_VERSE_MODEL
 
 object ReaderFactory {
     @JvmStatic
@@ -131,7 +131,7 @@ object ReaderFactory {
 
     /**
      * This function creates intent for reader verse range using intArray instead of Pair
-     * which will be used in [ShortcutUtils][com.quranapp.android.utils.others.ShortcutUtils], because shortcut uses
+     * which will be used in [ShortcutUtils][com.anonim.android.utils.others.ShortcutUtils], because shortcut uses
      * persistable bundle which doesn't support Pair.
      */
     fun prepareVerseRangeIntentForShortcut(chapterNo: Int, fromVerse: Int, toVerse: Int): Intent {
@@ -230,7 +230,7 @@ object ReaderFactory {
 
     /**
      * This function creates intent for reader verse range using intArray instead of Pair
-     * which will be used in [ShortcutUtils][com.quranapp.android.utils.others.ShortcutUtils], because shortcut uses
+     * which will be used in [ShortcutUtils][com.anonim.android.utils.others.ShortcutUtils], because shortcut uses
      * persistable bundle which doesn't support Pair.
      */
     fun prepareLastVersesIntentForShortcut(

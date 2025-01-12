@@ -1,7 +1,7 @@
-package com.quranapp.android.components.quran.subcomponents
+package com.anonim.android.components.quran.subcomponents
 
 import android.content.Context
-import com.quranapp.android.utils.verse.VerseUtils
+import com.anonim.android.utils.verse.VerseUtils
 import java.io.Serializable
 import java.util.*
 

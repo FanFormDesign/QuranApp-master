@@ -4,20 +4,20 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.utils.reader.factory
+package com.anonim.android.utils.reader.factory
 
 import android.content.Context
 import android.database.Cursor
-import com.quranapp.android.components.quran.subcomponents.Footnote
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo
-import com.quranapp.android.components.quran.subcomponents.Translation
-import com.quranapp.android.db.transl.QuranTranslContract.QuranTranslEntry.*
-import com.quranapp.android.db.transl.QuranTranslDBHelper
-import com.quranapp.android.db.transl.QuranTranslInfoContract.QuranTranslInfoEntry
-import com.quranapp.android.utils.quran.QuranConstants
-import com.quranapp.android.utils.reader.TranslUtils
-import com.quranapp.android.utils.search.SearchFilters
-import com.quranapp.android.utils.sharedPrefs.SPReader
+import com.anonim.android.components.quran.subcomponents.Footnote
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo
+import com.anonim.android.components.quran.subcomponents.Translation
+import com.anonim.android.db.transl.QuranTranslContract.QuranTranslEntry.*
+import com.anonim.android.db.transl.QuranTranslDBHelper
+import com.anonim.android.db.transl.QuranTranslInfoContract.QuranTranslInfoEntry
+import com.anonim.android.utils.quran.QuranConstants
+import com.anonim.android.utils.reader.TranslUtils
+import com.anonim.android.utils.search.SearchFilters
+import com.anonim.android.utils.sharedPrefs.SPReader
 import org.json.JSONArray
 import java.io.Closeable
 import java.util.*

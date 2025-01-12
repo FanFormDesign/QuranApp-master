@@ -1,17 +1,17 @@
-package com.quranapp.android.components.reader;
+package com.anonim.android.components.reader;
 
 import androidx.annotation.NonNull;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.BISMILLAH;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_INFO;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_TITLE;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.IS_VOTD;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.NO_TRANSL_SELECTED;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_FOOTER;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_PAGE;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.VERSE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.BISMILLAH;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_INFO;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_TITLE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.IS_VOTD;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.NO_TRANSL_SELECTED;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_FOOTER;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_PAGE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.VERSE;
 
-import com.quranapp.android.components.quran.subcomponents.Verse;
-import com.quranapp.android.reader_managers.ReaderParams;
+import com.anonim.android.components.quran.subcomponents.Verse;
+import com.anonim.android.reader_managers.ReaderParams;
 
 public class ReaderRecyclerItemModel {
     @ReaderParams.RecyclerItemViewTypeConst

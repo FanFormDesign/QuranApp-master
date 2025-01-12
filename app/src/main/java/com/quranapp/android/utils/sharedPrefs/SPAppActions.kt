@@ -4,7 +4,7 @@
 /*
  * (c) Faisal Khan. Created on 12/10/2021.
  */
-package com.quranapp.android.utils.sharedPrefs
+package com.anonim.android.utils.sharedPrefs
 
 import android.content.Context
 

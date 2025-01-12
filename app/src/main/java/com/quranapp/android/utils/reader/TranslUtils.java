@@ -1,18 +1,18 @@
-package com.quranapp.android.utils.reader;
+package com.anonim.android.utils.reader;
 
 import android.content.Context;
 import android.util.Pair;
 import androidx.annotation.Nullable;
 
-import com.quranapp.android.R;
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo;
-import com.quranapp.android.components.transls.TranslModel;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.Logger;
-import com.quranapp.android.utils.app.AppUtils;
-import com.quranapp.android.utils.sharedPrefs.SPReader;
-import com.quranapp.android.utils.univ.FileUtils;
-import com.quranapp.android.utils.univ.MessageUtils;
+import com.anonim.android.R;
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo;
+import com.anonim.android.components.transls.TranslModel;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.Logger;
+import com.anonim.android.utils.app.AppUtils;
+import com.anonim.android.utils.sharedPrefs.SPReader;
+import com.anonim.android.utils.univ.FileUtils;
+import com.anonim.android.utils.univ.MessageUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

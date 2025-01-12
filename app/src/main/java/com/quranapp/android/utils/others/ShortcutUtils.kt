@@ -1,18 +1,18 @@
 /*
  * (c) Faisal Khan. Created on 30/10/2021.
  */
-package com.quranapp.android.utils.others
+package com.anonim.android.utils.others
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.utils.app.NotificationUtils
-import com.quranapp.android.utils.reader.factory.ReaderFactory
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.utils.app.NotificationUtils
+import com.anonim.android.utils.reader.factory.ReaderFactory
 
 object ShortcutUtils {
     @JvmStatic

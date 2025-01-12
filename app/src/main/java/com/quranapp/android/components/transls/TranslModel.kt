@@ -1,9 +1,9 @@
 /*
  * Created by Faisal Khan on (c) 16/8/2021.
  */
-package com.quranapp.android.components.transls
+package com.anonim.android.components.transls
 
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo
 import java.io.Serializable
 
 class TranslModel(val bookInfo: QuranTranslBookInfo) : TranslBaseModel(), Serializable {

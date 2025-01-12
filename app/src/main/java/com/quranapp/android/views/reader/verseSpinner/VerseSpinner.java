@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader.verseSpinner;
+package com.anonim.android.views.reader.verseSpinner;
 
 import android.content.Context;
 import android.text.InputType;
@@ -8,14 +8,14 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import static com.quranapp.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ;
-import static com.quranapp.android.utils.univ.RegexPattern.VERSE_JUMP_PATTERN;
+import static com.anonim.android.reader_managers.ReaderParams.READER_READ_TYPE_JUZ;
+import static com.anonim.android.utils.univ.RegexPattern.VERSE_JUMP_PATTERN;
 
-import com.quranapp.android.R;
-import com.quranapp.android.components.quran.subcomponents.Chapter;
-import com.quranapp.android.views.reader.spinner.ReaderSpinner;
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerAdapter;
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerItem;
+import com.anonim.android.R;
+import com.anonim.android.components.quran.subcomponents.Chapter;
+import com.anonim.android.views.reader.spinner.ReaderSpinner;
+import com.anonim.android.views.reader.spinner.ReaderSpinnerAdapter;
+import com.anonim.android.views.reader.spinner.ReaderSpinnerItem;
 
 import java.util.regex.MatchResult;
 import java.util.regex.Matcher;

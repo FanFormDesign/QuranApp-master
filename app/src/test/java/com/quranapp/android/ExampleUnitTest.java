@@ -1,4 +1,4 @@
-package com.quranapp.android;
+package com.anonim.android;
 
 import org.junit.Test;
 

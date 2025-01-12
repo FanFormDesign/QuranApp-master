@@ -1,4 +1,4 @@
-package com.quranapp.android.db.search;
+package com.anonim.android.db.search;
 
 import android.provider.BaseColumns;
 

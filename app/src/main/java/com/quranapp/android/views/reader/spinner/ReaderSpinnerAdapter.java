@@ -1,4 +1,4 @@
-package com.quranapp.android.views.reader.spinner;
+package com.anonim.android.views.reader.spinner;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.quranapp.android.R;
+import com.anonim.android.R;
 
 import java.util.List;
 

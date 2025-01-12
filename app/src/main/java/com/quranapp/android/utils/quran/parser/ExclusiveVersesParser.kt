@@ -1,9 +1,9 @@
-package com.quranapp.android.utils.quran.parser
+package com.anonim.android.utils.quran.parser
 
 import android.content.Context
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.components.quran.ExclusiveVerse
-import com.quranapp.android.utils.Log
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.components.quran.ExclusiveVerse
+import com.anonim.android.utils.Log
 import org.json.JSONObject
 import java.util.Locale
 

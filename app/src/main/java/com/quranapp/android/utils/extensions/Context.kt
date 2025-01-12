@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.extensions
+package com.anonim.android.utils.extensions
 
 import android.content.ClipData
 import android.content.ClipboardManager

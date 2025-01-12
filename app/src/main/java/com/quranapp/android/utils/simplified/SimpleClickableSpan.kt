@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.simplified
+package com.anonim.android.utils.simplified
 
 import android.text.TextPaint
 import android.text.style.ClickableSpan

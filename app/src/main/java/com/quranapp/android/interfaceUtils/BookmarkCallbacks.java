@@ -2,9 +2,9 @@
  * (c) Faisal Khan. Created on 20/11/2021.
  */
 
-package com.quranapp.android.interfaceUtils;
+package com.anonim.android.interfaceUtils;
 
-import com.quranapp.android.components.bookmark.BookmarkModel;
+import com.anonim.android.components.bookmark.BookmarkModel;
 
 public interface BookmarkCallbacks {
     void onBookmarkRemoved(BookmarkModel model);

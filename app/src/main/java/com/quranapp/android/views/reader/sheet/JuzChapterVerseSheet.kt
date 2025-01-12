@@ -1,8 +1,8 @@
-package com.quranapp.android.views.reader.sheet
+package com.anonim.android.views.reader.sheet
 
 import android.os.Bundle
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheet
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheet
 
 class JuzChapterVerseSheet : PeaceBottomSheet() {
     override fun onCreate(savedInstanceState: Bundle?) {

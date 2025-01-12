@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters;
+package com.anonim.android.adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -8,12 +8,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.components.FeaturedQuranModel;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.databinding.LytFeaturedQuranItemBinding;
-import com.quranapp.android.utils.gesture.HoverPushEffect;
-import com.quranapp.android.utils.gesture.HoverPushOpacityEffect;
-import com.quranapp.android.utils.reader.factory.ReaderFactory;
+import com.anonim.android.components.FeaturedQuranModel;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.databinding.LytFeaturedQuranItemBinding;
+import com.anonim.android.utils.gesture.HoverPushEffect;
+import com.anonim.android.utils.gesture.HoverPushOpacityEffect;
+import com.anonim.android.utils.reader.factory.ReaderFactory;
 
 import java.util.List;
 

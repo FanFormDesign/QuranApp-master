@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.dialog.loader
+package com.anonim.android.widgets.dialog.loader
 
 import android.content.Context
 import android.os.Bundle
@@ -9,7 +9,7 @@ import android.widget.TextView
 import com.peacedesign.android.utils.Dimen
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
 import com.peacedesign.android.widget.dialog.base.PeaceDialogController
-import com.quranapp.android.R
+import com.anonim.android.R
 
 class PeaceProgressDialog(context: Context) : PeaceDialog(context) {
     init {

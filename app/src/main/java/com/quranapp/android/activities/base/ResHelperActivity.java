@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 30/10/2021.
  */
 
-package com.quranapp.android.activities.base;
+package com.anonim.android.activities.base;
 
 import android.content.res.ColorStateList;
 import android.content.res.Configuration;
@@ -26,8 +26,8 @@ import androidx.asynclayoutinflater.view.AsyncLayoutInflater;
 import androidx.core.content.ContextCompat;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.utils.extensions.ContextKt;
+import com.anonim.android.R;
+import com.anonim.android.utils.extensions.ContextKt;
 
 public class ResHelperActivity extends AppCompatActivity {
     static class ActivityState {

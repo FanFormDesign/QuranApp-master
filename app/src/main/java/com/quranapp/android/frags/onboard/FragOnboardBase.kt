@@ -1,5 +1,5 @@
-package com.quranapp.android.frags.onboard
+package com.anonim.android.frags.onboard
 
-import com.quranapp.android.frags.BaseFragment
+import com.anonim.android.frags.BaseFragment
 
 abstract class FragOnboardBase : BaseFragment()

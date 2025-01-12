@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.quran
+package com.anonim.android.utils.quran
 
 object QuranConstants {
     const val KEY_CHAPTER_LIST = "suras"

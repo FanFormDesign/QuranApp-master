@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 23/8/2021.
  */
 
-package com.quranapp.android.utils.votd;
+package com.anonim.android.utils.votd;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -12,11 +12,11 @@ import android.os.Build;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
-import com.quranapp.android.utils.receivers.BootReceiver;
-import com.quranapp.android.utils.receivers.ReceiverUtils;
-import com.quranapp.android.utils.receivers.VotdReceiver;
-import com.quranapp.android.utils.sharedPrefs.SPVerses;
-import com.quranapp.android.utils.univ.Codes;
+import com.anonim.android.utils.receivers.BootReceiver;
+import com.anonim.android.utils.receivers.ReceiverUtils;
+import com.anonim.android.utils.receivers.VotdReceiver;
+import com.anonim.android.utils.sharedPrefs.SPVerses;
+import com.anonim.android.utils.univ.Codes;
 
 import java.util.Calendar;
 

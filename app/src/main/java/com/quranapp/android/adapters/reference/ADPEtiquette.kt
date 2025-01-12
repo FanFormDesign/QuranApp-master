@@ -1,14 +1,14 @@
-package com.quranapp.android.adapters.reference
+package com.anonim.android.adapters.reference
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.R
-import com.quranapp.android.components.quran.ExclusiveVerse
-import com.quranapp.android.databinding.LytQuranEtiquetteVerseItemBinding
-import com.quranapp.android.utils.gesture.HoverPushEffect
-import com.quranapp.android.utils.gesture.HoverPushOpacityEffect
-import com.quranapp.android.utils.reader.factory.ReaderFactory
+import com.anonim.android.R
+import com.anonim.android.components.quran.ExclusiveVerse
+import com.anonim.android.databinding.LytQuranEtiquetteVerseItemBinding
+import com.anonim.android.utils.gesture.HoverPushEffect
+import com.anonim.android.utils.gesture.HoverPushOpacityEffect
+import com.anonim.android.utils.reader.factory.ReaderFactory
 
 class ADPEtiquette(
     private val references: List<ExclusiveVerse>

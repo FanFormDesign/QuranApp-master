@@ -1,14 +1,14 @@
-package com.quranapp.android.frags.settings.appLogs
+package com.anonim.android.frags.settings.appLogs
 
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
-import com.quranapp.android.R
-import com.quranapp.android.adapters.utility.ViewPagerAdapter2
-import com.quranapp.android.databinding.FragSettingsRecitationsBinding
-import com.quranapp.android.databinding.LytReaderIndexTabBinding
-import com.quranapp.android.frags.settings.FragSettingsBase
+import com.anonim.android.R
+import com.anonim.android.adapters.utility.ViewPagerAdapter2
+import com.anonim.android.databinding.FragSettingsRecitationsBinding
+import com.anonim.android.databinding.LytReaderIndexTabBinding
+import com.anonim.android.frags.settings.FragSettingsBase
 
 class FragSettingsAppLogs : FragSettingsBase() {
     private lateinit var binding: FragSettingsRecitationsBinding

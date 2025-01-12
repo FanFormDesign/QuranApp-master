@@ -1,7 +1,7 @@
 /*
  * (c) Faisal Khan. Created on 21/11/2021.
  */
-package com.quranapp.android.utils.app
+package com.anonim.android.utils.app
 
 import android.content.Context
 import android.content.DialogInterface
@@ -9,11 +9,11 @@ import android.net.Uri
 import androidx.browser.customtabs.CustomTabColorSchemeParams
 import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.content.ContextCompat
-import com.quranapp.android.R
-import com.quranapp.android.api.models.AppUrls
-import com.quranapp.android.utils.Logger
-import com.quranapp.android.utils.univ.MessageUtils
-import com.quranapp.android.widgets.dialog.loader.PeaceProgressDialog
+import com.anonim.android.R
+import com.anonim.android.api.models.AppUrls
+import com.anonim.android.utils.Logger
+import com.anonim.android.utils.univ.MessageUtils
+import com.anonim.android.widgets.dialog.loader.PeaceProgressDialog
 import java.util.concurrent.CancellationException
 
 object InfoUtils {

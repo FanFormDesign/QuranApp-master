@@ -1,7 +1,7 @@
 /*
  * Created by Faisal Khan on (c) 22/8/2021.
  */
-package com.quranapp.android.adapters.recitation
+package com.anonim.android.adapters.recitation
 
 import android.os.Bundle
 import android.view.Gravity
@@ -10,16 +10,16 @@ import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.R
-import com.quranapp.android.adapters.recitation.ADPRecitationTranslations.VHRecitationTranslation
-import com.quranapp.android.api.models.recitation.RecitationTranslationInfoModel
-import com.quranapp.android.frags.settings.recitations.FragSettingsRecitationsBase
-import com.quranapp.android.frags.settings.recitations.manage.FragSettingsManageAudioReciter
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.updatePaddingHorizontal
-import com.quranapp.android.utils.extensions.updatePaddingVertical
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.widgets.radio.PeaceRadioButton
+import com.anonim.android.R
+import com.anonim.android.adapters.recitation.ADPRecitationTranslations.VHRecitationTranslation
+import com.anonim.android.api.models.recitation.RecitationTranslationInfoModel
+import com.anonim.android.frags.settings.recitations.FragSettingsRecitationsBase
+import com.anonim.android.frags.settings.recitations.manage.FragSettingsManageAudioReciter
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.updatePaddingHorizontal
+import com.anonim.android.utils.extensions.updatePaddingVertical
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.widgets.radio.PeaceRadioButton
 
 class ADPRecitationTranslations(private val frag: FragSettingsRecitationsBase) : RecyclerView.Adapter<VHRecitationTranslation>() {
     private var models: List<RecitationTranslationInfoModel> = ArrayList()

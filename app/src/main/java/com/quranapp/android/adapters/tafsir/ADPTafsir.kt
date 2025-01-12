@@ -1,16 +1,16 @@
-package com.quranapp.android.adapters.tafsir
+package com.anonim.android.adapters.tafsir
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.R
-import com.quranapp.android.api.models.tafsir.TafsirInfoModel
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.updatePaddings
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.widgets.compound.PeaceCompoundButton
-import com.quranapp.android.widgets.radio.PeaceRadioButton
+import com.anonim.android.R
+import com.anonim.android.api.models.tafsir.TafsirInfoModel
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.updatePaddings
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.widgets.compound.PeaceCompoundButton
+import com.anonim.android.widgets.radio.PeaceRadioButton
 
 class ADPTafsir(private val tafsirs: List<TafsirInfoModel>, private val selectCallback: (Int) -> Unit) :
     RecyclerView.Adapter<ADPTafsir.VHTafsirItem>() {

@@ -1,13 +1,13 @@
-package com.quranapp.android.utils.chapterInfo;
+package com.anonim.android.utils.chapterInfo;
 
 import android.webkit.JavascriptInterface;
 import android.widget.Toast;
 
-import com.quranapp.android.activities.ActivityChapInfo;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.reader.TranslUtils;
-import com.quranapp.android.utils.univ.MessageUtils;
+import com.anonim.android.activities.ActivityChapInfo;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.reader.TranslUtils;
+import com.anonim.android.utils.univ.MessageUtils;
 
 import kotlin.Pair;
 

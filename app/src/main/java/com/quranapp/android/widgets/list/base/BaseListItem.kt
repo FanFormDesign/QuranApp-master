@@ -1,7 +1,7 @@
-package com.quranapp.android.widgets.list.base
+package com.anonim.android.widgets.list.base
 
 import android.view.View
-import com.quranapp.android.components.ComponentBase
+import com.anonim.android.components.ComponentBase
 
 class BaseListItem @JvmOverloads constructor(
     var icon: Int = 0,

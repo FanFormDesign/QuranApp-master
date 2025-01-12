@@ -3,7 +3,7 @@
  * Created on 24/7/2022.
  * All rights reserved.
  */
-package com.quranapp.android.views.readerSpinner2.juzChapterVerse
+package com.anonim.android.views.readerSpinner2.juzChapterVerse
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -23,28 +23,28 @@ import androidx.core.widget.TextViewCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.tabs.TabLayout
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.databinding.LytJuzChapterVerseSheetBinding
-import com.quranapp.android.databinding.LytReaderIndexTabBinding
-import com.quranapp.android.reader_managers.ReaderParams
-import com.quranapp.android.utils.extensions.*
-import com.quranapp.android.utils.simplified.SimpleTabSelectorListener
-import com.quranapp.android.utils.simplified.SimpleTextWatcher
-import com.quranapp.android.utils.univ.RegexPattern
-import com.quranapp.android.views.reader.ChapterIcon
-import com.quranapp.android.views.reader.chapterSpinner.ChapterSpinnerItem
-import com.quranapp.android.views.reader.juzSpinner.JuzSpinnerItem
-import com.quranapp.android.views.reader.sheet.JuzChapterVerseSheet
-import com.quranapp.android.views.reader.spinner.ReaderSpinnerItem
-import com.quranapp.android.views.reader.verseSpinner.VerseSpinnerItem
-import com.quranapp.android.views.readerSpinner2.adapters.ADPJuzChapterVerseBase
-import com.quranapp.android.views.readerSpinner2.adapters.ChapterSelectorAdapter2
-import com.quranapp.android.views.readerSpinner2.adapters.JuzSelectorAdapter2
-import com.quranapp.android.views.readerSpinner2.adapters.VerseSelectorAdapter2
-import com.quranapp.android.widgets.IconedTextView
-import com.quranapp.android.widgets.bottomSheet.PeaceBottomSheet
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.databinding.LytJuzChapterVerseSheetBinding
+import com.anonim.android.databinding.LytReaderIndexTabBinding
+import com.anonim.android.reader_managers.ReaderParams
+import com.anonim.android.utils.extensions.*
+import com.anonim.android.utils.simplified.SimpleTabSelectorListener
+import com.anonim.android.utils.simplified.SimpleTextWatcher
+import com.anonim.android.utils.univ.RegexPattern
+import com.anonim.android.views.reader.ChapterIcon
+import com.anonim.android.views.reader.chapterSpinner.ChapterSpinnerItem
+import com.anonim.android.views.reader.juzSpinner.JuzSpinnerItem
+import com.anonim.android.views.reader.sheet.JuzChapterVerseSheet
+import com.anonim.android.views.reader.spinner.ReaderSpinnerItem
+import com.anonim.android.views.reader.verseSpinner.VerseSpinnerItem
+import com.anonim.android.views.readerSpinner2.adapters.ADPJuzChapterVerseBase
+import com.anonim.android.views.readerSpinner2.adapters.ChapterSelectorAdapter2
+import com.anonim.android.views.readerSpinner2.adapters.JuzSelectorAdapter2
+import com.anonim.android.views.readerSpinner2.adapters.VerseSelectorAdapter2
+import com.anonim.android.widgets.IconedTextView
+import com.anonim.android.widgets.bottomSheet.PeaceBottomSheet
 
 class JuzChapterVerseSelector @JvmOverloads constructor(
     context: Context,

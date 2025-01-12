@@ -4,22 +4,22 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.views.readerSpinner2.adapters
+package com.anonim.android.views.readerSpinner2.adapters
 
 import android.content.Context
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.updatePaddings
-import com.quranapp.android.views.reader.chapterSpinner.ChapterSpinnerItem
-import com.quranapp.android.views.reader.juzSpinner.JuzSpinnerItem
-import com.quranapp.android.views.reader.verseSpinner.VerseSpinnerItem
-import com.quranapp.android.views.readerSpinner2.viewholders.VHChapterSpinner
-import com.quranapp.android.views.readerSpinner2.viewholders.VHJuzSpinner
-import com.quranapp.android.views.readerSpinner2.viewholders.VHVerseSpinner
-import com.quranapp.android.widgets.chapterCard.ChapterCardWithoutIcon
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.updatePaddings
+import com.anonim.android.views.reader.chapterSpinner.ChapterSpinnerItem
+import com.anonim.android.views.reader.juzSpinner.JuzSpinnerItem
+import com.anonim.android.views.reader.verseSpinner.VerseSpinnerItem
+import com.anonim.android.views.readerSpinner2.viewholders.VHChapterSpinner
+import com.anonim.android.views.readerSpinner2.viewholders.VHJuzSpinner
+import com.anonim.android.views.readerSpinner2.viewholders.VHVerseSpinner
+import com.anonim.android.widgets.chapterCard.ChapterCardWithoutIcon
 
 class JuzSelectorAdapter2(items: MutableList<JuzSpinnerItem>) : ADPJuzChapterVerseBase<JuzSpinnerItem, VHJuzSpinner>(
     items

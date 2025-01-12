@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.settings
+package com.anonim.android.frags.settings
 
 import android.content.Context
 import android.os.Bundle
@@ -6,21 +6,21 @@ import android.view.View
 import androidx.core.os.bundleOf
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.SimpleItemAnimator
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.adapters.tafsir.ADPTafsirGroup
-import com.quranapp.android.api.models.tafsir.TafsirInfoModel
-import com.quranapp.android.components.tafsir.TafsirGroupModel
-import com.quranapp.android.databinding.FragSettingsTafsirBinding
-import com.quranapp.android.utils.reader.tafsir.TafsirManager
-import com.quranapp.android.utils.receivers.NetworkStateReceiver
-import com.quranapp.android.utils.sharedPrefs.SPAppActions
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.FileUtils
-import com.quranapp.android.views.BoldHeader
-import com.quranapp.android.views.BoldHeader.BoldHeaderCallback
-import com.quranapp.android.widgets.PageAlert
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.adapters.tafsir.ADPTafsirGroup
+import com.anonim.android.api.models.tafsir.TafsirInfoModel
+import com.anonim.android.components.tafsir.TafsirGroupModel
+import com.anonim.android.databinding.FragSettingsTafsirBinding
+import com.anonim.android.utils.reader.tafsir.TafsirManager
+import com.anonim.android.utils.receivers.NetworkStateReceiver
+import com.anonim.android.utils.sharedPrefs.SPAppActions
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.FileUtils
+import com.anonim.android.views.BoldHeader
+import com.anonim.android.views.BoldHeader.BoldHeaderCallback
+import com.anonim.android.widgets.PageAlert
 import java.util.*
 
 class FragSettingsTafsirs : FragSettingsBase() {

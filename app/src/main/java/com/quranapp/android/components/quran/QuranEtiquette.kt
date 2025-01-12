@@ -1,8 +1,8 @@
-package com.quranapp.android.components.quran
+package com.anonim.android.components.quran
 
 import android.content.Context
-import com.quranapp.android.utils.quran.parser.QuranEtiquetteParser
-import com.quranapp.android.utils.quran.parser.SituationVersesParser
+import com.anonim.android.utils.quran.parser.QuranEtiquetteParser
+import com.anonim.android.utils.quran.parser.SituationVersesParser
 import java.util.concurrent.atomic.AtomicReference
 
 object QuranEtiquette {

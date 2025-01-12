@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.tablayout;
+package com.anonim.android.widgets.tablayout;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -17,8 +17,8 @@ import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import com.peacedesign.android.utils.Dimen;
 import com.peacedesign.android.utils.DrawableUtils;
-import com.quranapp.android.R;
-import com.quranapp.android.adapters.utility.ViewPagerAdapter2;
+import com.anonim.android.R;
+import com.anonim.android.adapters.utility.ViewPagerAdapter2;
 
 import java.util.ArrayList;
 import java.util.List;

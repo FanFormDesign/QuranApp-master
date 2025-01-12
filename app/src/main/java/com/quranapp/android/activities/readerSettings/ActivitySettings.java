@@ -4,7 +4,7 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.activities.readerSettings;
+package com.anonim.android.activities.readerSettings;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,22 +14,22 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import static com.quranapp.android.utils.univ.Codes.SETTINGS_LAUNCHER_RESULT_CODE;
+import static com.anonim.android.utils.univ.Codes.SETTINGS_LAUNCHER_RESULT_CODE;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.base.BaseActivity;
-import com.quranapp.android.databinding.ActivitySettingsBinding;
-import com.quranapp.android.frags.settings.FragSettingsBase;
-import com.quranapp.android.frags.settings.FragSettingsLanguage;
-import com.quranapp.android.frags.settings.FragSettingsMain;
-import com.quranapp.android.frags.settings.FragSettingsScripts;
-import com.quranapp.android.frags.settings.FragSettingsTafsirs;
-import com.quranapp.android.frags.settings.FragSettingsTransl;
-import com.quranapp.android.frags.settings.FragSettingsTranslationsDownload;
-import com.quranapp.android.frags.settings.recitations.FragSettingsRecitations;
-import com.quranapp.android.frags.settings.recitations.manage.FragSettingsManageAudio;
-import com.quranapp.android.frags.settings.recitations.manage.FragSettingsManageAudioReciter;
-import com.quranapp.android.views.BoldHeader;
+import com.anonim.android.R;
+import com.anonim.android.activities.base.BaseActivity;
+import com.anonim.android.databinding.ActivitySettingsBinding;
+import com.anonim.android.frags.settings.FragSettingsBase;
+import com.anonim.android.frags.settings.FragSettingsLanguage;
+import com.anonim.android.frags.settings.FragSettingsMain;
+import com.anonim.android.frags.settings.FragSettingsScripts;
+import com.anonim.android.frags.settings.FragSettingsTafsirs;
+import com.anonim.android.frags.settings.FragSettingsTransl;
+import com.anonim.android.frags.settings.FragSettingsTranslationsDownload;
+import com.anonim.android.frags.settings.recitations.FragSettingsRecitations;
+import com.anonim.android.frags.settings.recitations.manage.FragSettingsManageAudio;
+import com.anonim.android.frags.settings.recitations.manage.FragSettingsManageAudioReciter;
+import com.anonim.android.views.BoldHeader;
 
 import java.util.Objects;
 

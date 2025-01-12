@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters.search;
+package com.anonim.android.adapters.search;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,23 +13,23 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.peacedesign.android.utils.ColorUtils;
 import com.peacedesign.android.widget.dialog.base.PeaceDialog;
-import com.quranapp.android.R;
-import com.quranapp.android.activities.ActivitySearch;
-import com.quranapp.android.components.search.ChapterJumpModel;
-import com.quranapp.android.components.search.JuzJumpModel;
-import com.quranapp.android.components.search.SearchHistoryModel;
-import com.quranapp.android.components.search.SearchResultModelBase;
-import com.quranapp.android.components.search.TafsirJumpModel;
-import com.quranapp.android.components.search.VerseJumpModel;
-import com.quranapp.android.databinding.LytReaderJuzSpinnerItemBinding;
-import com.quranapp.android.databinding.LytSearchHistoryItemBinding;
-import com.quranapp.android.vh.search.VHChapterJump;
-import com.quranapp.android.vh.search.VHJuzJump;
-import com.quranapp.android.vh.search.VHSearchResultBase;
-import com.quranapp.android.vh.search.VHTafsirJump;
-import com.quranapp.android.vh.search.VHVerseJump;
-import com.quranapp.android.widgets.IconedTextView;
-import com.quranapp.android.widgets.chapterCard.ChapterCard;
+import com.anonim.android.R;
+import com.anonim.android.activities.ActivitySearch;
+import com.anonim.android.components.search.ChapterJumpModel;
+import com.anonim.android.components.search.JuzJumpModel;
+import com.anonim.android.components.search.SearchHistoryModel;
+import com.anonim.android.components.search.SearchResultModelBase;
+import com.anonim.android.components.search.TafsirJumpModel;
+import com.anonim.android.components.search.VerseJumpModel;
+import com.anonim.android.databinding.LytReaderJuzSpinnerItemBinding;
+import com.anonim.android.databinding.LytSearchHistoryItemBinding;
+import com.anonim.android.vh.search.VHChapterJump;
+import com.anonim.android.vh.search.VHJuzJump;
+import com.anonim.android.vh.search.VHSearchResultBase;
+import com.anonim.android.vh.search.VHTafsirJump;
+import com.anonim.android.vh.search.VHVerseJump;
+import com.anonim.android.widgets.IconedTextView;
+import com.anonim.android.widgets.chapterCard.ChapterCard;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.receivers
+package com.anonim.android.utils.receivers
 
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -9,21 +9,21 @@ import android.os.Build
 import android.text.TextUtils
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.components.quran.QuranMeta
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback
-import com.quranapp.android.utils.app.NotificationUtils
-import com.quranapp.android.utils.reader.TranslUtils
-import com.quranapp.android.utils.reader.factory.QuranTranslationFactory
-import com.quranapp.android.utils.reader.factory.ReaderFactory.prepareSingleVerseIntent
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.sharedPrefs.SPVerses
-import com.quranapp.android.utils.univ.Codes
-import com.quranapp.android.utils.univ.Keys
-import com.quranapp.android.utils.univ.StringUtils
-import com.quranapp.android.utils.verse.VerseUtils
-import com.quranapp.android.utils.votd.VOTDUtils
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.components.quran.QuranMeta
+import com.anonim.android.interfaceUtils.OnResultReadyCallback
+import com.anonim.android.utils.app.NotificationUtils
+import com.anonim.android.utils.reader.TranslUtils
+import com.anonim.android.utils.reader.factory.QuranTranslationFactory
+import com.anonim.android.utils.reader.factory.ReaderFactory.prepareSingleVerseIntent
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.sharedPrefs.SPVerses
+import com.anonim.android.utils.univ.Codes
+import com.anonim.android.utils.univ.Keys
+import com.anonim.android.utils.univ.StringUtils
+import com.anonim.android.utils.verse.VerseUtils
+import com.anonim.android.utils.votd.VOTDUtils
 
 class VotdReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent?) {

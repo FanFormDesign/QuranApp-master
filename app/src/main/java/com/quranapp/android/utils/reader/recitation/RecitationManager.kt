@@ -1,16 +1,16 @@
-package com.quranapp.android.utils.reader.recitation
+package com.anonim.android.utils.reader.recitation
 
 import android.content.Context
-import com.quranapp.android.api.JsonHelper
-import com.quranapp.android.api.RetrofitInstance
-import com.quranapp.android.api.models.recitation.AvailableRecitationTranslationsModel
-import com.quranapp.android.api.models.recitation.AvailableRecitationsModel
-import com.quranapp.android.api.models.recitation.RecitationInfoModel
-import com.quranapp.android.api.models.recitation.RecitationTranslationInfoModel
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.sharedPrefs.SPAppActions
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.api.JsonHelper
+import com.anonim.android.api.RetrofitInstance
+import com.anonim.android.api.models.recitation.AvailableRecitationTranslationsModel
+import com.anonim.android.api.models.recitation.AvailableRecitationsModel
+import com.anonim.android.api.models.recitation.RecitationInfoModel
+import com.anonim.android.api.models.recitation.RecitationTranslationInfoModel
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.sharedPrefs.SPAppActions
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.FileUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

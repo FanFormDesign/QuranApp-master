@@ -1,8 +1,8 @@
-package com.quranapp.android.utils.sharedPrefs
+package com.anonim.android.utils.sharedPrefs
 
 import android.annotation.SuppressLint
 import android.content.Context
-import com.quranapp.android.utils.app.DownloadSourceUtils.DOWNLOAD_SRC_DEFAULT
+import com.anonim.android.utils.app.DownloadSourceUtils.DOWNLOAD_SRC_DEFAULT
 
 object SPAppConfigs {
     const val SP_APP_CONFIGS = "sp_app_configs"

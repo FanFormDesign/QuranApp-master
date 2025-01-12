@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.thread.tasks;
+package com.anonim.android.utils.thread.tasks;
 
 import android.os.Build;
 import androidx.annotation.NonNull;

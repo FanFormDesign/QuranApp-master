@@ -1,12 +1,12 @@
-package com.quranapp.android.adapters.reference
+package com.anonim.android.adapters.reference
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.activities.reference.ActivityQuranScienceContent
-import com.quranapp.android.components.quran.QuranScienceItem
-import com.quranapp.android.databinding.LytQuranScienceItemBinding
+import com.anonim.android.activities.reference.ActivityQuranScienceContent
+import com.anonim.android.components.quran.QuranScienceItem
+import com.anonim.android.databinding.LytQuranScienceItemBinding
 
 class ADPQuranScience(private val items: List<QuranScienceItem>) :
     RecyclerView.Adapter<ADPQuranScience.VHQuranScience>() {

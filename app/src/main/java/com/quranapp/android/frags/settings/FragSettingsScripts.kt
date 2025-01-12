@@ -3,7 +3,7 @@
  * Created on 4/4/2022.
  * All rights reserved.
  */
-package com.quranapp.android.frags.settings
+package com.anonim.android.frags.settings
 
 import android.app.Activity
 import android.content.*
@@ -19,21 +19,21 @@ import androidx.core.os.bundleOf
 import androidx.core.view.children
 import androidx.core.view.updatePaddingRelative
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.R
-import com.quranapp.android.activities.ActivityReader
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.databinding.LytScriptDownloadProgressBinding
-import com.quranapp.android.databinding.LytSettingsScriptItemBinding
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.getDimenPx
-import com.quranapp.android.utils.extensions.getFont
-import com.quranapp.android.utils.extensions.visible
-import com.quranapp.android.utils.reader.*
-import com.quranapp.android.utils.receivers.KFQPCScriptFontsDownloadReceiver
-import com.quranapp.android.utils.services.KFQPCScriptFontsDownloadService
-import com.quranapp.android.utils.services.KFQPCScriptFontsDownloadService.Companion.ALL_PART_DOWNLOADS_FINISHED
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.views.BoldHeader
+import com.anonim.android.R
+import com.anonim.android.activities.ActivityReader
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.databinding.LytScriptDownloadProgressBinding
+import com.anonim.android.databinding.LytSettingsScriptItemBinding
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.getDimenPx
+import com.anonim.android.utils.extensions.getFont
+import com.anonim.android.utils.extensions.visible
+import com.anonim.android.utils.reader.*
+import com.anonim.android.utils.receivers.KFQPCScriptFontsDownloadReceiver
+import com.anonim.android.utils.services.KFQPCScriptFontsDownloadService
+import com.anonim.android.utils.services.KFQPCScriptFontsDownloadService.Companion.ALL_PART_DOWNLOADS_FINISHED
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.views.BoldHeader
 import kotlin.math.ceil
 
 class FragSettingsScripts : FragSettingsBase(), ServiceConnection {

@@ -1,7 +1,7 @@
 /*
  * (c) Faisal Khan. Created on 19/2/2022.
  */
-package com.quranapp.android.interfaceUtils.readerIndex
+package com.anonim.android.interfaceUtils.readerIndex
 
 import android.content.Context
 

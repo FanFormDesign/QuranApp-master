@@ -1,9 +1,9 @@
-package com.quranapp.android.vh.search
+package com.anonim.android.vh.search
 
-import com.quranapp.android.components.search.ChapterJumpModel
-import com.quranapp.android.components.search.SearchResultModelBase
-import com.quranapp.android.utils.reader.factory.ReaderFactory.startChapter
-import com.quranapp.android.widgets.chapterCard.ChapterCard
+import com.anonim.android.components.search.ChapterJumpModel
+import com.anonim.android.components.search.SearchResultModelBase
+import com.anonim.android.utils.reader.factory.ReaderFactory.startChapter
+import com.anonim.android.widgets.chapterCard.ChapterCard
 
 class VHChapterJump(private val chapterCard: ChapterCard, applyMargins: Boolean) : VHSearchResultBase(chapterCard) {
     init {

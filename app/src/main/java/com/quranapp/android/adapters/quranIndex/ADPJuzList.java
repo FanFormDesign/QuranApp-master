@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 2/2/2022.
  */
 
-package com.quranapp.android.adapters.quranIndex;
+package com.anonim.android.adapters.quranIndex;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,12 +13,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.common.collect.ImmutableList;
-import com.quranapp.android.R;
-import com.quranapp.android.components.IndexJuzItemModel;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.databinding.LytReaderIndexJuzCardBinding;
-import com.quranapp.android.frags.readerindex.BaseFragReaderIndex;
-import com.quranapp.android.utils.reader.factory.ReaderFactory;
+import com.anonim.android.R;
+import com.anonim.android.components.IndexJuzItemModel;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.databinding.LytReaderIndexJuzCardBinding;
+import com.anonim.android.frags.readerindex.BaseFragReaderIndex;
+import com.anonim.android.utils.reader.factory.ReaderFactory;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.quranapp.android.activities;
+package com.anonim.android.activities;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,17 +10,17 @@ import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.quranapp.android.R;
-import com.quranapp.android.activities.base.BaseActivity;
-import com.quranapp.android.adapters.utility.ViewPagerAdapter2;
-import com.quranapp.android.databinding.ActivityMainBinding;
-import com.quranapp.android.suppliments.IndexMenu;
-import com.quranapp.android.utils.app.AppActions;
-import com.quranapp.android.utils.app.UpdateManager;
-import com.quranapp.android.utils.sharedPrefs.SPAppActions;
-import com.quranapp.android.frags.main.FragMain;
-import com.quranapp.android.widgets.tablayout.BottomTab;
-import com.quranapp.android.widgets.tablayout.BottomTabLayout;
+import com.anonim.android.R;
+import com.anonim.android.activities.base.BaseActivity;
+import com.anonim.android.adapters.utility.ViewPagerAdapter2;
+import com.anonim.android.databinding.ActivityMainBinding;
+import com.anonim.android.suppliments.IndexMenu;
+import com.anonim.android.utils.app.AppActions;
+import com.anonim.android.utils.app.UpdateManager;
+import com.anonim.android.utils.sharedPrefs.SPAppActions;
+import com.anonim.android.frags.main.FragMain;
+import com.anonim.android.widgets.tablayout.BottomTab;
+import com.anonim.android.widgets.tablayout.BottomTabLayout;
 
 import java.util.ArrayList;
 

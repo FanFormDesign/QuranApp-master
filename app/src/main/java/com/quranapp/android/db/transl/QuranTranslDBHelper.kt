@@ -4,20 +4,20 @@
  * All rights reserved.
  */
 
-package com.quranapp.android.db.transl
+package com.anonim.android.db.transl
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.quranapp.android.components.quran.subcomponents.QuranTranslBookInfo
-import com.quranapp.android.db.transl.QuranTranslContract.QuranTranslEntry.*
-import com.quranapp.android.db.transl.QuranTranslInfoContract.QuranTranslInfoEntry
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.quran.QuranConstants
-import com.quranapp.android.utils.reader.TranslUtils
-import com.quranapp.android.utils.univ.FileUtils
-import com.quranapp.android.utils.univ.StringUtils
+import com.anonim.android.components.quran.subcomponents.QuranTranslBookInfo
+import com.anonim.android.db.transl.QuranTranslContract.QuranTranslEntry.*
+import com.anonim.android.db.transl.QuranTranslInfoContract.QuranTranslInfoEntry
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.quran.QuranConstants
+import com.anonim.android.utils.reader.TranslUtils
+import com.anonim.android.utils.univ.FileUtils
+import com.anonim.android.utils.univ.StringUtils
 import java.io.File
 import org.json.JSONObject
 

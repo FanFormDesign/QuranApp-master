@@ -1,10 +1,10 @@
-package com.quranapp.android.utils.receivers
+package com.anonim.android.utils.receivers
 
 import android.app.AlarmManager
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.quranapp.android.utils.votd.VOTDUtils
+import com.anonim.android.utils.votd.VOTDUtils
 
 class AlarmPermissionReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent?) {

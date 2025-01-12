@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.univ;
+package com.anonim.android.utils.univ;
 
 import android.text.Layout;
 import android.text.Selection;

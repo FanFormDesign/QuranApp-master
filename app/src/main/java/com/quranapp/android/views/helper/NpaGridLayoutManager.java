@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 18/8/2021.
  */
 
-package com.quranapp.android.views.helper;
+package com.anonim.android.views.helper;
 
 import android.content.Context;
 import android.util.AttributeSet;

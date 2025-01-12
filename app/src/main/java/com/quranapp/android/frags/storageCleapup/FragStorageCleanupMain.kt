@@ -1,4 +1,4 @@
-package com.quranapp.android.frags.storageCleapup
+package com.anonim.android.frags.storageCleapup
 
 import android.content.Context
 import android.os.Bundle
@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.peacedesign.android.utils.ColorUtils
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.R
-import com.quranapp.android.databinding.FragStorageCleanupMainBinding
-import com.quranapp.android.databinding.LytStorageCleanupItemCardBinding
-import com.quranapp.android.utils.extensions.removeView
-import com.quranapp.android.utils.gesture.HoverPushOpacityEffect
-import com.quranapp.android.utils.reader.factory.QuranTranslationFactory
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.R
+import com.anonim.android.databinding.FragStorageCleanupMainBinding
+import com.anonim.android.databinding.LytStorageCleanupItemCardBinding
+import com.anonim.android.utils.extensions.removeView
+import com.anonim.android.utils.gesture.HoverPushOpacityEffect
+import com.anonim.android.utils.reader.factory.QuranTranslationFactory
+import com.anonim.android.utils.univ.FileUtils
 import java.io.File
 
 class FragStorageCleanupMain : FragStorageCleanupBase() {

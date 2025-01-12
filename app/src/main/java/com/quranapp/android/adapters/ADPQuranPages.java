@@ -1,4 +1,4 @@
-package com.quranapp.android.adapters;
+package com.anonim.android.adapters;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -6,21 +6,21 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_INFO;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_FOOTER;
-import static com.quranapp.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_PAGE;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.CHAPTER_INFO;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_FOOTER;
+import static com.anonim.android.reader_managers.ReaderParams.RecyclerItemViewType.READER_PAGE;
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.activities.ActivityReader;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.components.reader.QuranPageModel;
-import com.quranapp.android.components.reader.QuranPageSectionModel;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
-import com.quranapp.android.views.reader.ChapterInfoCardView;
-import com.quranapp.android.views.reader.QuranPageView;
-import com.quranapp.android.views.reader.ReaderFooter;
+import com.anonim.android.activities.ActivityReader;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.components.reader.QuranPageModel;
+import com.anonim.android.components.reader.QuranPageSectionModel;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.views.reader.ChapterInfoCardView;
+import com.anonim.android.views.reader.QuranPageView;
+import com.anonim.android.views.reader.ReaderFooter;
 
 import java.util.ArrayList;
 

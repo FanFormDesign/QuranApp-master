@@ -1,16 +1,16 @@
-package com.quranapp.android.adapters.quranIndex
+package com.anonim.android.adapters.quranIndex
 
 import android.view.ViewGroup
 import android.view.ViewGroup.MarginLayoutParams
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.peacedesign.android.widget.dialog.base.PeaceDialog
-import com.quranapp.android.R
-import com.quranapp.android.frags.readerindex.FragReaderIndexFavChapters
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.updateMargins
-import com.quranapp.android.utils.reader.factory.ReaderFactory.startChapter
-import com.quranapp.android.widgets.chapterCard.ChapterCard
+import com.anonim.android.R
+import com.anonim.android.frags.readerindex.FragReaderIndexFavChapters
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.updateMargins
+import com.anonim.android.utils.reader.factory.ReaderFactory.startChapter
+import com.anonim.android.widgets.chapterCard.ChapterCard
 
 class ADPFavChaptersList(
     private val fragment: FragReaderIndexFavChapters,

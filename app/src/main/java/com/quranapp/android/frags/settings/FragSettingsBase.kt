@@ -3,7 +3,7 @@
  * Created on 3/4/2022.
  * All rights reserved.
  */
-package com.quranapp.android.frags.settings
+package com.anonim.android.frags.settings
 
 import android.content.Context
 import android.os.Bundle
@@ -15,11 +15,11 @@ import androidx.annotation.CallSuper
 import androidx.annotation.ColorInt
 import androidx.annotation.LayoutRes
 import androidx.core.widget.NestedScrollView
-import com.quranapp.android.R
-import com.quranapp.android.activities.readerSettings.ActivitySettings
-import com.quranapp.android.frags.BaseFragment
-import com.quranapp.android.utils.extensions.color
-import com.quranapp.android.views.BoldHeader
+import com.anonim.android.R
+import com.anonim.android.activities.readerSettings.ActivitySettings
+import com.anonim.android.frags.BaseFragment
+import com.anonim.android.utils.extensions.color
+import com.anonim.android.views.BoldHeader
 
 abstract class FragSettingsBase : BaseFragment() {
     protected fun activity(): ActivitySettings? = activity as? ActivitySettings

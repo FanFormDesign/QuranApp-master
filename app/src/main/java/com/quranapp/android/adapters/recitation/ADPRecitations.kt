@@ -1,19 +1,19 @@
 /*
  * Created by Faisal Khan on (c) 22/8/2021.
  */
-package com.quranapp.android.adapters.recitation
+package com.anonim.android.adapters.recitation
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.quranapp.android.adapters.recitation.ADPRecitations.VHRecitation
-import com.quranapp.android.api.models.recitation.RecitationInfoModel
-import com.quranapp.android.databinding.LytSettingsRecitationItemBinding
-import com.quranapp.android.frags.settings.recitations.FragSettingsRecitationsBase
-import com.quranapp.android.frags.settings.recitations.manage.FragSettingsManageAudioReciter
-import com.quranapp.android.utils.sharedPrefs.SPReader
+import com.anonim.android.adapters.recitation.ADPRecitations.VHRecitation
+import com.anonim.android.api.models.recitation.RecitationInfoModel
+import com.anonim.android.databinding.LytSettingsRecitationItemBinding
+import com.anonim.android.frags.settings.recitations.FragSettingsRecitationsBase
+import com.anonim.android.frags.settings.recitations.manage.FragSettingsManageAudioReciter
+import com.anonim.android.utils.sharedPrefs.SPReader
 
 class ADPRecitations(private val frag: FragSettingsRecitationsBase?) : RecyclerView.Adapter<VHRecitation>() {
     private var models: List<RecitationInfoModel> = ArrayList()

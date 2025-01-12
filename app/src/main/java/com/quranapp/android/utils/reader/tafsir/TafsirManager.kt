@@ -1,14 +1,14 @@
-package com.quranapp.android.utils.reader.tafsir
+package com.anonim.android.utils.reader.tafsir
 
 import android.content.Context
-import com.quranapp.android.api.JsonHelper
-import com.quranapp.android.api.RetrofitInstance
-import com.quranapp.android.api.models.tafsir.AvailableTafsirsModel
-import com.quranapp.android.api.models.tafsir.TafsirInfoModel
-import com.quranapp.android.utils.Log
-import com.quranapp.android.utils.sharedPrefs.SPAppActions
-import com.quranapp.android.utils.sharedPrefs.SPReader
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.api.JsonHelper
+import com.anonim.android.api.RetrofitInstance
+import com.anonim.android.api.models.tafsir.AvailableTafsirsModel
+import com.anonim.android.api.models.tafsir.TafsirInfoModel
+import com.anonim.android.utils.Log
+import com.anonim.android.utils.sharedPrefs.SPAppActions
+import com.anonim.android.utils.sharedPrefs.SPReader
+import com.anonim.android.utils.univ.FileUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

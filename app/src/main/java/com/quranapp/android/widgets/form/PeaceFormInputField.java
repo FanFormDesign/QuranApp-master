@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 27/1/2022.
  */
 
-package com.quranapp.android.widgets.form;
+package com.anonim.android.widgets.form;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -23,8 +23,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import com.quranapp.android.R;
-import com.quranapp.android.utils.simplified.SimpleTextWatcher;
+import com.anonim.android.R;
+import com.anonim.android.utils.simplified.SimpleTextWatcher;
 
 public class PeaceFormInputField extends FrameLayout {
     private CharSequence mFieldTitle;

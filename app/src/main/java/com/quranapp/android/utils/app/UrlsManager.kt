@@ -1,15 +1,15 @@
-package com.quranapp.android.utils.app
+package com.anonim.android.utils.app
 
 import android.content.Context
-import com.quranapp.android.api.JsonHelper
-import com.quranapp.android.api.RetrofitInstance
-import com.quranapp.android.api.models.AppUrls
-import com.quranapp.android.utils.app.AppUtils.BASE_APP_DOWNLOADED_SAVED_DATA_DIR
-import com.quranapp.android.utils.receivers.NetworkStateReceiver
-import com.quranapp.android.utils.sharedPrefs.SPAppActions
-import com.quranapp.android.utils.sharedPrefs.SPAppActions.addToPendingAction
-import com.quranapp.android.utils.sharedPrefs.SPAppActions.setFetchUrlsForce
-import com.quranapp.android.utils.univ.FileUtils
+import com.anonim.android.api.JsonHelper
+import com.anonim.android.api.RetrofitInstance
+import com.anonim.android.api.models.AppUrls
+import com.anonim.android.utils.app.AppUtils.BASE_APP_DOWNLOADED_SAVED_DATA_DIR
+import com.anonim.android.utils.receivers.NetworkStateReceiver
+import com.anonim.android.utils.sharedPrefs.SPAppActions
+import com.anonim.android.utils.sharedPrefs.SPAppActions.addToPendingAction
+import com.anonim.android.utils.sharedPrefs.SPAppActions.setFetchUrlsForce
+import com.anonim.android.utils.univ.FileUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

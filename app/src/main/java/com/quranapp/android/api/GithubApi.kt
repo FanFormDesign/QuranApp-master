@@ -1,8 +1,8 @@
-package com.quranapp.android.api
+package com.anonim.android.api
 
-import com.quranapp.android.api.models.AppUpdate
-import com.quranapp.android.api.models.AppUrls
-import com.quranapp.android.api.models.ResourcesVersions
+import com.anonim.android.api.models.AppUpdate
+import com.anonim.android.api.models.AppUrls
+import com.anonim.android.api.models.ResourcesVersions
 import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.GET

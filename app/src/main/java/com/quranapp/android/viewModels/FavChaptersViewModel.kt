@@ -1,13 +1,13 @@
-package com.quranapp.android.viewModels
+package com.anonim.android.viewModels
 
 import android.content.Context
 import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.quranapp.android.R
-import com.quranapp.android.utils.sharedPrefs.SPFavouriteChapters
-import com.quranapp.android.utils.univ.MessageUtils
+import com.anonim.android.R
+import com.anonim.android.utils.sharedPrefs.SPFavouriteChapters
+import com.anonim.android.utils.univ.MessageUtils
 
 class FavChaptersViewModel : ViewModel() {
     private val _favChapters = MutableLiveData<List<Int>>()

@@ -1,4 +1,4 @@
-package com.quranapp.android.utils.gesture
+package com.anonim.android.utils.gesture
 
 import android.view.MotionEvent
 import android.view.View

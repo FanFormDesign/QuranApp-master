@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 13/2/2022.
  */
 
-package com.quranapp.android.views;
+package com.anonim.android.views;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -18,17 +18,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
-import static com.quranapp.android.components.utility.CardMessageParams.STYLE_WARNING;
+import static com.anonim.android.components.utility.CardMessageParams.STYLE_WARNING;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
 import com.peacedesign.android.utils.ColorUtils;
 import com.peacedesign.android.utils.Dimen;
-import com.quranapp.android.R;
-import com.quranapp.android.components.utility.CardMessageParams;
-import com.quranapp.android.utils.extensions.ContextKt;
-import com.quranapp.android.utils.extensions.LayoutParamsKt;
-import com.quranapp.android.utils.extensions.ViewKt;
-import com.quranapp.android.utils.extensions.ViewPaddingKt;
+import com.anonim.android.R;
+import com.anonim.android.components.utility.CardMessageParams;
+import com.anonim.android.utils.extensions.ContextKt;
+import com.anonim.android.utils.extensions.LayoutParamsKt;
+import com.anonim.android.utils.extensions.ViewKt;
+import com.anonim.android.utils.extensions.ViewPaddingKt;
 
 public class CardMessage extends LinearLayout {
     private final CardMessageParams mParams = new CardMessageParams();

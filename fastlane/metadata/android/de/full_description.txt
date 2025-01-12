@@ -76,4 +76,4 @@ Die folgenden Funktionen sind der Grund, warum Sie die QuranApp verwenden sollte
 - Dunkle und helle Themen
 - Unterstützung mehrerer Sprachen
 
-<i>🐞 Um ein Problem zu melden oder eine neue Funktion anzufordern, besuchen Sie bitte das GitHub-Repository unter <a href='https://github.com/AlfaazPlus/QuranApp'>Github</a>.</i>
+<i>🐞 Um ein Problem zu melden oder eine neue Funktion anzufordern, besuchen Sie bitte das GitHub-Repository unter <a href='https://github.com/FanFormDesign/QuranApp-master'>Github</a>.</i>

@@ -1,13 +1,13 @@
-package com.quranapp.android.widgets.radio
+package com.anonim.android.widgets.radio
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.util.AttributeSet
 import android.view.ViewGroup
 import android.widget.RadioButton
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.colorStateList
-import com.quranapp.android.widgets.compound.PeaceCompoundButton
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.colorStateList
+import com.anonim.android.widgets.compound.PeaceCompoundButton
 
 /**
  * <p>

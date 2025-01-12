@@ -1,6 +1,6 @@
-package com.quranapp.android.activities;
+package com.anonim.android.activities;
 
-import static com.quranapp.android.utils.IntentUtils.INTENT_ACTION_OPEN_CHAPTER_INFO;
+import static com.anonim.android.utils.IntentUtils.INTENT_ACTION_OPEN_CHAPTER_INFO;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -16,22 +16,22 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.peacedesign.android.utils.WindowUtils;
-import com.quranapp.android.R;
-import com.quranapp.android.components.quran.QuranMeta;
-import com.quranapp.android.databinding.ActivityChapterInfoBinding;
-import com.quranapp.android.utils.Log;
-import com.quranapp.android.utils.Logger;
-import com.quranapp.android.utils.chapterInfo.ChapterInfoJSInterface;
-import com.quranapp.android.utils.chapterInfo.ChapterInfoUtils;
-import com.quranapp.android.utils.chapterInfo.ChapterInfoWebViewClient;
-import com.quranapp.android.utils.exceptions.NoInternetException;
-import com.quranapp.android.utils.receivers.NetworkStateReceiver;
-import com.quranapp.android.utils.thread.runner.CallableTaskRunner;
-import com.quranapp.android.utils.thread.tasks.BaseCallableTask;
-import com.quranapp.android.utils.univ.FileUtils;
-import com.quranapp.android.utils.univ.Keys;
-import com.quranapp.android.utils.univ.ResUtils;
-import com.quranapp.android.widgets.PageAlert;
+import com.anonim.android.R;
+import com.anonim.android.components.quran.QuranMeta;
+import com.anonim.android.databinding.ActivityChapterInfoBinding;
+import com.anonim.android.utils.Log;
+import com.anonim.android.utils.Logger;
+import com.anonim.android.utils.chapterInfo.ChapterInfoJSInterface;
+import com.anonim.android.utils.chapterInfo.ChapterInfoUtils;
+import com.anonim.android.utils.chapterInfo.ChapterInfoWebViewClient;
+import com.anonim.android.utils.exceptions.NoInternetException;
+import com.anonim.android.utils.receivers.NetworkStateReceiver;
+import com.anonim.android.utils.thread.runner.CallableTaskRunner;
+import com.anonim.android.utils.thread.tasks.BaseCallableTask;
+import com.anonim.android.utils.univ.FileUtils;
+import com.anonim.android.utils.univ.Keys;
+import com.anonim.android.utils.univ.ResUtils;
+import com.anonim.android.widgets.PageAlert;
 
 import org.jetbrains.annotations.NotNull;
 import org.json.JSONException;

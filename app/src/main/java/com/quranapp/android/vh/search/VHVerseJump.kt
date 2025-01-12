@@ -1,4 +1,4 @@
-package com.quranapp.android.vh.search
+package com.anonim.android.vh.search
 
 import android.content.Context
 import android.graphics.Typeface
@@ -11,13 +11,13 @@ import android.view.View
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
 import com.peacedesign.android.utils.Dimen
-import com.quranapp.android.R
-import com.quranapp.android.components.search.SearchResultModelBase
-import com.quranapp.android.components.search.VerseJumpModel
-import com.quranapp.android.utils.extensions.colorStateList
-import com.quranapp.android.utils.extensions.getDimenPx
-import com.quranapp.android.utils.extensions.updatePaddings
-import com.quranapp.android.utils.reader.factory.ReaderFactory.startVerseRange
+import com.anonim.android.R
+import com.anonim.android.components.search.SearchResultModelBase
+import com.anonim.android.components.search.VerseJumpModel
+import com.anonim.android.utils.extensions.colorStateList
+import com.anonim.android.utils.extensions.getDimenPx
+import com.anonim.android.utils.extensions.updatePaddings
+import com.anonim.android.utils.reader.factory.ReaderFactory.startVerseRange
 
 class VHVerseJump(private val mTextView: AppCompatTextView, applyMargins: Boolean) : VHSearchResultBase(mTextView) {
     init {

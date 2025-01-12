@@ -2,7 +2,7 @@
  * (c) Faisal Khan. Created on 27/1/2022.
  */
 
-package com.quranapp.android.widgets.form;
+package com.anonim.android.widgets.form;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -19,11 +19,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import com.quranapp.android.R;
-import com.quranapp.android.adapters.utility.SpinnerAdapter2;
-import com.quranapp.android.components.utility.SpinnerItem;
-import com.quranapp.android.views.helper.Spinner2;
-import com.quranapp.android.views.helper.Spinner2.SimplerSpinnerItemSelectListener;
+import com.anonim.android.R;
+import com.anonim.android.adapters.utility.SpinnerAdapter2;
+import com.anonim.android.components.utility.SpinnerItem;
+import com.anonim.android.views.helper.Spinner2;
+import com.anonim.android.views.helper.Spinner2.SimplerSpinnerItemSelectListener;
 
 import java.util.List;
 

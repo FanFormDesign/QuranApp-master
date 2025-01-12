@@ -1,4 +1,4 @@
-package com.quranapp.android.db.bookmark;
+package com.anonim.android.db.bookmark;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,19 +8,19 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
-import static com.quranapp.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_CHAPTER_NO;
-import static com.quranapp.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_DATETIME;
-import static com.quranapp.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_FROM_VERSE_NO;
-import static com.quranapp.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_NOTE;
-import static com.quranapp.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_TO_VERSE_NO;
-import static com.quranapp.android.db.bookmark.BookmarkContract.BookmarkEntry.TABLE_NAME;
-import static com.quranapp.android.db.bookmark.BookmarkContract.BookmarkEntry._ID;
+import static com.anonim.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_CHAPTER_NO;
+import static com.anonim.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_DATETIME;
+import static com.anonim.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_FROM_VERSE_NO;
+import static com.anonim.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_NOTE;
+import static com.anonim.android.db.bookmark.BookmarkContract.BookmarkEntry.COL_TO_VERSE_NO;
+import static com.anonim.android.db.bookmark.BookmarkContract.BookmarkEntry.TABLE_NAME;
+import static com.anonim.android.db.bookmark.BookmarkContract.BookmarkEntry._ID;
 
-import com.quranapp.android.R;
-import com.quranapp.android.components.bookmark.BookmarkModel;
-import com.quranapp.android.interfaceUtils.OnResultReadyCallback;
-import com.quranapp.android.utils.univ.DBUtils;
-import com.quranapp.android.utils.univ.DateUtils;
+import com.anonim.android.R;
+import com.anonim.android.components.bookmark.BookmarkModel;
+import com.anonim.android.interfaceUtils.OnResultReadyCallback;
+import com.anonim.android.utils.univ.DBUtils;
+import com.anonim.android.utils.univ.DateUtils;
 
 import java.util.ArrayList;
 

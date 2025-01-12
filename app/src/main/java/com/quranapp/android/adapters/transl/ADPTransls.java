@@ -2,7 +2,7 @@
  * Created by Faisal Khan on (c) 22/8/2021.
  */
 
-package com.quranapp.android.adapters.transl;
+package com.anonim.android.adapters.transl;
 
 import android.content.Context;
 import android.view.View;
@@ -12,12 +12,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.quranapp.android.components.transls.TranslBaseModel;
-import com.quranapp.android.components.transls.TranslModel;
-import com.quranapp.android.components.transls.TranslTitleModel;
-import com.quranapp.android.databinding.LytSettingsTranslItemBinding;
-import com.quranapp.android.interfaceUtils.OnTranslSelectionChangeListener;
-import com.quranapp.android.widgets.checkbox.PeaceCheckBox;
+import com.anonim.android.components.transls.TranslBaseModel;
+import com.anonim.android.components.transls.TranslModel;
+import com.anonim.android.components.transls.TranslTitleModel;
+import com.anonim.android.databinding.LytSettingsTranslItemBinding;
+import com.anonim.android.interfaceUtils.OnTranslSelectionChangeListener;
+import com.anonim.android.widgets.checkbox.PeaceCheckBox;
 
 import java.util.List;
 

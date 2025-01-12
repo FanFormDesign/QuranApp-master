@@ -3,7 +3,7 @@
  * Created on 25/2/2022.
  * All rights reserved.
  */
-package com.quranapp.android.utils.univ
+package com.anonim.android.utils.univ
 
 object DBUtils {
     @JvmStatic

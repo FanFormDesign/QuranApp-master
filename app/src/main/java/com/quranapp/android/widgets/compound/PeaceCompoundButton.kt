@@ -1,4 +1,4 @@
-package com.quranapp.android.widgets.compound
+package com.anonim.android.widgets.compound
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -22,10 +22,10 @@ import androidx.annotation.StringRes
 import androidx.annotation.StyleRes
 import androidx.appcompat.widget.AppCompatTextView
 import com.peacedesign.android.utils.span.TypefaceSpan2
-import com.quranapp.android.R
-import com.quranapp.android.utils.extensions.dp2px
-import com.quranapp.android.utils.extensions.removeView
-import com.quranapp.android.utils.extensions.sp2px
+import com.anonim.android.R
+import com.anonim.android.utils.extensions.dp2px
+import com.anonim.android.utils.extensions.removeView
+import com.anonim.android.utils.extensions.sp2px
 
 abstract class PeaceCompoundButton @JvmOverloads constructor(
     context: Context,
