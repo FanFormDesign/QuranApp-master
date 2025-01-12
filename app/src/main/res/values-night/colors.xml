@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ana Renkler -->
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorSecondary">#0097A7</color>
+    
+    <!-- Arka Plan -->
+    <color name="colorBGPage">#121212</color>
+    <color name="colorBGPage1_5">#1E1E1E</color>
+    
+    <!-- Metin -->
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorText2">#E0E0E0</color>
+</resources>

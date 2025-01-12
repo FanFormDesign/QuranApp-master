@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QuranApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Temel renkler -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Material 3 özellikleri -->
+        <item name="materialButtonStyle">@style/Widget.Material3.Button</item>
+        <item name="chipStyle">@style/Widget.Material3.Chip.Filter</item>
+        
+        <!-- Sistem çubuğu renkleri -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Diğer özellikler -->
+        <item name="android:windowBackground">@color/colorBGPage</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="colorControlNormal">@color/colorIcon</item>
+    </style>
+
+    <style name="Theme.QuranApp.Splash">
+        <item name="android:windowBackground">@drawable/dr_bg_splash</item>
+        <item name="android:statusBarColor">@color/colorBGPage</item>
+        <item name="android:navigationBarColor">@color/colorBGPage</item>
+    </style>
+
+    <style name="Theme.QuranApp.Reader">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

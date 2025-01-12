@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EA</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorPrimaryHover">#304FFE</color>
+    <color name="colorPrimaryAlpha50">#802196F3</color>
+    <color name="colorPrimaryAlpha30">#4D2196F3</color>
+    <color name="colorPrimaryAlpha20">#332196F3</color>
+    <color name="colorPrimaryAlpha10">#1A2196F3</color>
+
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorSecondaryDark">#018786</color>
+
+    <color name="colorTertiary">#FF4081</color>
+    <color name="colorTertiaryDark">#F50057</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white2">#FFE3F2FD</color>
+    <color name="white3">#FFBBDEFB</color>
+    <color name="white4">#FF90CAF9</color>
+
+    <color name="black">#FF000000</color>
+    <color name="black2">#FF212121</color>
+    <color name="black3">#FF424242</color>
+    <color name="black4">#FF616161</color>
+
+    <color name="colorBGLightGrey">#F5F5F5</color>
+    <color name="colorBGOverHomePageItem">#E0E0E0</color>
+    <color name="bgVerseQuickActions">#BDBDBD</color>
+
+    <color name="colorBGPage">#FFFFFF</color>
+    <color name="colorBGPage1_5">#FAFAFA</color>
+    <color name="colorBGPage2">#F0F0F0</color>
+    <color name="colorBGHomePage">#FFFFFF</color>
+    <color name="colorBGHomePageItem">@color/white</color>
+    <color name="colorBGHomePageItemHover">#FFF1F1F1</color>
+    <color name="colorBGLastVersesChapterNo">#FFEFEFEF</color>
+    <color name="colorVOTDDivider">#FFD6D6D6</color>
+
+    <color name="colorBGBottomNavigation">@color/colorBGHomePageItem</color>
+    <color name="colorBottomNavigationBorder">@color/colorVOTDDivider</color>
+
+    <color name="colorBGWrappedRadio">#1A6200EA</color>
+    <color name="colorBGWrappedRadioBorder">#1A6200EA</color>
+
+    <color name="colorBGPageVariable">@color/colorBGPage1_5</color>
+    <color name="colorBGPageVariableInverse">@color/colorBGPage</color>
+    <color name="colorBGIndexMenu">@color/colorBGPage</color>
+    <color name="colorBGRecitationMenu">@color/colorBGPage</color>
+
+    <color name="colorText">#212121</color>
+    <color name="colorText2">#424242</color>
+    <color name="colorText3">#616161</color>
+    <color name="colorText4">#757575</color>
+
+    <color name="colorTextNoArabic">#606060</color>
+    <color name="colorTextArabic">#454545</color>
+
+    <color name="colorIcon">#5A5A5A</color>
+    <color name="colorIcon2">#7A7A7A</color>
+    <color name="colorDivider">#FFE0E0E0</color>
+    <color name="colorDividerContrast">#BDBDBD</color>
+    <color name="colorDividerVariable">@color/colorDivider</color>
+    <color name="colorDividerCardOnlyLight">@color/colorDivider</color>
+    <color name="colorDividerVerse">@color/colorDividerVariable</color>
+
+    <color name="colorBGReaderSpinner">@color/colorBGPage</color>
+    <color name="colorBGReaderHeader">@color/colorBGCardVariable</color>
+    <color name="colorBGReaderVerseSelected">#332196F3</color>
+    <color name="colorBGReaderVerseActionHover">?colorControlHighlight</color>
+    <color name="colorBGReaderChapterSerial">#E0E0E0</color>
+
+    <color name="colorBGCardVariable">@color/colorBGPage</color>
+    <color name="colorIconPageBG">#BDBDBD</color>
+
+    <color name="colorTintChapterTitleBG">@color/colorPrimary</color>
+    <color name="colorBGQuranPageHeader">@color/colorDividerVerse</color>
+    <color name="colorBGChapterInfoCard">@color/colorBGPage</color>
+
+    <color name="colorBGScrollBarThumb">#807D7D7D</color>
+    <color name="colorBGUnlockPopup">#D9011810</color>
+
+    <color name="colorLogoSecondary">#FFD700</color>
+    <color name="colorLogoSecondaryDark">#B8860B</color>
+    <color name="colorLogoSecondaryAlpha50">#80FFD700</color>
+    <color name="colorLogoSecondaryAlpha40">#66FFD700</color>
+    <color name="colorSplashGradient1">#004D40</color>
+    <color name="colorSplashGradient2">#00796B</color>
+
+    <color name="colorHintFormField">#FF9E9E9E</color>
+    <color name="colorBorderFormField">#FFBDBDBD</color>
+
+    <color name="colorDanger">#FFB00020</color>
+    <color name="colorDangerDark">#C51162</color>
+    <color name="success">#00C853</color>
+    <color name="successDark">#009624</color>
+    <color name="warning">#FF6D00</color>
+    <color name="warningDark">#DD2C00</color>
+    <color name="info">#00B8D4</color>
+    <color name="infoDark">#00838F</color>
+</resources>
