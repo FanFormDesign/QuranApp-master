@@ -39,7 +39,7 @@ android {
 
             applicationIdSuffix ".debug"
             versionNameSuffix "-debug"
-            resValue "string", "app_name", "QuranApp Debug"
+            resValue "string", "app_name", "M. Bekir Şengün"
 
             /* ---------------------------------------------------------------- */
             resValue "string", "cleartextTrafficPermitted", "true"
