@@ -1,6 +1,6 @@
 [<img src="https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg"
       alt='Tech For Palestine'
-      width="100%">](https://techforpalestine.org/learn-more)
+      width="100%">](https://www.google.com.tr/)
 <a>
 </a>
 <div align="center">
@@ -22,9 +22,9 @@ The QuranApp is an ad-free and privacy-focused mobile application that facilitat
 
 The discord server is the primary communication channel for any kind of discussion and it is supervised by the developers.
 
-[![Discord](repo_assets/widgets/discord.svg)](https://discord.com/invite/vtutnwzxRb)
-[![Matrix](repo_assets/widgets/matrix.svg)](https://matrix.to/#/#quranapp:matrix.org)
-[![Telegram](repo_assets/widgets/telegram.svg)](https://t.me/thequranapp)
+[![Discord](repo_assets/widgets/discord.svg)](https://www.google.com.tr/)
+[![Matrix](repo_assets/widgets/matrix.svg)](https://www.google.com.tr/)
+[![Telegram](repo_assets/widgets/telegram.svg)](https://www.google.com.tr/)
 
 [<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
 alt='Get it on Google Play'
